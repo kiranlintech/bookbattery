@@ -1,0 +1,53 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Crane Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Action Construction --------------------###
+
+Action-Construction= Action Construction is an company in the Transport Related Services industry. ACE has been awarded the prestigious   Equipment India Award   for being the   BEST SELLER   MOBILE CRANES ".Ace Ltd Is India's Leading Manufacturer Of Cranes - Pick & Move Cranes , Lorry Loader Cranes , Tower Cranes , Truck Mounted Cranes, Crawler Cranes, Knuckle Boom Cranes; Forklift; Loader - Backhoe Loaders, Skid Steer Loaders; Agri Equipment - Tractors , Rotavators, Combines,Balers, Rice Planters ; Road Equipment - Compactors, Graders & Rollers.ACE has its manufacturing plants in Faridabad (Haryana), Kashipur/Bajpur (Uttrakhand). Buy brand new batteries for your Action Construction. Free battery delivery within 4-24 hours of the order, we also provide free installation service of our bookbattery.com.
+
+Action-Construction-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/action-construction-brand-logo-270x12.png
+
+###-------------------- Escorts --------------------###
+
+Escorts= The company was launched in 1944, Headquartered in Faridabad, Haryana, and has marketing operations in more than 40 countries. Escorts Construction Equipment manufactures and markets construction and material handling equipment like pick and carry cranes, backhoe loader, vibratory rollers and forklifts. BookBattery.com provides 100% genuine batteries for all models of Escorts at best prices. You can choose the right battery for your Cranes by comparing batteries on the basis of price, warranty and capacity. 
+
+Escorts-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/escorts-brand-logo-270x12.png
+
+###-------------------- Indo Farm Equipment Limited --------------------###
+
+Indo-Farm-Equipment-Limited= Indo Farm Equipment Limited located in Himachal Pradesh and is into manufacturing of world-class tractors, cranes, engines, diesel gensets and has now recently launched Harvester Combine Agricom 1070 for wetland paddy harvesting. In 2008, the company diversified into manufacturing and marketing of Pick-N-Carry cranes of 9 tonnes - 20 tonnes capacity and has recently commenced production of mobile tower cranes too.From BookBattery.com you can choose 100% genuine batteries for your Indo Farm Equipment Limited at best price. BookBattery.com provides free home delivery within 4-24 hours of the order, free battery installation and cash on delivery UPI etc. 
+
+Indo-Farm-Equipment-Limited-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/indo-farm-equipment-limited-brand-logo-270x12.png
+
+###-------------------- JCB India --------------------###
+
+JCB-India= JCB India Limited started operations in 1979 and today it is the fastest growing company in the Indian earthmoving and construction equipment industry. JCB is one of the world's top three manufacturers of construction equipment. JCB India sell products in 150 countries through 2,000 dealer depot locations. JCB India has five operational world class manufacturing facilities; one in Ballabgarh, Haryana near New Delhi, two in Pune and two in Jaipur. Batteries provided for all crane models are 100% genuine and best prices. We provide free home delivery and installation within 4-24 hours. 
+
+JCB-India-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/jcb-brand-logo-270x12.png
+
+###-------------------- Standard --------------------###
+
+Standard= Standard Crane has established a special supply chain that allows us to offer 5 Ton and 10 Ton bridge cranes. BookBattery provides bookbattery for Standard models like HMC-11000 Diesel, HMC-13000 Diesel, HMC-15000 Diesel, HMC-2000 Diesel andHMC-9000 Diesel.We provide genuine Amaron Crane batteries for Standard models. Free home delivery and installation within 4-24 hours.
+
+Standard-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/standard-brand-logo-270x12.png
+
+###-------------------- Telcon --------------------###
+
+Telcon= Telcon founded in Jamshedpur in 1961, as the Construction Equipment Division of Tata Engineering.Telcon  range diversified, with shovels, hydraulic Excavators, Hydraulic Cranes, Wheel Loaders, and Bockhoe Loaders rolling out. Telcon is the No.1 name in excavators and crawler cranes, capturing over 66% market share, a near monopoly in this segment.We Sell all the best Telcon crane models batteries . Here you can compare the price of several crane bookbattery for Telcon as well as can buy a suitable battery for your crane. Buy the best genuine brand new battery for your Telcon crane from BookBattery.com. 
+
+Telcon-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/telcon-brand-logo-270x12.png
+

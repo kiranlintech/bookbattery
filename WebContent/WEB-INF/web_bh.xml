@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+         version="2.5" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"> 
+    
+    
+<resource-ref>
+<description>
+This is a reference to the global Resource for MySQL database connetion.
+</description>
+<res-ref-name>
+jdbc/BatterywaleDB
+</res-ref-name>
+<res-type>
+javax.sql.DataSource
+</res-type>
+<res-auth>Container</res-auth>
+</resource-ref>
+<!-- Servlet Name and Class details Start's Here -->
+<!-- ADMIN DETAILS STARTS HERE -->
+<!-- 1 --><servlet>
+		  <servlet-name>AdminBatteryLogin</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.AdminBatteryLogin</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 2 --><servlet>
+		  <servlet-name>AddBatteryDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.AddBatteryDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 3 --><servlet>
+		  <servlet-name>AddVehicleDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.AddVehicleDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 4 --><servlet>
+		  <servlet-name>ApplicationChatMapping</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.ApplicationChatMapping</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 5 --><servlet>
+		  <servlet-name>MISBatteryDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.MISBatteryDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 6 --><!--  <servlet>
+		  <servlet-name>BatteryExcelandPdfServlet</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.BatteryExcelandPdfServlet</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>-->
+<!-- 7 --><servlet>
+		  <servlet-name>RetailerLocationMap</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.RetailerLocationMap</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 8 --><servlet>
+		  <servlet-name>GenerateRetailerInvoice</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.GenerateRetailerInvoice</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 9 --><servlet>
+		  <servlet-name>BatteryWaleVisitors</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.BatteryWaleVisitors</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 10 --><servlet>
+		  <servlet-name>BatteryPriceDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.BatteryPriceDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 11 --><servlet>
+		  <servlet-name>AddLaptopBatteryDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.AddLaptopBatteryDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 12 --><servlet>
+		  <servlet-name>AddLaptopDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.AddLaptopDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 13 --><servlet>
+		  <servlet-name>LaptopApplicationChartMapping</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.LaptopApplicationChartMapping</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 14 --><servlet>
+		  <servlet-name>InverterDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.InverterDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>	
+<!-- 15 --><servlet>
+		  <servlet-name>MISInverterDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.MISInverterDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 16 --><servlet>
+		  <servlet-name>RetailerRegistration</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.RetailerRegistration</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 17 --><servlet>
+		  <servlet-name>ModifyRetailer</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.ModifyRetailer</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 18 --><servlet>
+		  <servlet-name>BrandLoyalty</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.BrandLoyalty</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>	
+<!-- 18 --><servlet>
+		  <servlet-name>CustomerRatings</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.CustomerRatings</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 19 --><servlet>
+		  <servlet-name>GenerateServiceRetailerInvoice</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.servicesstore.GenerateServiceRetailerInvoice</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>		  
+
+<!-- 20 --><servlet>
+		  <servlet-name>BusinessBatteryLogin</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.business.BusinessBatteryLogin</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>		  
+
+<!-- 21 --><servlet>
+		  <servlet-name>BusinessBatteryDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.business.BusinessBatteryDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>		  
+
+<!-- 22 --><servlet>
+		  <servlet-name>BusinessCheckout</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.business.BusinessCheckout</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>		  
+
+<!-- 23 --><servlet>
+		  <servlet-name>BusinessMISReports</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.business.BusinessMISReports</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>	
+<!-- 23 --><servlet>
+		  <servlet-name>BusinessMISOperatorDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.business.BusinessMISOperatorDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>		
+<!-- 23 --><servlet>
+		  <servlet-name>GenerateBusinessInvoice</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.business.GenerateBusinessInvoice</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>		  
+		
+<!-- 23 --><servlet>
+		  <servlet-name>BatteryStoreLogin</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterywalestore.BatteryStoreLogin</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>	
+<!-- 23 --><servlet>
+		  <servlet-name>BatterystoreBatteryDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterywalestore.BatterystoreBatteryDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>		
+<!-- 23 --><servlet>
+		  <servlet-name>BatterystoreInverterDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterywalestore.BatterystoreInverterDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>			
+<!-- 23 --><servlet>
+		  <servlet-name>BatterystoreServiceDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterywalestore.BatterystoreServiceDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>			
+<!-- 23 --><servlet>
+		  <servlet-name>CancelOrderDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterywalestore.CancelOrderDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>		
+<!-- 23 --><servlet>
+		  <servlet-name>CheckOrderDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterywalestore.CheckOrderDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>		
+<!-- 23 --><servlet>
+		  <servlet-name>BatterystoreMISReports</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterywalestore.BatterystoreMISReports</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>		
+<!-- 23 --><servlet>
+		  <servlet-name>UpdatedBatteryOrderDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterywalestore.UpdatedBatteryOrderDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 24 --><servlet>
+		  <servlet-name>ServiceEngineerDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.admin.batterystore.ServiceEngineerDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>	  
+
+		  
+<!-- ADMIN DETAILS ENDS HERE -->
+
+<!-- CONSUMER DETAILS STARTS HERE -->
+<!-- 1 --><servlet>
+		  <servlet-name>BatteryHome</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.BatteryHome</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 2 --><servlet>
+		  <servlet-name>BatteryDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.BatteryDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMOPConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 3 --><servlet>
+		  <servlet-name>BatteryHealthcheck</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.BatteryHealthcheck</servlet-class>
+		  <init-param>
+		  <param-name>paramMOPConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 4 --><servlet>
+		  <servlet-name>ScrollingTopAdsServlet</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.ads.topads.ScrollingTopAdsServlet</servlet-class>
+		  <init-param>
+		  <param-name>paramMOPConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 5 --><servlet>
+		  <servlet-name>LaptopBatteryDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.LaptopBatteryDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 6 --><servlet>
+		  <servlet-name>InvertersDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.InvertersDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 7 --><servlet>
+		  <servlet-name>UserLoginDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.login.UserLoginDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 8 --><servlet>
+		  <servlet-name>ConsumerLoyalty</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.consumerloyalty.ConsumerLoyalty</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 9 --><servlet>
+		  <servlet-name>BatteryService</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.BatteryService</servlet-class>
+		  <init-param>
+		  <param-name>paramMOPConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+
+<!-- 10 --><servlet>
+		  <servlet-name>InlineSearch</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.InlineSearch</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+
+<!-- 11 --><servlet>
+		  <servlet-name>InlineMakeSearch</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.InlineMakeSearch</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 12 --><servlet>
+		  <servlet-name>Manufacturer</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.Manufacturer</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 13 --><servlet>
+		  <servlet-name>Battery_List</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.Battery_List</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 14 --><servlet>
+		  <servlet-name>ProductDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.ProductDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 15 --><servlet>
+		  <servlet-name>Functions</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.Functions</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 16 --><servlet>
+		  <servlet-name>InverterBattery_List</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.InverterBattery_List</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 17 --><servlet>
+		  <servlet-name>Inverter_List</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.Inverter_List</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 18 --><servlet>
+		  <servlet-name>Inverter_Details</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.Inverter_Details</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 19 --><servlet>
+		  <servlet-name>Inverter_Battery_Combo_List</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.Inverter_Battery_Combo_List</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 20 --><servlet>
+		  <servlet-name>Inverter_Battery_Combo_Details</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.Inverter_Battery_Combo_Details</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 21 --><servlet>
+		  <servlet-name>OnlinePayment</servlet-name>
+		  <servlet-class>com.instamojo.wrapper.api.OnlinePayment</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 22 --><servlet>
+		  <servlet-name>Transaction</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.Transaction</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 23 --><servlet>
+		  <servlet-name>Checkout</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.Checkout</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 24 --><servlet>
+		  <servlet-name>BatteryBrandList</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.BatteryBrandList</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 25 --><servlet>
+		  <servlet-name>Custom_Page_Navagation</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.batterystore.Page_Navagation</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>		  
+<!-- 26 --><servlet>
+		  <servlet-name>Battery_Service</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.servicestore.Battery_Service</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 27 --><servlet>
+		  <servlet-name>Functions_Service</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.servicestore.Functions_Service</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 28 --><servlet>
+		  <servlet-name>Transaction_Service</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.servicestore.Transaction_Service</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>	
+<!-- 29 --><servlet>
+		  <servlet-name>OnlinePaymentService</servlet-name>
+		  <servlet-class>com.instamojo.wrapper.api.OnlinePaymentService</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>
+<!-- 30 --><servlet>
+		  <servlet-name>CustomerFeedBack</servlet-name>
+		  <servlet-class>com.ngit.servlets.consumers.feedback.CustomerFeedBack</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+	      </servlet>			  
+		  
+<!-- CONSUMER DETAILS ENDS HERE -->
+
+<!-- OPERATOR DETAILS STARTS HERE -->
+<!-- 1 --><servlet>
+		  <servlet-name>OperatorLogin</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.OperatorLogin</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 2 --><servlet>
+		  <servlet-name>OperatorBatteryDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.OperatorBatteryDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 3 --><servlet>
+		  <servlet-name>CancelOrdRefNumber</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.CancelOrdRefNumber</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 4 --><servlet>
+		  <servlet-name>MISOperatorBatteryDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.MISOperatorBatteryDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 5 --><servlet>
+		  <servlet-name>OperatorBatteryPriceDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.OperatorBatteryPriceDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 6 --><servlet>
+		  <servlet-name>FindFranchiseeDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.FindFranchiseeDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+
+<!-- 7 --><servlet>
+		  <servlet-name>OperatorLaptopBatteryDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.OperatorLaptopBatteryDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 8 --><servlet>
+		  <servlet-name>OperatorInvertersDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.OperatorInvertersDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 9 --><servlet>
+		  <servlet-name>MISOperatorInverterDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.MISOperatorInverterDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 10 --><servlet>
+		  <servlet-name>OperatorBatteryDetailsRetailer</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.OperatorBatteryDetailsRetailer</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+
+<!-- 11 --><servlet>
+		  <servlet-name>OperatorInvertersDetailsRetailer</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.OperatorInvertersDetailsRetailer</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 12 --><servlet>
+		  <servlet-name>OperatorServicesDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.OperatorServicesDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 13 --><servlet>
+		  <servlet-name>OperatorServicesDetailsRetailer</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.OperatorServicesDetailsRetailer</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 14 --><servlet>
+		  <servlet-name>SearchOrdRefNumber</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.SearchOrdRefNumber</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- 15 --><servlet>
+		  <servlet-name>MISOperatorServiceDetails</servlet-name>
+		  <servlet-class>com.ngit.servlets.operator.MISOperatorServiceDetails</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+<!-- OPERATOR DETAILS ENDS HERE -->
+<!-- SUPPORT DETAILS STARTS HERE -->
+<!-- 1 --><servlet>
+		  <servlet-name>ChatLogin</servlet-name>
+		  <servlet-class>com.ngit.servlets.livechat.ChatLogin</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+
+<!-- 2 --><servlet>
+		  <servlet-name>LiveChatManagement</servlet-name>
+		  <servlet-class>com.ngit.servlets.livechat.LiveChatManagement</servlet-class>
+		  <init-param>
+		  <param-name>paramMopConfig</param-name>               
+		  <param-value>/bookbattery/properties/bookbatteryconfig.properties</param-value>
+		  </init-param>
+		  </servlet>
+
+<!-- SUPPORT DETAILS ENDS HERE -->
+
+
+<!-- ADMIN DETAILS STARTS HERE -->
+<!-- 1 --><servlet-mapping>
+		   <servlet-name>AdminBatteryLogin</servlet-name>
+		   <url-pattern>/servlet/AdminBatteryLogin</url-pattern>
+	       </servlet-mapping>
+<!-- 2 --><servlet-mapping>
+		   <servlet-name>AddBatteryDetails</servlet-name>
+		   <url-pattern>/servlet/AddBatteryDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 3 --><servlet-mapping>
+		   <servlet-name>AddVehicleDetails</servlet-name>
+		   <url-pattern>/servlet/AddVehicleDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 4 --><servlet-mapping>
+		   <servlet-name>ApplicationChatMapping</servlet-name>
+		   <url-pattern>/servlet/ApplicationChatMapping</url-pattern>
+	       </servlet-mapping>
+<!-- 5 --><servlet-mapping>
+		   <servlet-name>MISBatteryDetails</servlet-name>
+		   <url-pattern>/servlet/MISBatteryDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 6 --><!-- <servlet-mapping>
+		   <servlet-name>BatteryExcelandPdfServlet</servlet-name>
+		   <url-pattern>/servlet/BatteryExcelandPdfServlet</url-pattern>
+	       </servlet-mapping>-->
+<!-- 7 --><servlet-mapping>
+		   <servlet-name>RetailerLocationMap</servlet-name>
+		   <url-pattern>/servlet/RetailerLocationMap</url-pattern>
+	       </servlet-mapping>
+<!-- 8 --><servlet-mapping>
+		   <servlet-name>GenerateRetailerInvoice</servlet-name>
+		   <url-pattern>/servlet/GenerateRetailerInvoice</url-pattern>
+	       </servlet-mapping>
+<!-- 9 --><servlet-mapping>
+		   <servlet-name>BatteryWaleVisitors</servlet-name>
+		   <url-pattern>/servlet/BatteryWaleVisitors</url-pattern>
+	       </servlet-mapping>
+<!-- 10 --><servlet-mapping>
+		   <servlet-name>BatteryPriceDetails</servlet-name>
+		   <url-pattern>/servlet/BatteryPriceDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 11 --><servlet-mapping>
+		   <servlet-name>AddLaptopBatteryDetails</servlet-name>
+		   <url-pattern>/servlet/AddLaptopBatteryDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 12 --><servlet-mapping>
+		   <servlet-name>AddLaptopDetails</servlet-name>
+		   <url-pattern>/servlet/AddLaptopDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 13 --><servlet-mapping>
+		   <servlet-name>LaptopApplicationChartMapping</servlet-name>
+		   <url-pattern>/servlet/LaptopApplicationChartMapping</url-pattern>
+	       </servlet-mapping>
+<!-- 14 --><servlet-mapping>
+		   <servlet-name>InverterDetails</servlet-name>
+		   <url-pattern>/servlet/InverterDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 15 --><servlet-mapping>
+		   <servlet-name>MISInverterDetails</servlet-name>
+		   <url-pattern>/servlet/MISInverterDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 16 --><servlet-mapping>
+		   <servlet-name>RetailerRegistration</servlet-name>
+		   <url-pattern>/servlet/RetailerRegistration</url-pattern>
+	       </servlet-mapping>
+<!-- 17 --><servlet-mapping>
+		   <servlet-name>ModifyRetailer</servlet-name>
+		   <url-pattern>/servlet/ModifyRetailer</url-pattern>
+	       </servlet-mapping>
+<!-- 18 --><servlet-mapping>
+		   <servlet-name>BrandLoyalty</servlet-name>
+		   <url-pattern>/servlet/BrandLoyalty</url-pattern>
+	       </servlet-mapping>
+<!-- 19 --><servlet-mapping>
+		   <servlet-name>CustomerRatings</servlet-name>
+		   <url-pattern>/servlet/CustomerRatings</url-pattern>
+	       </servlet-mapping>
+<!-- 20 --><servlet-mapping>
+		   <servlet-name>GenerateServiceRetailerInvoice</servlet-name>
+		   <url-pattern>/servlet/GenerateServiceRetailerInvoice</url-pattern>
+	       </servlet-mapping>	
+<!-- 21 --><servlet-mapping>
+		   <servlet-name>BusinessBatteryLogin</servlet-name>
+		   <url-pattern>/servlet/BusinessBatteryLogin</url-pattern>
+	       </servlet-mapping>			
+<!-- 21 --><servlet-mapping>
+		   <servlet-name>BusinessBatteryDetails</servlet-name>
+		   <url-pattern>/servlet/BusinessBatteryDetails</url-pattern>
+	       </servlet-mapping>		   			
+<!-- 21 --><servlet-mapping>
+		   <servlet-name>BusinessCheckout</servlet-name>
+		   <url-pattern>/servlet/BusinessCheckout</url-pattern>
+	       </servlet-mapping>		   			
+<!-- 22 --><servlet-mapping>
+		   <servlet-name>BusinessMISReports</servlet-name>
+		   <url-pattern>/servlet/BusinessMISReports</url-pattern>
+	       </servlet-mapping>		   			
+<!-- 22 --><servlet-mapping>
+		   <servlet-name>BusinessMISOperatorDetails</servlet-name>
+		   <url-pattern>/servlet/BusinessMISOperatorDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 23 --><servlet-mapping>
+		   <servlet-name>ServiceEngineerDetails</servlet-name>
+		   <url-pattern>/servlet/ServiceEngineerDetails</url-pattern>
+	       </servlet-mapping>		   		   			
+<!-- 22 --><servlet-mapping>
+		   <servlet-name>GenerateBusinessInvoice</servlet-name>
+		   <url-pattern>/servlet/GenerateBusinessInvoice</url-pattern>
+	       </servlet-mapping>		   		   		   			
+<!-- 28 --><servlet-mapping>
+		   <servlet-name>BatteryStoreLogin</servlet-name>
+		   <url-pattern>/servlet/BatteryStoreLogin</url-pattern>
+	       </servlet-mapping>		   		   		   		   			
+<!-- 28 --><servlet-mapping>
+		   <servlet-name>BatterystoreBatteryDetails</servlet-name>
+		   <url-pattern>/servlet/BatterystoreBatteryDetails</url-pattern>
+	       </servlet-mapping>		   		   		   		   			
+<!-- 28 --><servlet-mapping>
+		   <servlet-name>BatterystoreInverterDetails</servlet-name>
+		   <url-pattern>/servlet/BatterystoreInverterDetails</url-pattern>
+	       </servlet-mapping>		   		   		   		   			
+<!-- 28 --><servlet-mapping>
+		   <servlet-name>BatterystoreServiceDetails</servlet-name>
+		   <url-pattern>/servlet/BatterystoreServiceDetails</url-pattern>
+	       </servlet-mapping>		   		   		   		   			
+<!-- 28 --><servlet-mapping>
+		   <servlet-name>CancelOrderDetails</servlet-name>
+		   <url-pattern>/servlet/CancelOrderDetails</url-pattern>
+	       </servlet-mapping>		   		   		   		   			
+<!-- 28 --><servlet-mapping>
+		   <servlet-name>CheckOrderDetails</servlet-name>
+		   <url-pattern>/servlet/CheckOrderDetails</url-pattern>
+	       </servlet-mapping>			   		   		   		   			
+<!-- 28 --><servlet-mapping>
+		   <servlet-name>BatterystoreMISReports</servlet-name>
+		   <url-pattern>/servlet/BatterystoreMISReports</url-pattern>
+	       </servlet-mapping>			   		   		   		   			
+<!-- 28 --><servlet-mapping>
+		   <servlet-name>UpdatedBatteryOrderDetails</servlet-name>
+		   <url-pattern>/servlet/UpdatedBatteryOrderDetails</url-pattern>
+	       </servlet-mapping>		   
+<!-- ADMIN DETAILS ENDS HERE -->
+
+<!-- CONSUMER DETAILS STARTS HERE -->
+<!-- 1 --><servlet-mapping>
+		   <servlet-name>BatteryHome</servlet-name>
+		   <url-pattern>/servlet/BatteryHome</url-pattern>
+	       </servlet-mapping>
+<!-- 2 --><servlet-mapping>
+		   <servlet-name>BatteryDetails</servlet-name>
+		   <url-pattern>/servlet/BatteryDetails</url-pattern>
+	       </servlet-mapping>	
+<!-- 3 --><servlet-mapping>
+		   <servlet-name>BatteryHealthcheck</servlet-name>
+		   <url-pattern>/servlet/BatteryHealthcheck</url-pattern>
+	       </servlet-mapping>
+<!-- 4 --><servlet-mapping>
+		   <servlet-name>ScrollingTopAdsServlet</servlet-name>
+		   <url-pattern>/servlet/ScrollingTopAdsServlet</url-pattern>
+	       </servlet-mapping>
+
+<!-- 6 --><servlet-mapping>
+		   <servlet-name>InvertersDetails</servlet-name>
+		   <url-pattern>/servlet/InvertersDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 7 --><servlet-mapping>
+		   <servlet-name>UserLoginDetails</servlet-name>
+		   <url-pattern>/servlet/UserLoginDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 8 --><servlet-mapping>
+		   <servlet-name>ConsumerLoyalty</servlet-name>
+		   <url-pattern>/servlet/ConsumerLoyalty</url-pattern>
+	       </servlet-mapping>
+<!-- 9 --><servlet-mapping>
+		   <servlet-name>BatteryService</servlet-name>
+		   <url-pattern>/servlet/BatteryService</url-pattern>
+	       </servlet-mapping>
+<!-- 10 --><servlet-mapping>
+		   <servlet-name>InlineSearch</servlet-name>
+		   <url-pattern>/servlet/InlineSearch</url-pattern>
+	       </servlet-mapping>
+<!-- 11 --><servlet-mapping>
+		   <servlet-name>InlineMakeSearch</servlet-name>
+		   <url-pattern>/servlet/InlineMakeSearch</url-pattern>
+	       </servlet-mapping>
+<!-- 12 --><servlet-mapping>
+		   <servlet-name>Functions</servlet-name>
+		   <url-pattern>/servlet/Functions</url-pattern>
+	       </servlet-mapping>
+<!-- 13 --><servlet-mapping>
+		   <servlet-name>Checkout</servlet-name>
+		   <url-pattern>/servlet/Checkout</url-pattern>
+	       </servlet-mapping>
+<!-- 13 --><servlet-mapping>
+		   <servlet-name>OnlinePayment</servlet-name>
+		   <url-pattern>/servlet/OnlinePayment</url-pattern>
+		   </servlet-mapping>
+<!-- 14 --><servlet-mapping>
+		   <servlet-name>OnlinePaymentService</servlet-name>
+		   <url-pattern>/servlet/OnlinePaymentService</url-pattern>
+		   </servlet-mapping>
+<!-- 15 --><servlet-mapping>
+		   <servlet-name>Functions_Service</servlet-name>
+		   <url-pattern>/servlet/Functions_Service</url-pattern>
+	       </servlet-mapping>	       
+		   
+<!-- CONSUMER DETAILS ENDS HERE -->
+
+<!-- OPERATOR DETAILS STARTS HERE -->
+<!-- 1 --><servlet-mapping>
+		   <servlet-name>OperatorLogin</servlet-name>
+		   <url-pattern>/servlet/OperatorLogin</url-pattern>
+	       </servlet-mapping>
+<!-- 2 --><servlet-mapping>
+		   <servlet-name>OperatorBatteryDetails</servlet-name>
+		   <url-pattern>/servlet/OperatorBatteryDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 3 --><servlet-mapping>
+		   <servlet-name>CancelOrdRefNumber</servlet-name>
+		   <url-pattern>/servlet/CancelOrdRefNumber</url-pattern>
+	       </servlet-mapping>
+<!-- 4 --><servlet-mapping>
+		   <servlet-name>MISOperatorBatteryDetails</servlet-name>
+		   <url-pattern>/servlet/MISOperatorBatteryDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 5 --><servlet-mapping>
+		   <servlet-name>OperatorBatteryPriceDetails</servlet-name>
+		   <url-pattern>/servlet/OperatorBatteryPriceDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 6 --><servlet-mapping>
+		   <servlet-name>FindFranchiseeDetails</servlet-name>
+		   <url-pattern>/servlet/FindFranchiseeDetails</url-pattern>
+	       </servlet-mapping>
+<!--7 --><servlet-mapping>
+		   <servlet-name>OperatorLaptopBatteryDetails</servlet-name>
+		   <url-pattern>/servlet/OperatorLaptopBatteryDetails</url-pattern>
+	       </servlet-mapping>
+<!--8 --><servlet-mapping>
+		   <servlet-name>OperatorInvertersDetails</servlet-name>
+		   <url-pattern>/servlet/OperatorInvertersDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 9 --><servlet-mapping>
+		   <servlet-name>MISOperatorInverterDetails</servlet-name>
+		   <url-pattern>/servlet/MISOperatorInverterDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 10 --><servlet-mapping>
+		   <servlet-name>OperatorBatteryDetailsRetailer</servlet-name>
+		   <url-pattern>/servlet/OperatorBatteryDetailsRetailer</url-pattern>
+	       </servlet-mapping>
+<!-- 11 --><servlet-mapping>
+		   <servlet-name>OperatorInvertersDetailsRetailer</servlet-name>
+		   <url-pattern>/servlet/OperatorInvertersDetailsRetailer</url-pattern>
+	       </servlet-mapping>
+<!-- 12 --><servlet-mapping>
+		   <servlet-name>OperatorServicesDetails</servlet-name>
+		   <url-pattern>/servlet/OperatorServicesDetails</url-pattern>
+	       </servlet-mapping>
+<!-- 13 --><servlet-mapping>
+		   <servlet-name>OperatorServicesDetailsRetailer</servlet-name>
+		   <url-pattern>/servlet/OperatorServicesDetailsRetailer</url-pattern>
+	       </servlet-mapping>
+<!-- 14 --><servlet-mapping>
+		   <servlet-name>SearchOrdRefNumber</servlet-name>
+		   <url-pattern>/servlet/SearchOrdRefNumber</url-pattern>
+	       </servlet-mapping>
+<!-- 15 --><servlet-mapping>
+		   <servlet-name>MISOperatorServiceDetails</servlet-name>
+		   <url-pattern>/servlet/MISOperatorServiceDetails</url-pattern>
+	       </servlet-mapping>
+
+<!-- OPERATOR DETAILS ENDS HERE -->
+<!-- SUPPORT DETAILS STARTS HERE -->
+<!-- 1 --><servlet-mapping>
+		   <servlet-name>ChatLogin</servlet-name>
+		   <url-pattern>/servlet/ChatLogin</url-pattern>
+	       </servlet-mapping>
+<!-- 2 --><servlet-mapping>
+		   <servlet-name>LiveChatManagement</servlet-name>
+		   <url-pattern>/servlet/LiveChatManagement</url-pattern>
+	       </servlet-mapping>
+<!-- SUPPORT DETAILS ENDS HERE -->
+<!--images versioning for bookbattery starts here-->
+<!-- 1 --><context-param>
+	<param-name>sliderimage1</param-name>
+	<param-value>2</param-value>
+	</context-param>
+<!-- 2 --><context-param>
+	<param-name>sliderimage2</param-name>
+	<param-value>2</param-value>
+	</context-param>
+<!-- 3 --><context-param>
+	<param-name>sliderimage3</param-name>
+	<param-value>2</param-value>
+	</context-param>
+<!-- 4 --><context-param>
+	<param-name>sliderimage4</param-name>
+	<param-value>2</param-value>
+	</context-param>
+<!-- 5 --><context-param>
+	<param-name>fetchdropdownvalues</param-name>
+	<param-value>11</param-value>
+	</context-param>
+<!-- 6 --><context-param>
+	<param-name>batterywaledefaultversionnumber</param-name>
+	<param-value>2</param-value>
+	</context-param>
+<!-- 7 --><context-param>
+	<param-name>cornercss</param-name>
+	<param-value>5</param-value>
+	</context-param>
+<!-- 8 --><context-param>
+	<param-name>livechatwithagentjs</param-name>
+	<param-value>10</param-value>
+	</context-param>
+<!-- 9 --><context-param>
+	<param-name>batterywalemobileversioncss</param-name>
+	<param-value>4</param-value>
+	</context-param>
+<!-- 10 --><context-param>
+	<param-name>batterywalecssversion</param-name>
+	<param-value>2</param-value>
+	</context-param>
+<!-- 11 --><context-param>
+	<param-name>batterymob</param-name>
+	<param-value>5</param-value>
+	</context-param>
+<!-- 12 --><context-param>
+	<param-name>batterydetailsjs</param-name>
+	<param-value>7</param-value>
+	</context-param>
+
+<!--images versioning for bookbattery ends here-->
+
+<!-- 1 -->
+
+	<servlet-mapping>
+		<servlet-name>Manufacturer</servlet-name>
+		<url-pattern>/manufacturer/*</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Manufacturer</servlet-name>
+		<url-pattern>/manufacturers/*</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Manufacturer</servlet-name>
+		<url-pattern>/fueltype/*</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Car-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>InverterBattery_List</servlet-name>
+		<url-pattern>/Inverter-Batteries/*</url-pattern> 
+	</servlet-mapping>	
+	
+	<servlet-mapping>
+		<servlet-name>BatteryBrandList</servlet-name>
+		<url-pattern>/BatteryBrand/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>BatteryBrandList</servlet-name>
+		<url-pattern>/Brand/*</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Car Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>InverterBattery_List</servlet-name>
+		<url-pattern>/Inverter Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Inverter_List</servlet-name>
+		<url-pattern>/Inverter/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Bike-Batteries/*</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Bike Batteries/*</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Bus-Batteries/*</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Bus Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Tractor-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Tractor Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Truck-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Truck Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Three-Wheeler-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Three Wheeler Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Special-Vehicle-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Special Vehicle Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Genset-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Genset Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Crane-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Crane Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Roller-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Roller Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Loader-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Loader Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Dozer-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Dozer Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Excavator-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Excavator Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Tyre-Handler-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Tyre Handler Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Hydraulic-Shovel-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Hydraulic Shovel Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Harvestor-Batteries/*</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Harvestor Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Generator-Batteries/*</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Generator Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Compactor-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Compactor Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Telescopic-Handler-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Telescopic Handler Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Forwarder-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Forwarder Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Wheeled-Harvester-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Wheeled Harvester Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Minibus-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Minibus Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Dumper-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Dumper Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Construction-Equipment-Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Construction Equipment Batteries/*</url-pattern> 
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Hydralic-Excavator-Batteries/*</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Battery_List</servlet-name>
+		<url-pattern>/Hydralic Excavator Batteries/*</url-pattern> 
+	</servlet-mapping>	
+	
+	<servlet-mapping>
+		<servlet-name>Custom_Page_Navagation</servlet-name>
+		<url-pattern>/battery-health-checkup-@-599/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Battery_Service</servlet-name>
+		<url-pattern>/batteryservice/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProductDetails</servlet-name>
+		<url-pattern>/products/*</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CustomerFeedBack</servlet-name>
+		<url-pattern>/feedback/*</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Inverter_Details</servlet-name>
+		<url-pattern>/product-inverters/*</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Inverter_Battery_Combo_List</servlet-name>
+		<url-pattern>/Inverter-and-Battery-Combo/*</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Inverter_Battery_Combo_List</servlet-name>
+		<url-pattern>/Inverter and Battery Combo/*</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Inverter_Battery_Combo_Details</servlet-name>
+		<url-pattern>/product-inverter-battery-combo/*</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Inverter_Battery_Combo_Details</servlet-name>
+		<url-pattern>/product inverter battery combo/*</url-pattern> 
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Transaction</servlet-name>
+		<url-pattern>/transaction/*</url-pattern> 
+	</servlet-mapping>	
+	<servlet-mapping>
+		<servlet-name>Transaction_Service</servlet-name>
+		<url-pattern>/transaction_service/*</url-pattern> 
+	</servlet-mapping>
+<!-- SERVLET MAPPING END'S HERE -->
+
+<session-config>
+<session-timeout>60</session-timeout>
+</session-config>
+<!--Handling all 404 error requests-->
+<error-page>
+   <error-code>404</error-code>
+   <location>/jsp/404.jsp</location>
+</error-page>
+<!--Handling all 503 error requests-->
+<error-page>
+   <error-code>503</error-code>
+   <location>/jsp/404.jsp</location>
+</error-page>
+</web-app>

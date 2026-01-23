@@ -1,0 +1,82 @@
+
+/* CSS Document */
+.simpleLens-thumbnails-container a{
+    display: inline-block;
+}
+.simpleLens-thumbnails-container a img{
+    display: block;
+}
+
+/* CSS Document */
+.simpleLens-container{
+    display: table;
+    position: relative;
+}
+
+.simpleLens-big-image-container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+	position:relative;
+    height: 100px;
+    width: 100px;
+}
+
+.simpleLens-big-image {
+    max-width: 100%;
+}
+
+.simpleLens-lens-image {
+    height: auto !important;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin:0;
+    box-shadow:none;
+    float:none;
+    position:relative;
+}
+
+.simpleLens-mouse-cursor{
+	background-color:#CCC;
+	opacity:0.5;
+	filter: alpha(opacity = 20);
+	position:absolute;
+	top:0;
+	left:0;
+	border:1px solid #999;
+	box-shadow:0 0 2px 2px #999;
+	cursor:none;
+}
+
+.simpleLens-lens-element {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 2px 2px #8E8E8E;
+    height: 320px;
+	padding-left:20px;
+	padding-top:1px;
+	padding-bottom:2px;
+    left: auto;
+	margin-left:100px;
+	margin-top:-200px;
+    overflow: hidden;
+    position: absolute;
+    top:auto;
+    width: 400px;
+    z-index: 9999;
+    text-align: center;
+	 filter: progid:DXImageTransform.Microsoft.Shadow(Color=#4a4a4a, Strength=3, Direction=0),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#4a4a4a, Strength=3, Direction=90),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#4a4a4a, Strength=3, Direction=180),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#4a4a4a, Strength=3, Direction=270),
+    progid:DXImageTransform.Microsoft.Shadow(Color=#4a4a4a, Strength=3, Direction=360),
+    progid:DXImageTransform.Microsoft.Chroma(Color='#cccccc');zoom:1;
+}
+
+.simpleLens-lens-element img{
+    position:relative;
+    top:0;
+    left:0;
+    width:auto !important;
+    max-width:none !important;
+}

@@ -1,0 +1,1 @@
+alter table battery_order_details modify pdfurl varchar(200) NOT NULL;

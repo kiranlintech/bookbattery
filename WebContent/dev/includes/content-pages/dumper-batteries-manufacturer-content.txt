@@ -1,0 +1,48 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Dumper Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Caterpillar --------------------###
+
+Caterpillar= Caterpillar has been in India since the 1930s. With 2015 sales and revenues of $47.011 billion, Caterpillar is the world s leading manufacturer of construction and mining equipment, diesel and natural gas engines, industrial gas turbines and diesel-electric locomotives.
+BookBattery.com provides genuine and suitable Dumper Batteries for your Caterpillar models. Choose the right battery and get free delivery and installation within 4-24 hours.
+ 
+Caterpillar-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/caterpillar-india-brand-logo-270x12.png
+
+###-------------------- Jessop --------------------###
+
+Jessop= Jessop & Company Ltd. designs and manufactures heavy engineering equipment. It offers cranes, cranes spares, and AMC products, which include container handling cranes-RTGs, RMGs, and RMQCs; ship unloader cranes; dock-side and wharf cranes for handling unit/bulk cargo; large capacity goliath cranes for ship building/ship repair facility; static and mobile tower cranes for heavy structures erection; EOT cranes for power plants; ladle cranes to handle molten steel; rotating trolley cranes; ingot stripper cranes for steel plants; floating cranes; and railway breakdown cranes. From BookBattery.com, you can purchase suitable battery for your Jessop at low price. Purchase battery for your Jessop models from BookBattery.com. We also provide free delivery and installation within 4-24 hours.
+
+Jessop-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/jessop-brand-logo-270x12.png
+
+###-------------------- Komatsu --------------------###
+
+Komatsu= Komatsu founded in the year 1921.Komatsu Manufactures mining equipment, utilities, forest machines and industrial machinery. It is one of the world s leading manufacturers of construction, mining and industrial machinery. From BookBattery.com, you can purchase Amaron and Exide Dumper batteries for each model of Komatsu. We provide free home delivery and free installation as well as cash on delivery and UPI services. 
+
+Komatsu-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/komatsu-brand-logo-270x12.png
+
+###-------------------- Telcon --------------------###
+
+Telcon= Telcon founded in Jamshedpur in 1961, as the Construction Equipment Division of Tata Engineering.Telcon  range diversified, with shovels, hydraulic Excavators, Hydraulic Cranes, Wheel Loaders, and Bockhoe Loaders rolling out. Telcon is the No.1 name in excavators and crawler cranes, capturing over 66% market share, a near monopoly in this segment.We Sell  bookbattery for Telcon model like Duper-EX 1200 Diesel . Here you can compare the price of several Dumper batteries for Telcon as well as you can buy a suitable battery for your Dumper. We provide free delivery and installation within 4-24 hours. 
+
+Telcon-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/telcon-brand-logo-270x12.png
+
+###-------------------- Ural India Ltd --------------------###
+
+Ural-India-Ltd= Ural India is an Indian commercial vehicle manufacturer based in Kolkata, West Bengal. The company produces complete range of trucks & buses for both the civilian customers as well as for the defense forces . Ural India Ltd collaborated with leading global partners to bring to India a wide range of world class products eg. from 16T to 72T trucks, front and rear engine low floor buses and many others covering a gamut of applications. Order a dumper battery for your Ural India Ltd models through online and get free home delivery & installation within 4-24 hours.
+
+Ural-India-Ltd-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/ural-india-ltd-brand-logo-270x12.png
+

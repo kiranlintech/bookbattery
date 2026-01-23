@@ -1,0 +1,24 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Hydraulic Shovel Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should follow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Caterpillar India --------------------###
+
+Caterpillar-India= Caterpillar has been in India since the 1930s. Caterpillar offers a range of prime power and standby options to meet the varying needs of customers.We provide genuine and suitable Hydraulic Shovel Batteries for models like 6015, 6015 FS, 6060 AC, 6060 AC FS. BookBattery.com provide free battery delivery within 4-24 hours of the order and free installation service of our Batteries.
+
+Caterpillar-India-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/caterpillar-india-brand-logo-270x12.png
+
+

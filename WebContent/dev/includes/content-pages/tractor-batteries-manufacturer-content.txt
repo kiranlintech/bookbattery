@@ -1,0 +1,130 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Tractor Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Action Construction --------------------###
+
+Action-Construction= Action Construction is an company in the Transport Related Services industry. Action Construction began manufacturing of Tractors in 2009 by launching two models in 35 / 45 HP categories. At present it is manufacturing 3 models by introducing 55 HP models in 2011. And also manufactured crains, harvester etcIn Oct.2013 Ace Tractors reached a milestone of selling 20,000+ tractors in India and Nepal.ACE has its manufacturing plants in Faridabad (Haryana), Kashipur/Bajpur (Uttrakhand). Buy brand new bookbattery for your Action Construction. We provide batteries for the running models like DI 350, DI 450, DI 550 at best price. Free battery delivery anywhere in India at customers place within 4-24 hours of the order, we also provide free installation service of our bookbattery.
+
+Action-Construction-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/action-construction-brand-logo-270x12.png
+
+###-------------------- Ashok Leyland --------------------###
+
+Ashok-Leyland= Ashok Leyland is an Indian automobile manufacturing company, located in Chennai, India and founded in the year 1948. Ashok Leyland is the 2nd largest commercial vehicle manufacturer in India, 4th largest manufacturer of buses in the world and 16th largest manufacturer of trucks globally. Ashok Leyland sells 60,000 vehicles and about 7,000 engines annually. A market leader in the bus segment and a popular brand of trucks, Ashok Leyland also has a number of dealerships, spare parts centers, and service centers under its blanket. Ashok Leyland, announced sale of vehicles on the new U-Truck platform from November, 2010 with the rolling out of the first set of 10 models of tippers and tractor trailers in the 16   49-tonne segment. We provide 100% genuine batteries for all models of Ashok Leyland at best prices. You can choose the right battery for your tractor by comparing batteries on the basis of price, warranty and capacity. We focus to help you save both time and money. 
+
+Ashok-Leyland-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/ashok-leyland-brand-logo-270x12.png
+
+###-------------------- Eicher --------------------###
+
+Eicher= Eicher is an Indian automaker company based in Gurgaon, India. Eicher founded in the year 1948. In 1949, their manufacture of the first farm tractor with an engine with air cooling allowed Eicher to rank among the most important manufacturers of tractors. In 2005 Eicher Motors Ltd sold their tractors and engines business to TAFE Tractors (Tractors And Farm Equipment Ltd) of Chennai, the Indian licensee of Massey Ferguson tractors. The Battery ordered from BookBattery.com are 100% genuine and best prices. BookBattery.com is the first online multi-brand battery store, which offers 100% genuine Amaron Tractor Batteries with free battery delivery, free installation and original manufacturer's warranty. All Tractor batteries offered by us are reasonably priced.
+
+Eicher-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/vecv-eicher-motors-brand-logo-270x12.png
+
+###-------------------- Escorts --------------------###
+
+Escorts= The Escorts Group is an Indian engineering company that operates in the sectors of agri-machinery, construction and material handling equipment, railway equipment and auto components. Escorts was launched in 1944 and headquartered in Faridabad, Haryana. Escorts has marketing operations in more than 40 countries. Escorts Agri Machinery was launched in 1960. The company manufactures tractors under the brand names of Farmtrac, Powertrac and Steeltrac. It has four manufacturing plants in Faridabad and one subsidiary unit in Poland in the name of Farmtrac Europe.We provide 100% genuine batteries for all models of Escorts at best prices. You can choose the right battery for your tractor by comparing Batteries on the basis of price, warranty and capacity. 
+
+Escorts-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/escorts-brand-logo-270x12.png
+
+###-------------------- Force Motors --------------------###
+
+Force-Motors= Force Motors formerly known as Bajaj Tempo. Force Motors is an Indian manufacturer of three-wheelers, multi-utility and cross country vehicles, light commercial vehicles, tractors, buses and heavy commercial vehicles. Force Motors manufactures a range of vehicles including Small Commercial Vehicles (SCV), Light Commercial Vehicles (LCV), Multi Utility Vehicles (MUV), Sports Utility Vehicles (SUV), Heavy Commercial Vehicles (HCV) and Agricultural Tractors.Batteries provided for Force Motors are 100% genuine and best prices. BookBattery.com is the first online multi-brand battery store, which offers 100% genuine Amaron tractor batteries with manufacturer s warranty. All tractor batteries offered by us are reasonably priced.
+
+Force-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/force-brand-logo-270x12.png
+
+###-------------------- HMT --------------------###
+
+HMT= HMT Limited, formerly Hindustan Machine Tools Limited, is a state-owned manufacturing company under the Ministry of Heavy Industries and Public Enterprises in India. HMT Limited has 18 manufacturing units.HMT's tractor business commenced its operations in 1971 in technical collaboration with M/s MOTOKOV, Czechoslovakia. HMT started the operation with the manufacture of 25 HP tractor at the manufacturing plant in Pinjore, Haryana state. Over the years, it has developed tractors ranging from 25 HP to 75 HP. HMT comprises six subsidiaries under the ambit of a holding company, which also manages the tractors business directly.Our website provides genuine Amaron and Exide tractor Batteries for all HMT models. We provide free home delivery and installation within 4-24 hours.
+
+HMT-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/hmt-brand-logo-270x12.png
+
+###-------------------- Indo Farm Equipment Limited --------------------###
+
+Indo-Farm-Equipment-Limited= Indo Farm Equipment Limited located in Himachal Pradesh and is into manufacturing of world-class tractors, cranes, engines, diesel gensets and has now recently launched Harvester Combine Agricom 1070 for wetland paddy harvesting. Indo Farm commenced commercial production of tractors in October 2000 at its plant located at Baddi in District Solan, Himachal Pradesh. Spread over an area of 34 acres, the plant started with the production of a single model. Within a decade of successful operations Indo Farm grew to a company having models in the range of 30 HP, 38 HP, 42 HP, 48 HP, 50 HP, 52 HP, 55 HP, 60 HP, 65 HP, 75 HP and 90 HP with many variants.
+From BookBattery.com you can choose genuine Batteries for your Indo Farm Equipment Limited at best price. BookBattery.com provides free home delivery within 4-24 hours of the order, free battery installation and cash on delivery with UPI etc. 
+
+Indo-Farm-Equipment-Limited-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/indo-farm-equipment-limited-brand-logo-270x12.png
+
+###-------------------- International Tractors Limited --------------------###
+
+International-Tractors-Limited= Sonalika International Tractors Ltd. is the country s heavy duty tractor manufacturing company that produces bestselling tractors between 20 HP to 110 HP. Today, Sonalika ITL is the third largest player. International Tractors Limited was incorporated on 17 October 1987. Sonalika ITL boasts of State-of-the-art integrated tractor manufacturing plant, situated in Hoshiarpur with a capacity of manufacturing approximately 2 lakh tractors. The company has strategic partnerships with Blackstone PE and Yanmar, Japan.
+We only sell genuine products and provide free battery delivery within 4-24 hours of the order. Purchasing Batteries for your International Tractors Limited from BookBattery.com and enjoy free battery installation service and cash on delivery.
+
+International-Tractors-Limited-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/international-tractors-limited-brand-logo-270x12.png
+
+###-------------------- John Deere --------------------###
+
+John-Deere= John Deere India Private Limited is a subsidiary of Deere & Company, USA in India. Deere & Company (brand name John Deere) is an American corporation that manufactures agricultural, construction, and forestry machinery, diesel engines, drivetrains used in heavy equipment, and lawn care equipment. In 2016, it was listed as 97th in the Fortune 500 America's ranking . John Deere was ranked 364th in the Fortune Global 500 ranking in 2016. Tractors manufactured at our state-of-the-art factory facilities in Pune & Dewas near Indore, Madhya Pradesh.
+Order battery through online at BookBattery.com and avail John Deere tractor Batteries at lowest price. Get genuine brand new tractor battery at BookBattery.com.
+
+John-Deere-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/john-deere-brand-logo-270x12.png
+
+###-------------------- Mahindra and Mahindra --------------------###
+
+Mahindra-and-Mahindra= Mahindra and Mahindra is an Indian multinational automobile manufacturing corporation headquartered in Mumbai, Maharashtra, India and founded in the year 1945. It is a part of Mahindra Group, an Indian conglomerate. Mahindra and Mahindra is one of the largest vehicle manufacturers by production in India and the largest manufacturer of tractors across the world. Mahindra produces SUVs, saloon cars, pickups, commercial vehicles, and two wheeled motorcycles and tractors. We provide genuine batteries for Mahindra models along with free tractor battery delivery within 4-24 hours, free installation and cash on delivery.
+
+Mahindra-and-Mahindra-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mahindra-brand-logo-270x12.png
+
+###-------------------- Mahindra Gujarat --------------------###
+
+Mahindra-Gujarat= Mahindra Gujarat Tractor Limited (MGTL) came into existence as a private enterprise in 1958. MGTL has been engaged in manufacturing and marketing of tractors of 30HP to 60HP capacity. MGTL consistently strives to manufacture high quality & powerful tractors and thereby satisfy needs of Indian farmers. MGTL manufactures a complete range of tractors in 30HP to 60HP under the brand name of  Shaktimaan ,  Hindustan  and  Farmplus . We provide batteries for the Mahindra Gujarat models like Shaktimaan614 Diesel, Shaktimaan614 PS Diesel, Shaktimaan614 Road Star Diesel.Get free battery delivery within 4-24 hours, free installation and original warranty card.
+
+Mahindra-Gujarat-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mahindra-brand-logo-270x12.png
+
+###-------------------- Massey Ferguson --------------------###
+
+Massey-Ferguson= Massey Ferguson Limited is an American-owned major manufacturer of agricultural equipment until recently based in Brantford, Ontario, Canada. Massey Ferguson was founded in the year 1958. It has been the world's leading tractor brand. Massey Ferguson developed a wide range of agricultural vehicles and have a large share in the market across the world especially in Europe. In December 1957 the MF35, the first Massey Ferguson branded tractor rolled off the factory floor.Batteries provided for Massey Ferguson are 100% genuine and best prices. BookBattery.com offers 100% genuine Amaron tractor batteries with manufacturer s warranty. All tractor batteries offered by us are reasonably priced.
+
+Massey-Ferguson-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/massey-ferguson-brand-logo-270x12.png
+
+###-------------------- New Holland --------------------###
+
+New-Holland= New Holland Agriculture is a truly global brand, incorporating the knowledge and expertise of companies that have changed agriculture around the world. New Holland agricultural products include tractors, combine harvesters, balers, forage harvesters, self-propelled sprayers, haying tools, seeding equipment, hobby tractors, utility vehicles and implements, as well as grape harvesters. New Holland is known for its range of products including tractors, combine harvesters, balers, forage harvesters, self-propelled sprayers, haying tools, seeding equipment, hobby tractors, utility vehicles and implements, as well as grape harvesters.
+BookBattery.com provide genuine tractor batteries for New Holland models. Order tractor battery online and get free battery delivery and installation.
+
+New-Holland-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/new-holland-brand-logo-270x12.png
+
+###-------------------- Preet Tractors  --------------------###
+
+Preet-Tractors = Preet Agro Industries, Pvt. Ltd. builds Preet tractors and combine harvesters in Nabha, Punjab, India. It was founded in 2002 with a tractor design similar to 1970/1980s era Ford tractors. Preet also manufacture combine harvesters, selling around 1,200 per year, controlling 40% of the local market. PREET is India's largest Combine Harvester Manufacturer.
+Looking for the tractor battery with best price for any of the Preet Tractors models then you have landed at the right place. You will find Batteries from leading brand like Amaron and Exide for all the Preet Tractors models. We provide free battery delivery and installation.
+
+Preet-Tractors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/preet-tractors-brand-logo-270x12.png
+
+###-------------------- Same Deutz Fahr India --------------------###
+
+Same-Deutz-Fahr-India= Same Deutz Fahr India is a multinational company with headquarters in Italy in Treviglio. Same Deutz Fahr India is one of the leading manufacturers of tractors , harvesters, diesel engines, agricultural machinery. It distributes its products under the brands SAME , Lamborghini , H rlimann , Deutz-Fahr , Lamborghini and Grgoire Green Pro. The range of tractors covers a 23 to 440 hp range and the range of harvesting machines from 100 to 395 CV. BookBattery.com provides battery for Same Deutz Fahr India models like Agrolux 45-70 and Agromaxx 40-60.We provide brand new Batteries from top automotive brand Amaron for the make Same Deutz Fahr India.
+
+Same-Deutz-Fahr-India-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/same-deutz-fahr-india-brand-logo-270x12.png
+
+###-------------------- Standard --------------------###
+
+Standard= Standard motor vehicle manufacturer, founded in Coventry, England. Standard Combine began building tractors in Barnala, Punjab, India. In Standard Tractors, tractors are being manufactured in the range of 35, 45, 50, 60, and 75 HP with respective model names: Standard 335, Standard 345, Standard 450, Standard 460, and Standard 475. Engines for all these tractor models, except the last one, are manufactured within the plant as Standard Engines , in specific names   SE 335, SE 345, SE 450 and SE 460, respectively.Our website provide genuine Amaron tractor Batteries for Standard models. Order battery online and free home delivery and installation within 4-24 hours.
+
+Standard-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/standard-brand-logo-270x12.png
+
+###-------------------- Tafe --------------------###
+
+Tafe= Tractors and Farm Equipment Limited (TAFE), is a tractor major incorporated in 1960 at Chennai with an annual turnover of INR 93 billion. Tafe is the third-largest tractor manufacturer in the world. It is second largest in India by volumes, TAFE wields about 25% market share of the Indian tractor industry with a sale of over 150,000 tractors (domestic and international) annually. Besides tractors, TAFE and its subsidiaries have diverse business interests in areas such as farm-machinery, diesel engines and gensets, engineering plastics, gears and transmission components, Batteries, hydraulic pumps and cylinders, passenger vehicle franchises and plantations.Now choose the right battery for your tractor at BookBattery.com. We offer 100% genuine batteries for Tafe models.
+
+Tafe-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/tafe-brand-logo-270x12.png
+
+###-------------------- VECE Eicher Motors --------------------###
+
+VECE-Eicher-Motors= Buy 100% Genuine Vece Eicher Motors Battery online. Find the right suitable tractor battery for your VECE Eicher Motors. We provide free home delivery and free installation. BookBattery.com India No.1 Online bus battery portal offering best prices. BookBattery.com provides Amaron tractor Batteries for your VECE Eicher Motors buses at best prices. We offer free home delivery for your VECE Eicher Motors and free installation within 4-24 hours. 
+
+VECE-Eicher-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/vecv-eicher-motors-brand-logo-270x12.png
+

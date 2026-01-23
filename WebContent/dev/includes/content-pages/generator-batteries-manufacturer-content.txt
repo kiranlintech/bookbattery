@@ -1,0 +1,23 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Generatror Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- International Tractors Limited --------------------###
+
+International-Tractors-Limited= International Tractors Limited incorporated in 1969.Today the group is among the top three tractor manufacturers of India and provides a complete product line including tractors, multi-utility vehicles, engines, farm machinery attachments, diesel gensets, auto components and pick & carry cranes. Manufacturer, Supplier, Exporter & Importer of Tractors and other Agricultural Machinery (Combine Harvester, Threshers, Seed / Fertilizer Drills, Planters). BookBattery.com Provides 100% genuine products and provide free battery delivery within 4-24 hours of the order. Purchase batteries for your International Tractors Limited models from BookBattery.com and enjoy free battery installation service and cash on delivery and UPI etc.
+
+International-Tractors-Limited-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/international-tractors-limited-brand-logo-270x12.png
+

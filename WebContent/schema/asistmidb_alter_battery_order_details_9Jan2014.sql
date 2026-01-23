@@ -1,0 +1,1 @@
+alter table battery_order_details add operator varchar(5) default 'no';

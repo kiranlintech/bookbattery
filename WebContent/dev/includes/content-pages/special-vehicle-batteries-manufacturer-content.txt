@@ -1,0 +1,149 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Special Vehicle Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should follow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Action Construction --------------------###
+
+Action-Construction= Action Construction is an company in the Transport Related Services industry. ACE has been awarded the prestigious   Equipment India Award   for being the   BEST SELLER   MOBILE CRANES ".Ace Ltd Is India's Leading Manufacturer Of Cranes - Pick & Move Cranes , Lorry Loader Cranes , Tower Cranes , Truck Mounted Cranes, Crawler Cranes, Knuckle Boom Cranes; Forklift; Loader - Backhoe Loaders, Skid Steer Loaders; Agri Equipment - Tractors , Rotavators, Combines,Balers, Rice Planters ; Road Equipment - Compactors, Graders & Rollers.ACE has its manufacturing plants in Faridabad (Haryana), Kashipur/Bajpur (Uttrakhand). Buy genuine batteries for your Action Construction models. Free battery delivery within 4-24 hours of the order, we also provide free installation service of our batteries.
+
+Action-Construction-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/action-construction-brand-logo-270x12.png
+
+###-------------------- Ashok Leyland  --------------------###
+
+Ashok-Leyland = Ashok Leyland is an Indian automobile manufacturing company, located in Chennai, India and founded in the year 1948. Ashok Leyland is the 2nd largest commercial vehicle manufacturer in India, 4th largest manufacturer of buses in the world and 16th largest manufacturer of trucks globally. Ashok Leyland sells 60,000 vehicles and about 7,000 engines annually. A market leader in the bus segment and a popular brand of trucks, Ashok Leyland also has a number of dealerships, spare parts centers, and service centers under its blanket. BookBattery.com makes easier finding a battery for your vehicle. Order battery from BookBattery.com and get free battery delivery, free installation and original warranty card.
+
+Ashok-Leyland-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/ashok-leyland-brand-logo-270x12.png
+
+###-------------------- Bharat Benz  --------------------###
+
+Bharat-Benz= Bharat Benz is the 3rd largest OEM in the HDT segment. Backed by 117 years of global trucking experience and an in-depth understanding of the Indian terrain, BharatBenz is here to transform transport solutions in India. In India DICV produces trucks under BharatBenz for domestic market and robust FUSO trucks for the export market. BookBattery.com offers 100% genuine batteries for Daimler Bharat Benz models. We provide batteries from top automotive brands like AmaronandExide. Free battery delivery and installation.
+
+Bharat-Benz-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mercedes-benz-brand-logo-270x12.png
+
+###-------------------- Class India --------------------###
+
+Class-India= BookBattery.com provides 100% genuine bookbattery for Class India models. We also provide free delivery, installation and original warranty card. You can choose the right battery for your Special Vehicle batteries by comparing batteries on the basis of price, warranty and capacity.
+
+Class-India-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/class-india-brand-logo-270x12.png
+
+###-------------------- Daimler Bharath Benz  --------------------###
+
+Daimler-Bharath-Benz = Bharat Benz is the 3rd largest OEM in the HDT segment. Backed by 117 years of global trucking experience and an in-depth understanding of the Indian terrain, BharatBenz is here to transform transport solutions in India. In India DICV produces trucks under BharatBenz for domestic market and robust FUSO trucks for the export market. Batteries provided for all special vehicle models are 100% genuine and best prices. We provide free home delivery and installation within 4-24 hours.
+
+Daimler-Bharath-Benz-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/daimler-bharath-benz-brand-logo-270x12.png
+
+###-------------------- BEML  --------------------###
+
+BEML = BEML incorporated in May 1964, and commenced operations on 1 January 1965. It was wholly owned and operated by India's Ministry of Defence until 1992, when the government divested 25% of its holdings in the company. BEML is Asia's second-largest manufacturer of earth moving equipment, and it controls 70% of India's market in that sector. Its stock trades on the National Stock Exchange of India under the symbol "BEML", and on the Bombay Stock Exchange under the code "500048". The company went for Follow on Public offer (FPO) and fixed the price band for its FPO between Rs. 1,020 and Rs. 1,090.
+
+BEML-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/beml-brand-logo-270x12.png
+
+###-------------------- Godrej and Boyce --------------------###
+
+Godrej-and-Boyce= We provide bookbattery for Godrej and Boyce models like GODREJ GX-5.0 Diesel, GODREJ GX-G-10.0 TON DIESEL, GODREJ GX-5.0 DIESEL, GODREJ GX-6 DIESEL, GODREJ GX-7 DIESEL and GODREJ GX-8 DIESEL. We offer Free Delivery, Free Installation within 4-24 hours. 
+
+Godrej-and-Boyce-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/godrej-and-boyce-brand-logo-270x12.png
+
+###-------------------- Greaves Cotton --------------------###
+
+Greaves-Cotton= Greaves cotton Limited is one of India's leading, diversified engineering companies with more than 50 years of experience in manufacturing a wide range of industrial products to meet the requirements of the core sectors in India and abroad. Greaves Power manufactures diesel generating sets in a wide range. Greaves products are manufactured at its Chakan plant. BookBattery.com one-stop destination for availing batteries for all models of batteries one-stop destination for availing batteries for all models of JCB India. We also provide free home delivery and installation within 4-24 hours. Greaves Cotton batteries offered by us are low priced.
+
+Greaves-Cotton-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/greaves-cotton-brand-logo-270x12.png
+
+###-------------------- Hindustan Agro --------------------###
+
+Hindustan-Agro= Hindustan Agro is the leading manufacturers, suppliers and exporters of threaser, trailer, cultivates, agriculture equipments. We sell all the Hindustan Agro models batteries. Here you can compare the price of several bike batteries for Hindustan Agro as well as can buy a suitable battery for your Special Vehicle. BookBattery.com is dedicated to best price Amaron are reliability High performance & Maintenance free batteries.
+
+Hindustan-Agro-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/hindustan-agro-brand-logo-270x12.png
+
+###-------------------- Indo Farm Equipment Limited --------------------###
+
+Indo-Farm-Equipment-Limited= Indo Farm Equipment Limited located in Himachal Pradesh and is into manufacturing of world-class tractors, cranes, engines, diesel gensets and has now recently launched Harvester Combine Agricom 1070 for wetland paddy harvesting. In 2008, the company diversified into manufacturing and marketing of Pick-N-Carry cranes of 9 tonnes - 20 tonnes capacity and has recently commenced production of mobile tower cranes too. From BookBattery.com you can choose 100% genuine batteries for your Indo Farm Equipment Limited at best price. BookBattery.com provide free home delivery within 4-24 hours of the order, free battery installation and cash on delivery.  
+
+Indo-Farm-Equipment-Limited-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/indo-farm-equipment-limited-brand-logo-270x12.png
+
+###-------------------- JCB --------------------###
+
+JCB= J.C. Bamford Excavators Limited, universally known as JCB. It is a British multinational corporation, with headquarters in Rocester, Staffordshire. JCB manufactures equipment for construction, agriculture, waste handling and demolition. It is the world's third-largest construction equipment manufacturer. It produces over 300 types of machines, including diggers (backhoes), excavators, tractors and diesel engines. It has 22 factories across Asia, Europe, North America, and South America; its products are sold in over 150 countries. We provide free home delivery and installation within 4-24 hours for JCB models. 
+
+JCB-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/jcb-brand-logo-270x12.png
+
+###-------------------- Kobelco Construction Equipment India Pvt Ltd --------------------###
+
+Kobelco-Construction-Equipment-India-Pvt-Ltd= Kobelco brand is a major Japanese steel manufacturer founded in 1905 and headquartered in Kobe, Japan. Kobelco manufacturing Plant is at SriCity in A.P. Excavators produced at this unit are exported to countries in South-east Asia, West Asia and East Africa. BookBattery.com offers Amaron bookbattery for your Kobelco special vehicle models  along with free home delivery within 4-24 hours, free installation and cash on delivery.
+
+Kobelco-Construction-Equipment-India-Pvt-Ltd-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/kobelco-construction-equipment-india-pvt-ltd-brand-logo-270x12.png
+
+###-------------------- Komatsu  --------------------###
+
+Komatsu= Komatsu founded in the year 1921.Komatsu Manufactures mining equipment, utilities, forest machines and industrial machinery. It is one of the world s leading manufacturers of construction, mining and industrial machinery. From BookBattery, you can purchase Amaron special vehicle batteries for each model of Komatsu. We provide free home delivery and free installation as well as cash on delivery services. 
+
+Komatsu-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/komatsu-brand-logo-270x12.png
+
+###-------------------- L and T Motors --------------------###
+
+L-and-T-Motors= Larsen & Toubro Limited, also known as L&T is an Indian multi-national conglomerate. Headquartered in Mumbai, Maharashtra, India. L&T is India's largest engineering and construction company. BookBattery.com provides batteries for L and T Motors models like L & T Vibratory-Compactor-VC-450-Diesel. Buy genuine batteries for your L and T Motors models from BookBattery.com. 
+
+L-and-T-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/l-and-t-motors-brand-logo-270x12.png
+
+###-------------------- Mahindra and Mahindra --------------------###
+
+Mahindra-and-Mahindra= Mahindra and Mahindra is an Indian multinational automobile manufacturing corporation headquartered in Mumbai, Maharashtra, India and founded in the year 1945..  It is a part of Mahindra Group, an Indian conglomerate. Mahindra and Mahindra is one of the largest vehicle manufacturers by production in India and the largest manufacturer of tractors across the world. Mahindra produces SUVs, saloon cars, pickups, commercial vehicles, and two wheeled motorcycles and tractors. We provide genuine batteries for Mahindra models along with free car battery delivery and installation within 4-24 hours.
+
+Mahindra-and-Mahindra-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mahindra-brand-logo-270x12.png
+
+###-------------------- Maruti Suzuki --------------------###
+
+Maruti-Suzuki= Maruti Suzuki is an Indian automobile manufacturer and founded in 1981. It is a subsidiary of Japanese automobile and motorcycle manufacturer Suzuki Motor Corporation. Maruti Suzuki manufactures and sells popular cars such as the Ertiga, Alto, Swift, Zen, Celerio, Swift DZire, SX4 and Omni. The company is headquartered at New Delhi. Maruti sold more than ten million vehicles in India. Maruti Suzuki, India's largest carmaker. BookBattery.com provide lowest price Amaron special vehicle batteries for models of Maruti Suzuki. We provide free home delivery and free installation within 4-24 hours of the order.
+
+Maruti-Suzuki-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/maruti-suzuki-brand-logo-270x12.png
+
+###-------------------- Standard Corporation --------------------###
+
+Standard-Corporation= Standard Corporation has established a special supply chain that allows us to offer 5 Ton and 10 Ton bridge cranes. BookBattery provides bookbattery for Standard models at low price.We provide genuine Amaron special vehicle batteries for Standard models. Free home delivery and installation within 4-24 hours.
+
+Standard-Corporation-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/standard-brand-logo-270x12.png
+
+###-------------------- Tata --------------------###
+
+Tata= Tata is an Indian multinational conglomerate holding company headquartered in Mumbai, Maharashtra, India. It was founded in 1868. Tata is ranked eighteenth, among the largest motor vehicle production companies in the world by quantity. It gained international recognition after purchasing several global companies. The company produces several types of vehicles, which includes coaches, passenger cars, trucks and vans. Tata Motors has manufactured and sold over 6.5 million vehicles in India. Our website provide genuine Amaron batteries for all Tata models and free home delivery and installation within 4-24 hours.
+
+Tata-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/tata-brand-logo-270x12.png
+
+###-------------------- Telcon --------------------###
+
+Telcon= Telcon founded in Jamshedpur in 1961, as the Construction Equipment Division of Tata Engineering.Telcon  range diversified, with shovels, hydraulic Excavators, Hydraulic Cranes, Wheel Loaders, and Bockhoe Loaders rolling out. Telcon is the No.1 name in excavators and crawler cranes, capturing over 66% market share, a near monopoly in this segment.We Sell all the best Telcon special vehicle model batteries. Here you can compare the price of several special vehicle batteries for Telcon as well as can buy a suitable battery for your special vehicle. 
+
+Telcon-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/telcon-brand-logo-270x12.png
+
+###-------------------- Terex Vectra --------------------###
+
+Terex-Vectra= Terex India is a fully owned subsidiary of Terex Corporation, a diversified global manufacturer of a broad range of equipment that is focused on delivering reliable, customer-driven solutions for many applications, including the construction, infrastructure, quarrying, mining, shipping, transportation, refining, energy, utility and manufacturing industries. Terex started its operation in India from 1995 through its joint venture with Vectra for the production of construction equipment. Buy brand new batteries for your Terex Vectra. Free battery delivery within 4-24 hours of the order, we also provide free installation service of our batteries.
+
+Terex-Vectra-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/terex-vectra-brand-logo-270x12.png
+
+###-------------------- Ural India Ltd --------------------###
+
+Ural-India-Ltd= Ural India is an Indian commercial vehicle manufacturer based in Kolkata, West Bengal. The company produces complete range of trucks & buses for both the civilian customers as well as for the defense forces . Ural India Ltd collaborated with leading global partners to bring to India a wide range of world class products eg. from 16T to 72T trucks, front and rear engine low floor buses and many others covering a gamut of applications. Order a special vehicle battery for your Ural India Ltd models through online and get free home delivery & installation.
+
+Ural-India-Ltd-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/ural-india-ltd-brand-logo-270x12.png
+
+###-------------------- Volvo --------------------###
+
+Volvo= Volvo is a Swedish multinational manufacturing company headquartered in Gothenburg. Volvo was established in 1915 as a subsidiary of SKF. Officially founded on 14 April 1927. Volvo produces several types of models of cars, which include SUV, station wagon (estates), sedan (saloons), compact executive sedan and coupe cars. Our website BookBattery.com offer 100% genuine Amaron batteries for special vehicle models. Order a battery for your Volvo models through online. We offer free home delivery within 4-24 hours of the order to our customers and also provide free installation service.
+
+Volvo-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/volvo-brand-logo-270x12.png
+

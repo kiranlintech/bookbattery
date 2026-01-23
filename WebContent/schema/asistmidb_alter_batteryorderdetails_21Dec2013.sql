@@ -1,0 +1,1 @@
+alter table battery_order_details modify consumer_verif_code int(10) default '0';

@@ -1,0 +1,1 @@
+alter table retailer_location_mapping add weekend_dealer_flag varchar(3) default 'No';

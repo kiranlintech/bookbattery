@@ -1,0 +1,29 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Roller Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Action Construction --------------------###
+
+Action-Construction= Action Construction is an company in the Transport Related Services industry. ACE has been awarded the prestigious   Equipment India Award   for being the   BEST SELLER   MOBILE CRANES ".Ace Ltd Is India's Leading Manufacturer Of Cranes - Pick & Move Cranes , Lorry Loader Cranes , Tower Cranes , Truck Mounted Cranes, Crawler Cranes, Knuckle Boom Cranes; Forklift; Loader - Backhoe Loaders, Skid Steer Loaders; Agri Equipment - Tractors , Rotavators, Combines,Balers, Rice Planters ; Road Equipment - Compactors, Graders & Rollers.ACE has its manufacturing plants in Faridabad (Haryana), Kashipur/Bajpur (Uttrakhand). Buy brand new batteries for your Action Construction. Free battery delivery within 4-24 hours of the order, we also provide free installation service of our batteries.
+
+Action-Construction-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/action-construction-brand-logo-270x12.png
+
+###-------------------- Escorts --------------------###
+
+Escorts= The company was launched in 1944, Headquartered in Faridabad, Haryana, and has marketing operations in more than 40 countries. Escorts Construction Equipment manufactures and markets construction and material handling equipment like pick and carry cranes, backhoe loader, vibratory rollers and forklifts. BookBattery.com provides 100% genuine batteries for all models of Escorts at best prices. You can choose the right battery for your Cranes by comparing batetries on the basis of price, warranty and capacity. 
+
+Escorts-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/escorts-brand-logo-270x12.png
+

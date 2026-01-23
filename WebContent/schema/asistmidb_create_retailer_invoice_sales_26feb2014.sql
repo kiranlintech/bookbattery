@@ -1,0 +1,1 @@
+alter table retailer_invoice add salesurl varchar(200) NOT NULL;

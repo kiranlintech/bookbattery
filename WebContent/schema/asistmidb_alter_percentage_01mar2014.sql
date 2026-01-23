@@ -1,0 +1,10 @@
+update percentage set city_percentage='1.145' where city_percentage='0.145';
+update percentage set city_percentage='1.150' where city_percentage='0.15';
+update percentage set city_percentage='1.125' where city_percentage='0.125';
+update percentage set city_percentage='1.130' where city_percentage='0.13';
+update percentage set city_percentage='1.180' where city_percentage='0.18';
+update percentage set city_percentage='1.140' where city_percentage='0.14';
+update percentage set city_percentage='1.160' where city_percentage='0.16';
+update percentage set city_percentage='1.135' where city_percentage='0.135';
+update percentage set city_percentage='1.144' where city_percentage='0.144';
+update percentage set city_percentage='1.1375' where city_percentage='0.1375';

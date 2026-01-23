@@ -1,0 +1,10 @@
+alter table inverter_price_details add column inverter_model varchar(250) NOT NULL Default 0;
+update inverter_price_details set inverter_model="Exide 850" where  inverter_brand='Exide' and inverter_capacity='850 VA';
+update inverter_price_details set inverter_model="AAM-HU-HUPS1400VA" where  inverter_brand='Amaron' and inverter_capacity='1400 VA';
+update inverter_price_details set inverter_model="AAM-HU-HUPS400VA" where  inverter_brand='Amaron' and inverter_capacity='400 VA';
+update inverter_price_details set inverter_model="AAM-HU-HUPS650VA" where  inverter_brand='Amaron' and inverter_capacity='650 VA';
+update inverter_price_details set inverter_model="AAM-HU-HUPS675VA" where  inverter_brand='Amaron' and inverter_capacity='675 VA';
+update inverter_price_details set inverter_model="AAM-HU-HUPS825VA" where  inverter_brand='Amaron' and inverter_capacity='825 VA';
+update inverter_price_details set inverter_model="AAM-HU-HUPS880VA" where  inverter_brand='Amaron' and inverter_capacity='880 VA';
+update inverter_price_details set inverter_model="Exide XTATIC 1450" where  inverter_brand='Exide' and inverter_capacity='1450 VA';
+update inverter_price_details set inverter_model="Exide 650" where  inverter_brand='Exide' and inverter_capacity='650 VA';

@@ -1,0 +1,29 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Telescopic Handler Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Action Construction --------------------###
+
+Action-Construction= Action Construction is an company in the Transport Related Services industry. ACE has been awarded the prestigious   Equipment India Award   for being the   BEST SELLER   MOBILE CRANES ".Ace Ltd Is India's Leading Manufacturer Of Cranes - Pick & Move Cranes , Lorry Loader Cranes , Tower Cranes , Truck Mounted Cranes, Crawler Cranes, Knuckle Boom Cranes; Forklift; Loader - Backhoe Loaders, Skid Steer Loaders; Agri Equipment - Tractors , Rotavators, Combines,Balers, Rice Planters ; Road Equipment - Compactors, Graders & Rollers.ACE has its manufacturing plants in Faridabad (Haryana), Kashipur/Bajpur (Uttrakhand). Buy brand new batteries for your Action Construction models. Free battery delivery and installation within 4-24 hours of the order.
+
+Action-Construction-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/action-construction-brand-logo-270x12.png
+
+###-------------------- JCB India --------------------###
+
+JCB-India= JCB India Limited started operations in 1979 and today it is the fastest growing company in the Indian earthmoving and construction equipment industry. JCB is one of the world's top three manufacturers of construction equipment. JCB India sell products in 150 countries through 2,000 dealer depot locations. JCB India has five operational world class manufacturing facilities; one in Ballabgarh, Haryana near New Delhi, two in Pune and two in Jaipur. BookBattery.com provide free home delivery for your JCB India  models within 4-24 hours of the order, free battery installation and cash on delivery.  
+
+JCB-India-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/jcb-brand-logo-270x12.png
+

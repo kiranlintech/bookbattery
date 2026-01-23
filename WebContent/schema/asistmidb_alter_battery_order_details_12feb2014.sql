@@ -1,0 +1,1 @@
+alter table battery_order_details add postpone_date date default '0000-00-00';

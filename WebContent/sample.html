@@ -1,0 +1,10 @@
+<form action="" enctype="multipart/form-data" method="post">
+<p>
+Please specify a file, or a set of files:<br>
+<input type="file" name="datafile" size="40" accept=".jpeg">
+</p>
+<div>
+<input type="submit" value="Send">
+$query = "INSERT INTO images (id,image) VALUES('','" . mysql_escape_string(file_get_contents($image)) . "')";
+</div>
+</form>

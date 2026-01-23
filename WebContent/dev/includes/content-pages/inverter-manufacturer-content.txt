@@ -1,0 +1,37 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Inverter Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Amaron  --------------------###
+
+Amaron = Amaron is the largest manufacturer of Standby Valve Regulated Lead Acid (VRLA) batteries in the Indian Ocean Rim region. Amaron is the India's most powerful zero-maintenance battery. The difference is silver. Amaron is the only battery that contains the patented Silven X alloy. SilvenX alloy is what gives Amaron batteries the power to last long. There are over 13,500,000 Amaron batteries powering Indian vehicles as of today.Amaron manufactures batteries for most of the makes and models of Inverter batteries in India. 
+We sell only 100% genuine Inverter batteries at the best prices with complete manufacturer s warranty and original bill. Buy Amaron Inverters from BookBattery.com and get additional benefits like best price for your old battery, free home delivery and installation within 4-24 hours.
+
+Amaron-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/amaron-brand-logo-270x12.png
+
+###-------------------- Exide --------------------###
+
+Exide = Exide Industries is a storage battery producing company in India. It manufactures automotive and industrial lead-acid batteries. It has plants in India and Sri Lanka. The Exide lead acid batteries that are used for Inverter applications ensure uninterrupted and regulated power supply during power failure. These batteries are specially customized to meet your needs within the budget. Exide is only company which provides Submarine Batteries to Indian Navy.
+BookBattery.com provides Exide inverter batteries at best prices. We provide Exide inverter batteries for all running models. All batteries sold by BookBattery.com are 100% genuine and provide free battery delivery, installation within 4-24 hours and original manufacturer warranty card.  
+
+Exide-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/exide-brand-logo-270x12.png
+
+###-------------------- Luminous --------------------###
+
+Luminous= Luminous Power Technologies is the leading home electrical specialist in India. Luminous has 7 manufacturing units, more than 28 sales offices in India and presence in over 36 countries
+Buy Luminous batteries and back-Up power for Home UPS systems to keep critical applications in operation during power outages. No electricity, no worry! Keep everything running with this Zelio 1100 Sine Wave Home UPS from Luminous. The UPS is of the sine wave type and can be placed on the floor or mounted on the wall. It supports a wide range of batteries and has in-built intelligent battery management algorithms. 
+
+Luminous-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/luminous-brand-logo-270x12.png

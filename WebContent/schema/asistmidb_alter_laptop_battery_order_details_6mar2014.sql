@@ -1,0 +1,2 @@
+alter table laptop_battery_order_details drop column consumer_name;
+alter table laptop_battery_order_details drop column consumer_emailid;

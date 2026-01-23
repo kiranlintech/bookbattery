@@ -1,0 +1,1 @@
+ALTER TABLE percentage DROP company_percentage;

@@ -1,0 +1,25 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+#LD_ASSUME_KERNEL=2.2.5;export LD_ASSUME_KERNEL
+#LDEMULATION=elf_i386_glibc21;export LDEMULATION
+#GCC_EXEC_PREFIX=/usr/i386-glibc21-linux/lib/gcc-lib/;export GCC_EXEC_PREFIX
+PATH=$PATH:/opt/local/java/bin/;export PATH
+CLASSPATH=.:/opt/local/java/lib/:/opt/local/java/lib/dt.jar:/home/ngit/tomcat/server/lib/catalina-ant.jar:/home/ngit/tomcat/server/lib/catalina.jar:/home/ngit/tomcat/server/lib/commons-modeler.jar:/home/ngit/tomcat/server/lib/servlets-default.jar:/home/ngit/tomcat/server/lib/servlets-invoker.jar:/home/ngit/tomcat/server/lib/servlets-webdav.jar:/home/ngit/tomcat/server/lib/tomcat-ajp.jar:/home/ngit/tomcat/server/lib/tomcat-apr.jar:/home/ngit/tomcat/server/lib/tomcat-coyote.jar:/home/ngit/tomcat/server/lib/tomcat-http.jar:/home/ngit/tomcat/server/lib/tomcat-jkstatus-ant.jar:/home/ngit/tomcat/server/lib/tomcat-util.jar:/home/ngit/tomcat/common/lib/*.jar:/home/ngit/tomcat/common/lib/servlet-api.jar:/home/ngit/tomcat/common/lib/jsp-api.jar:/home/ngit/tomcat/common/lib/commons-el.jar:/home/ngit/tomcat/common/lib/jasper-compiler.jar:/home/ngit/tomcat/common/lib/jasper-runtime.jar:/home/ngit/tomcat/common/lib/naming-factory-dbcp.jar:/home/ngit/tomcat/common/lib/naming-factory.jar:/home/ngit/tomcat/common/lib/naming-resources.jar:/home/ngit/tomcat/common/endorsed/*.jar:/home/ngit/tomcat/common/i18n/*.jar:/home/ngit/tomcat/common/classes:/home/ngit/tomcat/common/lib/mysql-connector-java-5.1.17-bin.jar:/home/ngit/tomcat/common/lib/jxl.jar:/home/ngit/tomcat/common/lib/activation.jar:/home/ngit/tomcat/common/lib/cos.jar:/home/ngit/tomcat/common/lib/mailapi.jar:/home/ngit/tomcat/common/lib/mail.jar:/home/ngit/tomcat/common/lib/pop3.jar:/home/ngit/tomcat/common/lib/smtp.jar:/home/ngit/tomcat/common/lib/upload.war:/home/ngit/tomcat/common/lib/imap.jar:/home/ngit/tomcat/common/lib/jxl.jar:/home/ngit/tomcat/common/lib/itext-1.4.8.jar:/home/ngit/SMS/RECIEVER/SMSGW-1.0.1.0/lib/smppapi.jar:/home/ngit/SMS/TRANSMITTER/SMSGW-1.0.1.0/lib/smppapi.jar:/home/ngit/tomcat/common/lib/gdata-client-1.0.jar:/home/ngit/tomcat/common/lib/gdata-contacts-3.0.jar:/home/ngit/tomcat/common/lib/gdata-core-1.0.jar:/home/ngit/tomcat/common/lib/google-collect-1.0-rc1.jar:/home/ngit/tomcat/common/lib/activation-1.1.jar:/home/ngit/tomcat/common/lib/commons-lang-2.2.jar:/home/ngit/tomcat/common/lib/commons-logging-1.2.jar:/home/ngit/tomcat/common/lib/facebook-java-api-3.0.2.jar:/home/ngit/tomcat/common/lib/facebook-java-api-annotation-processor-3.0.2.jar:/home/ngit/tomcat/common/lib/facebook-java-api-schema-3.0.2.jar:/home/ngit/tomcat/common/lib/jaxb-api-2.1.jar:/home/ngit/tomcat/common/lib/jaxb-impl-2.1.9.jar:/home/ngit/tomcat/common/lib/json-20080701.jar:/home/ngit/tomcat/common/lib/runtime-0.4.1.5.jar:/home/ngit/tomcat/common/lib/httpcore-4.4.4.jar:/home/ngit/tomcat/common/lib/httpmime-4.0.jar:/home/ngit/tomcat/common/lib/apache-mime4j-0.6.jar:/home/ngit/tomcat/common/lib/stax-api-1.0-2.jar:/home/ngit/tomcat/common/lib/httpclient-4.5.2.jar:/home/ngit/tomcat/common/lib/log4j-1.2.14.jar:/home/ngit/tomcat/common/lib/commons-fileupload-1.2.1.jar:/home/ngit/tomcat/common/lib/commons-io-1.4.jar:/home/ngit/tomcat/common/lib/commons-codec-1.9.jar:/home/ngit/tomcat/common/lib/json-20160810.jar:/home/ngit/tomcat/common/lib/json-lib.jar:/home/ngit/tomcat/common/lib/ezmorph-1.0.4.jar:/home/ngit/tomcat/common/lib/gson-2.6.2.jar;export CLASSPATH
+LD_LIBRARY_PATH=/opt/local/java/lib/;export LD_LIBRARY_PATH
+PATH=$PATH:$HOME/bin:/bin:/usr/bin:/usr/local/bin
+BASH_ENV=$HOME/.bashrc
+JAVA_HOME=/opt/local/java;export JAVA_HOME
+
+export BASH_ENV PATH
+unset USERNAME
+
+
+
+

@@ -1,0 +1,198 @@
+#Author: Sai Krishna Daddala 
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Car Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should follow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Audi --------------------###
+
+Audi= Audi India Pvt Ltd is a division of the German automobile manufacturer Audi and the Volkswagen Group India. It was founded in 2007 with headquarters in Mumbai, Maharashtra. Audi India was established in March 2007 as a division of Volkswagen Group Sales India. Audi is represented in 110 countries worldwide and since 2004, Audi has been selling its products on the Indian market. Audi is making a clear long-term statement in the country with ambitious growths plans. Audi's goal is to become the leading automobile luxury brand in the Indian market. Audi India uses Skoda Auto India Private Limited manufacturing facilities in Aurangabad, Maharashtra to assemble the Audi A3, Audi A4, Audi A6, Audi Q3, Audi Q5 and Audi Q7 models locally. From BookBattery.com you can choose genuine Batteries for your Audi at best price. BookBattery provide free home delivery within 4-24 hours of the order, free battery installation and cash on delivery.
+
+Audi-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/audi-brand-logo-270x12.png
+
+###-------------------- Alfa Romeo --------------------###
+
+Alfa-Romeo =Alfa Romeo is an Italian car manufacturer. Founded as A.L.F.A. on June 24, 1910, in Milan, the company has been involved in car racing since 1911.Alfa Romeo is a subsidiary of Fiat Group Automobiles. Alfa Romeo won the inaugural world championship for Grand Prix cars in 1925. The company gained a good name in motorsport, which gave a sporty image to the whole marque. Buy brand new battery for your Alfa Romeo. We provide battery for the running models like 2000 - 166 2.5 (V6) Sportronic GTV Petrol, 2000 - 166 3.0 (V6) Sportronic GTV Petrol at cheapest price. Free battery delivery anywhere in India at customers place within 4-24 hours of the order, we also provide free installation service of our battery.
+
+Alfa-Romeo-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/alfa-romeo-brand-logo-270x12.png
+
+###-------------------- BMW --------------------###
+
+BMW= BMW is one of the best-selling luxury automobile manufacturers in the world. BMW  is a German luxury vehicles manufacturing company founded in 1916. Headquartered in Munich, Bavaria, Germany. BMW was established in India in March 2006. BMW India has its own manufacturing facility at Chennai. As a multinational organization, BMW has established 25 production and assembly facilities in 14 countries across the globe and sales network in more than 140 countries. We only sell genuine products and provide free battery delivery within 4-24 hours of the order. Purchasing battery for your BMW from BookBattery.com and enjoy free battery installation service and cash on delivery and many more Payment options like UPI etc.
+
+BMW-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/bmw-brand-logo-270x12.png
+
+###-------------------- Chevrolet --------------------###
+
+Chevrolet= Chevrolet is an American automobile division founded in the year 3 November 1911. The first Chevrolet Corvette was introduced in 1953. The Chevrolet Suburban is the longest running automotive nameplate in history. The Chevrolet brand cars can be seen on roads in over 130 countries. First company to make built in 4g LTE WI-FI available in its vehicles. Chevrolet was one of the first car makers to manufacture SUVS. Chevrolet is the fourth biggest automobile brand in sales. Chevrolets are on the road in 2/3 of the world. We offer genuine Amaron, Exide and Major Brand batteries for your BMW cars. Car battery offered by us for  Chevrolet are discounted prices and are available online with free battery delivery and free installation.
+
+Chevrolet-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/chevrolet-brand-logo-270x12.png
+
+###-------------------- Daewoo --------------------###
+
+Daewoo= Daewoo is a subsidiary of Korean automobile. Founded in the year March 22nd, 1967. Some popular models of Daewoo are like Cielo, Matiz and Nexia. The Daewoo Motors is spread over 123 countries in the world. Daewoo India is known for its range of automotive products including sedans, buses and trucks. In India, Daewoo Motors India Ltd. or DMIL was incorporated as DCM Toyota Ltd. in the mid-80s. In July 1995, DMIL launched Cielo and later it launched the Matiz in the small car segment and Nexia a mid-sized car segment. Daewoo is the true luxury car" for upper class packed with features. BookBattery.com offers Amaron, Exide and Major brands car battery for your Daewoo cars along with free  home delivery with in 4-24 hours,free installation and cash on delivery, UPI etc.
+
+Daewoo-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/daewoo-brand-logo-270x12.png
+
+###-------------------- Fiat --------------------###
+
+Fiat= Fiat brand in India was earlier represented through a Joint Venture company called Fiat India Automobiles Pvt Ltd founded in the year 1997 with Fiat S.P.A and Tata Motors as the two partners coming together to produce cars for both brands in a plant set up through joint investments at Ranjangaon, in Pune district of Maharashtra. The company was incorporated in Mumbai, India, in March 2012. Fiat is a subsidiary of FCA Spa Italy. FIat has a manufacturing plant at Ranjangaon, Maharashtra, which has an installed capacity to produce 135,000 cars and engines, besides aggregates and components. Fiat makes cars for every need that are also stylish, fun to drive and surprisingly functional. Order battery through online at BookBattery.com and avail Fiat car battery at lowest price. Get genuine brand new car battery at BookBattery.com.
+
+Fiat-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/fiat-brand-logo-270x12.png
+
+###-------------------- Force Motors --------------------###
+
+Force-Motors= The Company was incorporated on 8th September, 1958. The Company manufactured and assembled 3 & 4 wheeler light commercial vehicles and diesel engines. Force Motors has manufacturing facilities at Akurdi and Urse (Maharashtra), Pithampur (Madhya Pradesh) and Chennai (Tamil Nadu). Force Motors manufactures a range of vehicles including Small Commercial Vehicles, Light Commercial Vehicles, Multi Utility Vehicles, Sports Utility Vehicles, Heavy Commercial Vehicles and Agricultural Tractors. One place for availing batteries for all models of Force Motors vehicles. From our BookBattery.com purchase Amaron, Exide and Major Brand batteries for your Force Motors vehicles. All car batteries offered by us are reasonably priced .
+
+Force-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/force-brand-logo-270x12.png
+
+###-------------------- Ford --------------------###
+
+Ford= FORD is an American multinational automaker founded in June 16, 1903. Ford manufactures and exports vehicles and engines made at its integrated manufacturing facilities in Chennai, Tamil Nadu and Sanand, Gujarat. Ford India Limited is the 6th largest car manufacturer in India. From their beginning, Ford India has launched several car models India. Among them, you can find Fiesta, Classic, Figo, Endeavour, Mondeo, Fusion and Ikon Ford car models in current Indian track. Ford has more than 376 sales and service outlets in 209 cities across India. We provide suitable battery for your car at best price and also we provide free home delivery and free installation within 4-24 hours of the order all over India.
+
+Ford-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/ford-brand-logo-270x12.png
+
+###-------------------- GM OPEL --------------------###
+
+GM-OPEL= GM OPEL is a German automobile manufacturer founded in the year January 21, 1863. The company began manufacturing bicycles in 1886 and produced its first automobile in 1899.General Motors produces vehicles in 37 countries under thirteen brands: Alpheon, Chevrolet, Buick, GMC, Cadillac, Holden, HSV, Opel, Vauxhall, Wuling, Baojun, Jie Fang, UzDaewoo. General Motors holds a 20% stake in IMM, and a 77% stake in GM Korea. From their beginning, GMOPEL has launched several models of GMOPEL cars in India , which includes models like Adventure Petrol, Astra Diesel, Astra Petrol, Corsa 1.4 LTR Petrol, Corsa 1.6 LTR Petrol, Corsa Diesel, Corsa Petrol, Swing Petrol, Vectra Disel and Vectra Petrol . BookBattery.com provide Genuine Amaron, Exide and Top Brands car batteries for each model of available GMOPEL cars. We provide free home delivery and free installation within 4-24 hours of the order. 
+
+GM-OPEL-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/gm-opel-brand-logo-270x12.png
+
+###-------------------- Hindustan Motors --------------------###
+
+Hindustan-Motors= Hindustan Motors is an Indian automotive manufacturer founded in the year 1942. It is a part of the Birla Technical Services industrial group. Hindustan Motors was the largest car manufacturer in India before the rise of Maruti Udyog. The company is also valued as one of the original three car manufacturers in India. From the pre independence era, several models of cars manufactured by Hindustan Motors are sold in India.BookBattery.com provide genuine car battery for Hindustan Motors at cheaper price. We provide batteries from top automotive brands like Amaron, Exide and Luminous. Free home delivery within 4-24 hours, free installation and pay cash after installation or many more payment options like UPI etc.
+
+Hindustan-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/hm-morters-brand-logo-270x12.png
+
+###-------------------- Honda --------------------###
+
+Honda= Honda Cars India Ltd is a subsidiary of the Honda of Japan for the production, marketing and export of passenger cars in India. Honda has been the world's largest motorcycle manufacturer. Honda became the second-largest Japanese automobile manufacturer in 2001. Honda Motor Co. Ltd., which is the 6th largest automobile manufacturer of the world. Now several models of Honda cars are available in India, which includes City, Accord, Civic, Jazz, Brio and CR-V. Among these Honda car models, Honda produces City, Accord, Civic, Jazz and Brio in India. Find the right suitable battery for your Honda car. We provide free home delivery and free installation.
+
+Honda-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/honda-brand-logo-270x12.png
+
+###-------------------- Hyundai --------------------###
+
+Hyundai= The Hyundai Motor Company is a South Korean multinational automotive manufacturer founded in the year December 29, 1967. Hyundai is the world's fifth largest automaker. You can find cars manufactured by Hyundai motors in around 193 countries across the globe. You can find several models of Hyundai cars in India like EON, i10, Grand i10, Xcent, Elite i20, i20 Active, Verna and Elantra.Find the right and genuine battery for your Hyundai cars at bookbattery.com. Added benefit buying car battery from BookBattery.com is free battery delivery and free installation.
+
+Hyundai-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/hyundai-brand-logo-270x12.png
+
+###-------------------- ICML --------------------###
+
+ICML= International Cars And Motors Ltd. is a subsidiary of Sonalika Group. ICML is known for manufacturing MUVs well suited to meet the needs of Indian as well as global customers. Globally out of 206 countries less than 10 nations can boast about having their own indigenous automobile brands and India is one of them. Today ICML is the youngest member of the elite automobile manufacturer club and it competes with global brands having their existence a little over half a century. BookBattery.com provides batteries for the following ICML models  DELITE Diesel, Extreme Diesel, Rhino Diesel, Winner Diesel and Xcitor Diesel. We give free home delivery within 4-24 hours, free installation and cash on delivery and UPI etc.
+
+ICML-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/iclm-brand-logo-270x12.png
+
+###-------------------- Jaugar --------------------###
+
+Jaugar= Jaugar is the luxury vehicle brand of Jaugar Land Rover, founded in the year 1922. Tata Motors Indian company owned Jaugar since 2008. With an increasing demand for recreational off-roaders, the Range Rover made its debut in 1970. Jaugar, one of the world's premier luxury sports saloon and sports car marques. Now several models of Jaugar cars available in India, which includes XF Diesel, XF Petrol, XJ Diesel and XJ Petrol. BookBattery.com provides free battery delivery for Jaugar cars anywhere in India and free battery installation and cash on delivery and UPI etc.
+
+Jaugar-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/jaguar-brand-logo-270x12.png
+
+###-------------------- KIA Motors --------------------###
+
+KIA-Motors= Kia Motors Corporation, headquartered in Seoul.KIA motors is South Korea's second-largest automobile manufacturer. Kia was founded in December 1944. South Korea's Kia Motors Corp is going to step in India for its first factory. BookBattery.com provides battery for KIA motors all car models. Free battery delivery and installation within 4-24 hours and cash on delivery with UPI etc.
+
+KIA-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/KIA-Morters-brand-logo-270x12.png
+
+###-------------------- Mahindra and Mahindra --------------------###
+
+Mahindra-and-Mahindra= Mahindra and Mahindra is an Indian multinational automobile manufacturing corporation headquartered in Mumbai, Maharashtra, India and founded in the year 1945..  It is a part of Mahindra Group, an Indian conglomerate. Mahindra and Mahindra is one of the largest vehicle manufacturers by production in India and the largest manufacturer of tractors across the world. Mahindra produces SUVs, saloon cars, pickups, commercial vehicles, and two wheeled motorcycles and tractors. We provide genuine battery for Mahindra models along with free car battery delivery and installation.
+
+Mahindra-and-Mahindra-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mahindra-brand-logo-270x12.png
+
+###-------------------- Maruti Suzuki --------------------###
+
+Maruti-Suzuki= Maruti Suzuki is an Indian automobile manufacturer and founded in 1981. It is a subsidiary of Japanese automobile and motorcycle manufacturer Suzuki Motor Corporation. Maruti Suzuki manufactures and sells popular cars such as the Ertiga, Alto, Swift, Zen, Celerio, Swift DZire, SX4 and Omni. The company is headquartered at New Delhi. Maruti sold more than ten million vehicles in India. Maruti Suzuki, India's largest carmaker. BookBattery.com provide lowest price Amaron, Exide and Top brand car batteries for each model of available Maruti Suzuki cars. We provide free home delivery and free installation within 4-24 hours of the order.
+
+Maruti-Suzuki-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/maruti-suzuki-brand-logo-270x12.png
+
+###-------------------- Mercedes Benz --------------------###
+
+Mercedes-Benz= Mercedes-Benz is a global automobile manufacturer founded in the year 1926. Mercedes-Benz India Pvt Ltd is a wholly owned subsidiary of the German Daimler AG founded in 1994, with headquarters in Pune, Maharashtra, India. The manufacturing plant of Nissan India is situated in Chennai. Driving a Mercedes car is status for some as well as some describing it as their passion. Several models of Mercedes Benz Cars are sold in India, which includes S-Class 350 L, S-Class 350 CDI, S-Class 500L, E-Class E250, E-Class E350, E-Class E220 CDI, C-Class C 200 CGI, C-Class C 250 CDI and GL 350 CDI. BookBattery.com offers Amaron, Exide and Top Brand car batteries for your Mercedes Benz car. Free home delivery, free installation and cash on delivery.
+
+Mercedes-Benz-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mercedes-benz-brand-logo-270x12.png
+
+###-------------------- Nissan --------------------###
+
+Nissan= Nissan Motor India Pvt Ltd is the Indian subsidiary of Nissan Motor Company of Japan. The company was incorporated in 2005 and offers innovative and exciting products across hatchback, MUV, SUV and sedan segments in India. Nissan was the sixth largest automaker in the world. Nissan Motor India Private Limited is selling several models of their cars in India. We provide Amaron, Exide and Top Brand car batteries for your Nissan cars at best prices. We offer free home delivery anywhere in India for your Nissan car and free installation.
+
+Nissan-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/nissan-brand-logo-270x12.png
+
+###-------------------- Peuguot --------------------###
+
+Peuguot= Peugeot is a French car manufacturer founded in 1810. Peugeot has received many international awards for its vehicles. In 2013 and 2014, Peugeot ranked the second lowest for average CO2 emissions among generalist brands in Europe, the Renault car maker group being ranked first, with 114.9g CO2/km. Peugeot is a long way from its ambitious target of selling 4 million units annually by the end of the decade. BookBattery.com provides Amaron, Exide and Top Brand car batteries for Peuguot car models like 309-D. We provide free home delivery within 4-24 hours of the order with free installation as well as cash on delivery, UPI etc.
+
+Peuguot-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/peugeot-brand-logo-270x12.png
+
+###-------------------- Porsche --------------------###
+
+Porsche= Porsche India Pvt Ltd is a division of the German automobile manufacturer Porsche and the Volkswagen Group India. Founded in 2004, with headquarters in Mumbai. In order to become the leading automobile luxury brand in the Indian automotive market, Porsche had established Porsche India as its division. Porsche has appointed its parent company Volkswagen Group, as the official importer of its cars in India. BookBattery.com provides car battery for Porsche car models like 911 Carrera Petrol, Cayenne UV Petrol, GT2 Petrol and Turbo Petrol at cheapest price. Order your car battery from the place where you are and enjoy the free service like free home delivery, free battery installation provided by BookBattery.com.
+
+Porsche-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/porsehe-brand-logo-270x12.png
+
+###-------------------- Premier --------------------###
+
+Premier= The Premier is an Indian automobile manufacturer head quartered in Mumbai, India. The company was established in 1941. Premier has two business segments: Engineering and Automotive. In 1951, Premier tied up with Fiat and sold Fiat 500 in India. The company produces several types of vehicles, which includes cars and trucks. We offer cheapest price for the Premier car models. BookBattery.com provides free car battery delivery, free battery installation and cash on delivery, UPI etc.
+
+Premier-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/premier-brand-logo-270x12.png
+
+###-------------------- Renault --------------------###
+
+Renault= Renault India Pvt Ltd is a wholly owned subsidiary of Renault S.A., France and currently offers seven models in the Indian market the Scala, Fluence, Koleos, Duster, MPV Lodgy, Pulse and KWID. Renault cars are manufactured at the manufacturing facility located in Oragadam and Chennai. Indian Car of the Year Duster. Order online and get free home delivery and free installation for your Renault car.
+
+Renault-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/renault-brand-logo-270x12.png
+
+###-------------------- Skoda --------------------###
+
+Skoda= Skoda is subsidiary of Skoda Auto. Skoda Auto India Pvt Ltd. has been operating in India since November 2001. Manufacturing of Skoda is available in Shendra near Aurangabad, Maharashtra. Skoda Auto India has a network of 106 outlets across the country. Skoda Auto India Private Limited has its assembly plant located at Shendra on the outskirts west of Aurangabad which has an annual capacity of 89,000 vehicles. Skoda Superb was the first car of the company launched in India, after that they have launched several car models, which include Laura, Octavia, Yeti, Rapid, Ambiente and Fabia.We provide  Amaron, Exide and Top Brand car batteries for each model of Skoda cars. We provide free home delivery within 4-24 hours of the order with free installation as well as cash on delivery, UPI etc.
+
+Skoda-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/skoda-brand-logo-270x12.png
+
+###-------------------- Tata --------------------###
+
+Tata= Tata is an Indian multinational conglomerate holding company headquartered in Mumbai, Maharashtra, India. It was founded in 1868. Tata is ranked eighteenth, among the largest motor vehicle production companies in the world by quantity. It gained international recognition after purchasing several global companies. The company produces several types of vehicles, which includes coaches, passenger cars, trucks and vans. Tata Motors has manufactured and sold over 6.5 million vehicles in India. Our website provides genuine Amaron, Exide and Top Brand car batteries for all Tata models. Free home delivery and installation within 4-24 hours.
+
+Tata-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/tata-brand-logo-270x12.png
+
+###-------------------- Toyota --------------------###
+
+Toyota= Toyota is an Indian automobile manufacturer headquartered in Mumbai, Maharashtra, India. Toyota is 7th largest car manufacturer in India. The company has established two car-manufacturing plants in India among those one is located at Bidadi, Karnataka and another one is situated on the outskirts of Bangalore, Karnataka. We provide car batteries for any models of Toyota cars available in India. We offer genuine products and free home delivery & installation within 4-24 hours.
+
+Toyota-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/toyota-brand-logo-270x12.png
+
+###-------------------- Volkswagen --------------------###
+
+Volks-Wagen= Volkswagen India Pvt Ltd founded in 2007. Volkswagen India operates a manufacturing plant in Chakan, Maharashtra which is capable of producing 200,000 vehicles per annum. Volkswagen India has 119 showrooms and 113 service centers across 101 cities. In Indian we can find Volkswagen car models like  Jetta, Passat, Phaeton, Polo, Vento and Touareg. BookBattery.com provides Amaron, Exide and Top Brand car batteries for Volkswagen all models available In India. We also provide free car battery delivery and installation within 4-24 hours.
+
+Volks-Wagen-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/volkswagen-brand-logo-270x12.png
+
+###-------------------- Volvo --------------------###
+
+Volvo= Volvo is a Swedish multinational manufacturing company headquartered in Gothenburg. Volvo was established in 1915 as a subsidiary of SKF. Officially founded on 14 April 1927. Volvo produces several types of models of cars, which include SUV, station wagon (estates), sedan (saloons), compact executive sedan and coupe cars. Our website BookBattery.com offer 100% genuine Amaron, Exide and Major Brand batteries for Volvo S60 and XC60 cars. Order a battery for your Volvo car through Bookbattery.com. We offer free home delivery within 4-24 hours of the order to our customers and also provide free installation service.
+
+Volvo-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/volvo-brand-logo-270x12.png
+
+###-------------------- Jeep --------------------###
+
+Jeep= Jeep is a brand of American automobile and division of FCA US LLC, a wholly owned subsidiary of the Italian-American corporation Fiat Chrysler Automobiles.
+
+Jeep-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/jeep1-brand-logo-270x12.png
+
+###-------------------- Mitsubishi --------------------###
+
+Mitsubishi= Mitsubishi Motors Corporation is a Japanese multinational automotive manufacturer headquartered in Minato, Tokyo, Japan. In 2011, Mitsubishi Motors was the sixth-biggest Japanese automaker and the nineteenth-biggest worldwide by production.
+
+Mitsubishi-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mitsubishi-brand-logo-270x12.png
+
+

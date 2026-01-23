@@ -1,0 +1,23 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Tyre Handler Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- BEML --------------------###
+
+BEML= Bharat Earth Movers Limited now known as BEML is an Indian Public Sector Undertaking, with headquarters in Bangalore. BEML manufactures a variety of heavy equipment used for earth moving, transport and mining. BEML manufactures earthmoving equipment includes Bulldozers, Dump Trucks, Hydraulic Excavators, Wheel Loaders, Rope Shovels, Walking Draglines, Motor Graders and Scrapers. BookBattery.com makes easier finding a battery for your BEML vehicle. Order battery from BookBattery.com and get free battery delivery, free installation within 4-24 hours and original warranty card.
+
+BEML-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/beml-brand-logo-270x12.png
+

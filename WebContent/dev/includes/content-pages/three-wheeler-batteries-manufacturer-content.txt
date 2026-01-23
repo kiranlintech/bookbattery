@@ -1,0 +1,113 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Three Wheeler Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Atul Auto Limited --------------------###
+
+Atul-Auto-Limited= Atul Auto Limited is leading three wheeler manufacturing company in Rajkot, Gujarat, India. The company incorporated in 1986 and production begin in 1992. The improvements in technologies were done from time to time to make it a sturdy and comfortable vehicle.
+We provide Batteries for Atul Auto Limited models. BookBattery.com offers 100% genuine Batteries for Atul Auto Limited.
+ 
+Atul-Auto-Limited-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/atul-auto-limited-brand-logo-270x12.png
+
+###-------------------- Bajaj Auto --------------------###
+
+Bajaj-Auto= Bajaj Auto is an Indian two-wheeler and three-wheeler manufacturing company. Bajaj Auto is fourth-largest bike manufacture in India. Bajaj Auto is the world s largest three-wheeler manufacturer. 480,000 three-wheelers which was 57% of the total market share in India. Out of these 480,000 three-wheelers, 53% were exported and remaining 47% were sold in India.If you are looking for the battery with best price for any of the Bajaj Auto three wheeler models then you have landed at the right place. You will find Batteries from leading brand like Amaron and Exide for all the Bajaj three wheeler models
+
+Bajaj-Auto-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/bajaj-brand-logo-270x12.png
+
+###-------------------- Continental Engines --------------------###
+
+Continental-Engines= Continental Engines Limited (CEL) came into existence in the year 1983. CEL manufactures petrol and diesel engines for small horse power utilities and are an OEM to other companies. The vehicles will give the best top road speed (60 kmph) and 15% more fuel efficient. It is the most stable and safe vehicle on roads. BookBattery.com provides three wheeler Batteries for Continental Engines models like CEL 1200 Diesel. Free battery delivery and installation within 4-24 hours.
+
+Continental-Engines-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/continental-engines-brand-logo-270x12.png
+
+###-------------------- Force Motors --------------------###
+
+Force-Motors= Force Motors formerly known as Bajaj Tempo. Force Motors is an Indian manufacturer of three-wheelers, multi-utility and cross country vehicles, light commercial vehicles, tractors, buses and heavy commercial vehicles. Force Motors manufactures a range of vehicles including Small Commercial Vehicles (SCV), Light Commercial Vehicles (LCV), Multi Utility Vehicles (MUV), Sports Utility Vehicles (SUV), Heavy Commercial Vehicles (HCV) and Agricultural Tractors.We provide battery for Minidor, Trump 15 models. Batteries provided for Force Motors are 100% genuine and best priced. BookBattery.com is the first online multi-brand battery store, which offers 100% genuine Amaron three wheeler Batteries with manufacturer s warranty.
+
+Force-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/force-brand-logo-270x12.png
+
+###-------------------- Kerala Motors --------------------###
+
+Kerala-Motors= Kerala Motors is a automobile manufacturing company in Kerala, India. Kerala Motors located in Thiruvananthapuram manufactures various Three Wheelers models. KAL products include Auto rickshaw, Pick up Van, Delivery Van, Auto chassis, Hydraulic Tipper etc., and exports the three-wheeler vehicles to Egypt.From BookBattery.com, you can purchase suitable batteries for your Kerala Motors at best price. We only sell genuine products and provide free home delivery within 4-24 hours of the order. Free delivery and installation and cash on delivery, UPI etc. 
+
+Kerala-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/kerala-motors-brand-logo-270x12.png
+
+###-------------------- Kranti Automobiles Limited --------------------###
+
+Kranti-Automobiles-Limited= Kranti Automobiles Limited started in the year 1995 to make general-purpose utility vehicles for the Indian market. Company started its commercial production of 3 wheelers with the brand name of NANDI; a Diesel operated 3 wheeler which got hugely popular in a short span of time. The company has operating division with a modern production workshop and manufacturing plant at SIDCUL, Hardwar (Uttrakhand).<br /> We offer genuine Amaron and exide Batteries for these models of Kranti Automobiles Limited three wheelers. Compare the price of Batteries for your Kranti Automobiles Limited three wheelers. In addition to free home delivery within 4-24 hours of the order, we also provide free installation service of our Batteries.
+
+Kranti-Automobiles-Limited-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/kranti-automobiles-limited-brand-logo-270x12.png
+
+###-------------------- Kumar Motors --------------------###
+
+Kumar-Motors= Kumar Motors founded in 1971. Kumar Motors technical marvel Three Wheelers Vehicle - Agni & Parinda. The new manufacturing facility will take the company's production capacity to 5,000 vehicles per month from the existing 1,000 vehicles per month. The company has an existing plant at Pirangut in Pune that rolls out 400 vehicles per month.We provide Amaron and Exide Batteries for your Kumar Motors, Agni  DV, Agni PV, Agni SP and  Parinda. Kumar Motors three wheeler Batteries offered by us are reasonably priced.
+
+Kumar-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/kumar-motors-brand-logo-270x12.png
+
+###-------------------- Lotia Motors --------------------###
+
+Lotia-Motors=Lotia group is a high quality automotive and tractor parts (O.E.M) original equipment manufacturer and exporter. Lotia group's production portfolio encompasses wide ranging & standard parts of cars, tractors, trucks & light commercial vehicles. Lotia Motors heading the auto parts industry since 1990.We provide Amaron and Exide batteries for all Lotia Motors. BookBattery.com sells only genuine products. To avail Lotia Motors three wheeler Batteries for cheap, visit our website and choose the right battery.
+
+Lotia-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/lotia-motors-brand-logo-270x12.png
+
+###-------------------- Mahindra and Mahindra --------------------###
+
+Mahindra-and-Mahindra=Mahindra and Mahindra is an Indian multinational automobile manufacturing corporation headquartered in Mumbai, Maharashtra, India and founded in the year 1945. It is a part of Mahindra Group, an Indian conglomerate. Mahindra and Mahindra is one of the largest vehicle manufacturers by production in India and the largest manufacturer of tractors across the world. Mahindra produces SUVs, saloon cars, pickups, commercial vehicles, and two wheeled motorcycles and tractors. We provide genuine Batteries for Mahindra models. Free battery delivery, installation and cash on delivery. 
+
+Mahindra-and-Mahindra-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mahindra-brand-logo-270x12.png
+
+###-------------------- MLR Motors Pvt Ltd --------------------###
+
+MLR-Motors-Pvt-Ltd= MLR Motors (P) Ltd. Started in 1999 to manufacture automobiles. MLR Motors Pvt Ltd manufacture  three wheelers and Compact Commercial vehicles for last mile transportation needs of goods and passengers. The manufacturing unit is located at Hyderabad. The commercial production of steering three wheeler cargo vehicles under the brand name "TEJA" commenced in 2002. Bookbattery.com one stop place to get MLR Motors Pvt Ltd three wheeler bookbattery manufactured by Amaron. We provide free home delivery as well as installation. Here, you can also compare the price of several models Amaron and Exide three wheeler Batteries for your MLR Motors Pvt Ltd. 
+
+MLR-Motors-Pvt-Ltd-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mlr-motors-pvt-ltd-brand-logo-270x12.png
+
+###-------------------- Panchnath Auto Pvt Ltd --------------------###
+
+Panchnath-Auto-Pvt-Ltd= Panchnath Auto Pvt Ltd Diesel 3-wheeler Auto Vehicles, 3 Wheeler & Manufacturer from Rajkot, Gujarat, India. Panchnath Auto Private Limited is 59th best company in India which is involved in Sale of new motorcycles, scooters and three wheelers. There are 253 companies rated inferior than Panchnath Auto Private Limited. This company is ranked 201 out of 1135 in India for its top line of business .
+From BookBattery.com, you can purchase Amaron three wheeler Batteries for any models of Panchnath Auto Pvt Ltd three wheelers. We only offer genuine products and free home delivery & installation within 4-24 hours.
+
+Panchnath-Auto-Pvt-Ltd-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/panchnath-auto-pvt-ltd-brand-logo-270x12.png
+
+###-------------------- Piaggio --------------------###
+
+Piaggio= Piaggio & C. SpA via its subsidiaries designs, engineers, manufactures and distributes two wheeled motor vehicles and compact commercial vehicles under seven brands. Piaggio & C. SpA corporate headquarters are located in Pontedera, Italy. We provide Piaggio battery for all running models. Three wheeler battery provided for Piaggio in BookBattery.com is genuine and brand new. 
+
+Piaggio-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/piaggio-brand-logo-270x12.png
+
+###-------------------- Rasandik Motors --------------------###
+
+Rasandik-Motors=Rasandik has always been a pioneer in introducing new concepts and technologies in the automotive industry. Rasandik launched its range of  CHIEF  - Three Wheelers in 2008 and since then has taken strides in establishing these products of Supreme Quality, Absolute Reliability and Unfailing Economy supported by Timely Delivery and Exceptional Service.
+Order a battery for your Rasandik Motors online. We offer free home delivery within 4-24 hours of the order to our customers and also provide free installation service.
+ 
+
+Rasandik-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/rasandik-motors-brand-logo-270x12.png
+
+###-------------------- Scooters India Limited --------------------###
+
+Scooters-India-Limited= Scooters India Limited Incorporated in 1972.Located at South-west of Lucknow. Scooters India Limited manufacture conventional and non-conventional fuel driven 3-wheelers. The company has its own marketing network of Regional Sales Offices all over India, catering to customer s requirements in the areas of sales and services.We offers Amaron and Exide batteries for each and every model of Scooters India Limited. You can compare the prices of the leading brands of three wheeler Batteries for a particular model and order the right one. Order online and get free delivery and install the battery in next 4-24 hours.
+
+Scooters-India-Limited-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/scooters-india-limited-brand-logo-270x12.png
+
+###-------------------- TVS --------------------###
+
+TVS= TVS, India s 3rd largest two-wheeler manufacturer, currently it has more than 40000 people. An annual sale of TVS is 2.5 million units and an annual capacity of over 3 million vehicles. The company manufactures Motorcycles, Scooters and Auto-rickshaws. TVS Motor Company is the 2nd largest exporter in India with exports to over 60 Countries.In the year 202, TVS Won Deming Prize for keeping the Quality control. 
+Consider dimensions, Capacity, Warranty, Price while choosing the battery for your TVS. TVS Most Popular Models are TVS King (CNG), TVS King (LPG), TVS KING ZS   4S CNG. BookBattery.com brings TVS three wheeler Batteries from popular brand like Amaron and Exide. All listed TVS three wheeler battery are genuine, guarantee effective and long run battery. 
+
+TVS-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/tvs-brand-logo-270x12.png
+
+

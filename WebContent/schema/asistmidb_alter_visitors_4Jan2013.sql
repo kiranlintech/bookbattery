@@ -1,0 +1,1 @@
+alter table visitors_orders add option_type varchar(15) NOT NULL;

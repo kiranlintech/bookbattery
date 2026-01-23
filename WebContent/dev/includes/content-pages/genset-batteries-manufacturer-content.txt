@@ -1,0 +1,71 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Genset Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Ashok Leyland --------------------###
+
+Ashok-Leyland= Ashok Leyland is an Indian automobile manufacturing company, located in Chennai, India and founded in the year 1948. Ashok Leyland is the 2nd largest commercial vehicle manufacturer in India, 4th largest manufacturer of buses in the world and 16th largest manufacturer of trucks globally. Ashok Leyland sells 60,000 vehicles and about 7,000 engines annually. A market leader in the bus segment and a popular brand of trucks, Ashok Leyland also has a number of dealerships, spare parts centers, and service centers under its blanket. BookBattery.com makes easier finding a battery for your need. Order battery from BookBattery.com and get free battery delivery, free installation and original warranty card.
+ 
+Ashok-Leyland-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/ashok-leyland-brand-logo-270x12.png
+
+###-------------------- Caterpillar India --------------------###
+
+Caterpillar-India= Caterpillar has been in India since the 1930s. Caterpillar offers a range of prime power and standby options to meet the varying needs of customers.We provide genuine and suitable generator Batteries. Most of the Generator Batteries are manufactured as sealed and maintenance-free. Free delivery and installation within 4-24 hours.
+
+Caterpillar-India-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/caterpillar-india-brand-logo-270x12.png
+
+###-------------------- Cummins --------------------###
+
+Cummins= Cummins is an American Fortune designs, manufactures and distributes engines, filtration, and power generation products. Founded in the year 1919, Headquartered in Columbus, Indiana, United States. Cummins sells in approximately 190 countries. Cummins reported net income of $1.65 billion on sales of $19.2 billion in 2014.We provide genuine Genset batteries for Cummins models at cheaper price. We provide batteries from top automotive brands like Amaron and Exide. Free home delivery within 4-24 hours, free installation and pay cash on delivery.
+
+Cummins-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/cummins-brand-logo-270x12.png
+
+###-------------------- Greaves --------------------###
+
+Greaves= Greaves cotton Limited is one of India's leading, diversified engineering companies with more than 50 years of experience in manufacturing a wide range of industrial products to meet the requirements of the core sectors in India and abroad. Greaves Power manufactures diesel generating sets in a wide range. Greaves products are manufactured at its Chakan plant.We provide free battery delivery at customers place within 4-24 hours of the order, we also provide free installation service of our battery.
+
+Greaves-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/greaves-brand-logo-270x12.png
+
+###-------------------- Green Fields --------------------###
+
+Green-Fields= Green Field's turbine generators are capable of running on field gas and provide low-cost, cleaner-burning power generation solutions to the oil and gas industry. BookBattery.com provides Genset battery for Green Fields models. Batteries provided for Green Fields are 100% genuine and best prices. BookBattery.com is the first online multi-brand battery store, which offer 100% genuine Amaron and Exide Genset Batteries with manufacturers warranty.
+
+Green-Fields-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/green-fields-india-brand-logo-270x12.png
+
+###-------------------- Industrial Equipment --------------------###
+
+Industrial-Equipment= Mahindra's entered into manufacturing industrial equipment, began with a range of high-efficiency conveying equipment. Mahindra Powerol is one of the leading diesel engine manufacturers in India. These engines are used for powering tractors, running industrial and marine applications, and generating electricity in India as well as overseas.We provide 100% genuine batteries for all models of Industrial Equipment at best prices. You can choose the right battery for your Generators by comparing batteries on the basis of price, warranty and capacity. 
+
+Industrial-Equipment-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/industrial-equipment-brand-logo-270x12.png
+
+###-------------------- Kirloskar --------------------###
+
+Kirloskar= Kirloskar recognized as one of the world s leading generating set. KOEL is leading in the manufacturing of diesel engines, agricultural pumpsets and generating sets. Batteries provided for Kirloskar are 100% genuine and best prices. BookBattery.com is the first online multi-brand battery store, which offers 100% genuine Amaron and Exide Genset batteries with manufacturer s warranty. All Genset batteries offered by us are reasonably priced.
+
+Kirloskar-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/kirloskar-brand-logo-270x12.png
+
+###-------------------- Mahindra and Mahindra --------------------###
+
+Mahindra-and-Mahindra= Mahindra and Mahindra is an Indian multinational automobile manufacturing corporation headquartered in Mumbai, Maharashtra, India and founded in the year 1945.It is a part of Mahindra Group, an Indian conglomerate. Mahindra and Mahindra is one of the largest vehicle manufacturers by production in India and the largest manufacturer of tractors across the world. Mahindra produces SUVs, saloon cars, pickups, commercial vehicles, and two wheeled motorcycles and tractors. We provide genuine batteries for Mahindra models along with free Genset battery delivery, free installation and cash on delivery.
+
+Mahindra-and-Mahindra-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mahindra-brand-logo-270x12.png
+
+###-------------------- Supernova --------------------###
+
+Supernova=Supernova manufacturers high-tech diesel and gas Genset that cater to a large and vivid market spectrum, which includes processing, manufacturing, infrastructure, service providers, hospitality, telecom, banking, information technology, entertainment & amusement parks and government establishments.Looking for the Genset battery with best price for any of the Supernova models. BookBattery.com offers 100% genuine Amaron and Exide Genset batteries with manufacturer s warranty. We provide free battery delivery and installation within 4-24 hours.
+
+Supernova-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/supernova-brand-logo-270x12.png
+

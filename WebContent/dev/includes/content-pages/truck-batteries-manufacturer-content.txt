@@ -1,0 +1,106 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Truck Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Ashok Leyland --------------------###
+
+Ashok-Leyland= Ashok Leyland is an Indian automobile manufacturing company, located in Chennai, India and founded in the year 1948. Ashok Leyland is the 2nd largest commercial vehicle manufacturer in India, 4th largest manufacturer of buses in the world and 16th largest manufacturer of trucks globally. Ashok Leyland sells 60,000 vehicles and about 7,000 engines annually. A market leader in the bus segment and a popular brand of trucks, Ashok Leyland also has a number of dealerships, spare parts centers, and service centers under its blanket.We provide 100% genuine batteries for all models of Ashok Leyland at best prices. You can choose the right battery for your truck by comparing Batteries on the basis of price, warranty and capacity.
+ 
+Ashok-Leyland-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/ashok-leyland-brand-logo-270x12.png
+
+###-------------------- Asia Motor Works --------------------###
+
+Asia-Motor-Works= Asia Motor Works manufactures commercial vehicle, auto components, fully built vehicles and forged components, in India. Asia Motor Works founded in the year 2002, headquartered at Mumbai, Maharashtra, India. AMW's vehicles are exported to the SAARC nations including Nepal, Bhutan, Bangladesh and Myanmar. Asia Motor Works vehicles have won several awards for innovation and performance, including Truck of the year award. BookBattery.com makes easier finding a battery for your truck. Order battery from BookBattery.com  and get free battery delivery, free installation and original warranty card.
+
+Asia-Motor-Works-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/alfa-romeo-brand-logo-270x12.png
+
+###-------------------- Bharat Benz --------------------###
+
+Bharat-Benz= Bharat Benz is a division of Daimler India Commercial Vehicles. Headquarters of Bharat Benz is at Oragadam, Chennai, India. The brand is known for its range of modern trucks and buses. Engineered to give better fuel-efficiency with low maintenance costs, BharatBenz trucks help maximize your savings and earn more profits, thereby providing the best in Truck-o-nomics.We provide batteries for Bharat Benz models like 1214(4x2) Diesel, 2523 (6x2) HL Diesel, 3123 (8x2) HL Diesel, 914 (4X2) Diesel. BookBattery.com offers 100% genuine Batteries for Bharat Benz models.
+
+Bharat-Benz-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mercedes-benz-brand-logo-270x12.png
+
+###-------------------- Daewoo --------------------###
+
+Daewoo= Daewoo is a subsidiary of Korean automobile. Founded in the year March 22nd, 1967. Some popular models of Daewoo are like CANTER Diesel, DYNA Diesel. The Daewoo Motors is spread over 123 countries in the world. Daewoo India is known for its range of automotive products including sedans, buses and trucks. In India, Daewoo Motors India Ltd. or DMIL was incorporated as DCM Toyota Ltd. in the mid-80s. In July 1995, DMIL launched Cielo and later it launched the Matiz in the small car segment and Nexia a mid-sized car segment. Daewoo is the true luxury car" for upper class packed with features. BookBattery.com offers Amaron battery for your Daewoo truck along with free home delivery within 4-24 hours, free installation and cash on delivery.
+
+Daewoo-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/daewoo-brand-logo-270x12.png
+
+###-------------------- Daimler Bharat Benzu --------------------###
+
+Daimler-Bharath-Benz= Bharat Benz is the 3rd largest OEM in the HDT segment. Backed by 117 years of global trucking experience and an in-depth understanding of the Indian terrain, BharatBenz is here to transform transport solutions in India. In India DICV produces trucks under BharatBenz for domestic market and robust FUSO trucks for the export market. BookBattery.com offers 100% genuine Batteries for Daimler Bharat Benz models .We provide free battery delivery and installation.
+
+Daimler-Bharath-Benz-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/daimler-bharath-benz-brand-logo-270x12.png
+
+###-------------------- Force Motors --------------------###
+
+Force-Motors= Force Motors formerly known as Bajaj Tempo. Force Motors is an Indian manufacturer of three-wheelers, multi-utility and cross country vehicles, light commercial vehicles, tractors, buses and heavy commercial vehicles. Force Motors manufactures a range of vehicles including Small Commercial Vehicles (SCV), Light Commercial Vehicles (LCV), Multi Utility Vehicles (MUV), Sports Utility Vehicles (SUV), Heavy Commercial Vehicles (HCV) and Agricultural Tractors. BookBattery.com provides battery for Trump 40 model. Batteries provided for Force Motors are 100% genuine and best prices. BookBattery.com is the first online multi-brand battery store, which offers 100% genuine Amaron Truck Batteries with manufacturer's warranty.
+
+Force-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/force-brand-logo-270x12.png
+
+###-------------------- Hindustan Motors --------------------###
+
+Hindustan-Motors= Hindustan Motors is an Indian automotive manufacturer founded in the year 1942. It is a part of the Birla Technical Services industrial group. In 1982 Hindustan formed collaboration with Isuzu to assemble and sell the Isuzu F series - JCS trucks in India. Committed to core values of quality, safety, environmental care and holistic customer orientation, Hindustan Motors has marked its presence in the light commercial vehicles segment through its 1-tonne payload mini truck  Winner'. BookBattery.com provides genuine truck battery for Hindustan Motors at cheaper price. We provide batteries from top automotive brands like Amaron and Exide. Free home delivery within 4-24 hours, free installation and pay cash on delivery and UPI etc.
+
+Hindustan-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/hm-morters-brand-logo-270x12.png
+
+###-------------------- Mahindra and Mahindra --------------------###
+
+Mahindra-and-Mahindra= Mahindra and Mahindra is an Indian multinational automobile manufacturing corporation headquartered in Mumbai, Maharashtra, India and founded in the year 1945. It is a part of Mahindra Group, an Indian conglomerate. Mahindra and Mahindra is one of the largest vehicle manufacturers by production in India and the largest manufacturer of tractors across the world. Mahindra produces SUVs, saloon cars, pickups, commercial vehicles, and two wheeled motorcycles and tractors. We provide genuine Batteries for Mahindra models. Free battery delivery, installation and original warranty card.
+
+Mahindra-and-Mahindra-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mahindra-brand-logo-270x12.png
+
+###-------------------- Man Force Truck --------------------###
+
+Man-Force-Truck= Man Force Truck in India began in the year 1958 with supply of the legendary SHAKTIMAN trucks to the Defence Ministry of India. The company had started its operations with only two products and today, within a span of six years is already offering 48 product variants. The MAN CLA range of products manufactured by MAN Trucks India has made a mark not only in India but also has a significant presence in around 25 countries. Find the right suitable battery for your Man Force Truck models. We provide free home delivery and free installation.
+
+Man-Force-Truck-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/man-force-truck-brand-logo-270x12.png
+
+###-------------------- Premier --------------------###
+
+Premier=The Premier is an Indian automobile manufacturer head quartered in Mumbai, India. The company was established in 1941. Premier has two business segments: Engineering and Automotive. The company produces several types of vehicles, which includes cars and trucks. We offer best price for the Premier truck models. BookBattery.com provides free truck battery delivery, free battery installation and cash on delivery and UPI etc.
+
+Premier-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/peugeot-brand-logo-270x12.png
+
+###-------------------- SML Isuzu --------------------###
+
+SML-Isuzu=SML Isuzu is a trusted and reliable commercial vehicle manufacturer since 1985.SML Isuzu Ltd. started operations in India as Swaraj Vehicles Limited and was into manufacturing Light Commercial Vehicles (LCVs). SML Isuzu has a strong presence in the commercial vehicles segment and has launched several popular trucks and buses in the Indian market. The company has a wide network of dealerships and service centers all over India.Shop for  genuine SML Isuzu truck Batteries and get the best prices with free delivery and installation. Just select your truck make, model and your location and we'll show you a list of Batteries compatible with your truck. We offer truck batteries for all the leading manufacturers. 
+
+SML-Isuzu-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/sml-isuzu-brand-logo-270x12.png
+
+###-------------------- Tata --------------------###
+
+Tata= Tata is an Indian multinational conglomerate holding company headquartered in Mumbai, Maharashtra, India. It was founded in 1868. Tata is ranked eighteenth, among the largest motor vehicle production companies in the world by quantity. It gained international recognition after purchasing several global companies. The company produces several types of vehicles, which includes coaches, passenger cars, trucks and vans. Tata Motors has manufactured and sold over 6.5 million vehicles in India. Our website provide genuine Amaron and Exide truck Batteries for all Tata models and free home delivery and installation within 4-24 hours.
+
+Tata-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/tata-brand-logo-270x12.png
+
+###-------------------- Ural India Ltd --------------------###
+
+Ural-India-Ltd= Ural India is an Indian commercial vehicle manufacturer based in Kolkata, West Bengal. The company produces complete range of trucks & buses for both the civilian customers as well as for the defense forces . Ural India Ltd collaborated with leading global partners to bring to India a wide range of world class products eg. from 16T to 72T trucks, front and rear engine low floor buses and many others covering a gamut of applications. Order a truck battery for your Ural India Ltd brand through online and get free home delivery & installation..
+
+Ural-India-Ltd-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/ural-india-ltd-brand-logo-270x12.png
+
+###-------------------- VECE Eicher Motors --------------------###
+
+VECE-Eicher-Motors=Buy 100% Genuine Vece Eicher Motors truck battery online. BookBattery provides VECE Eicher Motors  truck  battery models online at best prices. We provide Amaron truck battery for your VECE Eicher Motors trucks at best prices. We offer free home delivery for your VECE Eicher Motors trucks and free installation within 4-24 hours. 
+
+VECE-Eicher-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/vecv-eicher-motors-brand-logo-270x12.png
+
+###-------------------- VECV Eicher Motors --------------------###
+
+VECV-Eicher-Motors=VE Commercial Vehicles Ltd. is a joint venture between the Volvo Group (Volvo) and Eicher Motors Limited (EML). VECV Eicher Motors came in to existence in the year July 2008, headquartered at New Delhi. The first Eicher truck was rolled out from its manufacturing plant in Pithampur, Madhya Pradesh in 1986 and over the past 29 years, the products have got endorsement from happy customers of over 400,000 vehicles. Eicher's new Pro series trucks and buses promise to deliver best-in-class fuel efficiency, higher loading capacity, higher superior uptime and overall vehicle life time profitability. BookBattery.com provides 100% genuine battery for VECV Eicher Motors trucks. Free battery delivery and installation and cash on delivery. 
+
+VECV-Eicher-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/vecv-eicher-motors-brand-logo-270x12.png

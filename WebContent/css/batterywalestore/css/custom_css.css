@@ -1,0 +1,29 @@
+.error {
+    color: #ff0000;
+}
+
+#Register_CPC span.error {
+    position: absolute;
+	font-size: 15px;
+	display: -webkit-box;
+}
+
+.error {
+	font-size: 12px;
+	display: -webkit-box;
+}
+
+input:not([type="submit"]).error {
+    border-color: #ff0000;
+	color: #000;
+}
+
+select:not([type="submit"]).error {
+    border-color: #ff0000;
+	color: #000;
+}
+
+textarea:not([type="submit"]).error {
+    border-color: #ff0000;
+	color: #000;
+}

@@ -1,0 +1,1 @@
+alter table laptop_application_chart_mapping add display_status varchar(25) default 'active';

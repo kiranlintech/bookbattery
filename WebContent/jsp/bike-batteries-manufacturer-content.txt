@@ -1,0 +1,102 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Bike Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should follow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Bajaj --------------------###
+
+Bajaj=Bajaj Auto Limited is an Indian two-wheeler and three-wheeler manufacturing company. Bajaj Auto is fourth-largest bike manufacture in India. Chetak was the first two-wheeler launched by Bajaj, which was developed and manufactured without any foreign technological help. Bajaj Pulsar bike is hot selling model in India. Bajaj sells bikes, scooters, auto-rickshaws. Bikes in production are the Platina, Discover, Pulsar and Avenger. BookBattery sells all top selling Bajaj bike bookbattery. <br/>If you are looking for the battery with best price for any of the bajaj bike models then you have landed at the right place. You will find bookbattery from leading brand like Amaron for all the Bajaj bike models. 
+
+Bajaj-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/bajaj-brand-logo-270x12.png
+
+###-------------------- Hero-MotoCorp --------------------###
+
+Hero-MotoCorp=Hero Motocorp formerly Hero Honda, is an Indian motorcycle and scooter manufacturer based in New Delhi, India. Hero Motocorp  is the country's leading bike-maker. The first motorcycle to roll out from the newly incorporated venture was CD 100 in 1985. Hero MotoCorp is the world's largest manufacturer of two - wheelers, based in India. Hero MotoCorp has four manufacturing facilities based at Dharuhera, Neemrana and Gurgaon in Haryana and at Haridwar in Uttarakhand. These plants together have a production capacity of 7.6 million 2-wheelers per year. We Sell all the best Hero MotoCorp bike makes and models bookbattery . Here you can compare the price of several bikes bookbattery for Hero MotoCorp as well as can buy a suitable battery for your bike. BookBattery.com is dedicated to best price Amaron are reliability High performance & Maintenance free bookbattery.
+
+Hero-MotoCorp-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/hero-motocorp-brand-logo-270x12.png
+
+###-------------------- Honda --------------------###
+
+Honda=Today, Honda is a leader, offering best world class leading machines in most every category. Honda Motorcycle and Scooter India, Private Limited (HMSI) is the wholly owned Indian subsidiary of Honda Motor Company. Honda has been the world's largest motorcycle manufacturer since 1959. Honda was the first Japanese automobile manufacturer to release a dedicated luxury brand, Acura, in 1986.
+When you buy a new Honda Bike battery online, it is important to you choose the correct the model and the kick start or electric start in BookBattery battery finder. We provide genuine and brand new battery which give good performance and offers maximum battery life. We sell only the best, quality, reliable brand like Amaron. Buy Honda bike battery online and save money. 
+
+Honda-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/honda-bike-brand-logo-270x12.png
+
+###-------------------- Kandaa-Motors --------------------###
+
+Kandaa-Motors=Company started its operations as manufacturer of heavy sheet metal parts for heavy trucks and other commercial vehicles. In 2001 company diversified to the field of independent automobile manufacturer and started producing motor cycles. Now company has decided to enter the business of four wheeler manufacturing. We Sell all the best Kandaa Motors bike makes and models like Brave (ES) and Mission 100(ES).BookBattery provided genuine Kandaa Motors bookbattery at best prices.
+
+Kandaa-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/kandaa-motors-opel-brand-logo-270x12.png
+
+###-------------------- Kinetic --------------------###
+
+Kinetic-=Kinetic Engineering Limited is an Indian automotive manufacturer. The company was founded in the year 1972 by HK Firodia. Kinetic Honda was a joint venture between Kinetic Engineering Limited, India and Honda Motor Company, Japan. Kinetic Motors is often credited for bringing a personalised mode of transport to India. In 1974, India's first moped model, Kinetic Luna, was launched. In partnership with Honda Motors, Kinetic launched India's first gear-less two-wheeler scooter with advanced features like auto fuel cork, auto choke and TLAD suspension. This vehicle became an inspiration for a wide range of gear-less scooters to be launched by other automobile companies. 
+In BookBattery.com there are many other benefits in choosing from this range whether you need new or replacement Kinetic motorbike bookbattery. You will also find a wide selection of prices within the range that can suit all budgets. 
+
+Kinetic--logo-path=/bookbattery/dev/includes/images-design/Brand-logo/kinetic-brand-logo-270x12.png
+
+
+###-------------------- Kinetic --------------------###
+
+Kinetic=Kinetic Engineering Limited is an Indian automotive manufacturer. The company was founded in the year 1972 by HK Firodia. Kinetic Honda was a joint venture between Kinetic Engineering Limited, India and Honda Motor Company, Japan. Kinetic Motors is often credited for bringing a personalised mode of transport to India. In 1974, India's first moped model, Kinetic Luna, was launched. In partnership with Honda Motors, Kinetic launched India's first gear-less two-wheeler scooter with advanced features like auto fuel cork, auto choke and TLAD suspension. This vehicle became an inspiration for a wide range of gear-less scooters to be launched by other automobile companies. 
+In BookBattery.com there are many other benefits in choosing from this range whether you need new or replacement Kinetic motorbike bookbattery. You will also find a wide selection of prices within the range that can suit all budgets. 
+
+Kinetic-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/kinetic-brand-logo-270x12.png
+
+
+
+###-------------------- LML --------------------###
+
+LML=LML (formerly Lohia Machines Ltd) is an Indian scooter and motorcycle manufacturer based in Kanpur, Uttar Pradesh. LML Founded in the year 1972. LML has introduced several scooter models in the Indian two wheeler market. The most popular LML scooters include NV Express, Select II, the Sensation, Star Xpress and Pulse. To build up a strong presence in the market, LML introduced 2 stroke geared metal body scooters, 2 and 4 stroke gearless plastic body scooters. These new launched scooters have contributed amazingly to get the company position back in automobile industry in India. <br />BookBattery provides all models LML bike bookbattery at best prices. Buy LML bike battery online and save money with best price with BookBattery. 
+
+LML-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/lml-brand-logo-270x12.png
+
+###-------------------- Mahindra-and-Mahindra --------------------###
+
+Mahindra-and-Mahindra=Mahindra and Mahindra Limited is an Indian multinational automobile manufacturing corporation headquartered in Mumbai, Maharashtra, India. Mahindra and Mahindra is one of the largest vehicle manufacturers by production in India and the largest manufacturer of tractors across the world. It is a part of Mahindra Group, an Indian conglomerate. Ranked 21st in the list of top companies of India in Fortune India 500 in 2011. <br/ > BookBattery provides Mahindra and Mahindra bike battery models like Centuro (KS), Flyte and Kine. We provide genuine and brand new bookbattery from top automotive brand like Amaron, which give good performance and offers maximum battery life.
+
+Mahindra-and-Mahindra-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mahindra-brand-logo-270x12.png
+
+###-------------------- Piaggio --------------------###
+
+Piaggio=Piaggio & C. SpA via its subsidiaries designs, engineers, manufactures and distributes two wheeled motor vehicles and compact commercial vehicles under seven brands. Piaggio & C. SpA corporate headquarters are located in Pontedera, Italy. We provide Piaggio battery for Vespa (ES) model. Bike battery provided for Piaggio in BookBattery.com is genuine and brand new.
+
+Piaggio-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/piaggio-brand-logo-270x12.png
+
+###-------------------- Royal-Enfield --------------------###
+
+Royal-Enfield= Royal Enfield is an Indian motorcycle manufacturing company with factories in Chennai, India. Originally a British motorcycle company, Royal Enfield and indigenous Madras Motors, it is now a subsidiary of Eicher Motors Limited, an Indian automaker. The company manufactured the Royal Enfield Bullet, and other single-cylinder motorcycles. Royal Enfield was a brand of the Enfield Cycle Company, a British manufacturing firm. Royal Enfield currently sells motorcycles in more than 50 countries. Royal Enfield surpassed Harley-Davidson in global sales in 2015, and received an informal stamp of approval from US President Barack Obama as the guest of honor at the 2015 Delhi Republic Day parade.<br/>Bike battery offered by us for Royal Enfield is discounted prices. Battery brand provided for  Royal Enfield from top automotive brand Amaron, battery lasts long.
+
+Royal-Enfield-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/royal-enfield-brand-logo-270x12.png
+
+###-------------------- Suzuki --------------------###
+
+Suzuki= Suzuki is a Japanese multinational corporation headquartered in Minami-ku, Hamamatsu, Japan. Suzuki is the ninth biggest automaker by production worldwide. A global giant, it has its production units in more than 22 countries, Suzuki - Japanese automobiles manufacturing company, manufacturers a complete range of motorcycles as well as small combustion-powered engine products. Today Suzuki is among the world's largest automakers, and a major brand name in important markets, including Japan and India, but no longer sells cars in North America.<br/>Buy genuine bookbattery to extend your bike battery life. You will find a wide selection of prices within the range that can suit all budgets. We deal with the top automotive brand Amaron. Above all, the most factor is to remember when buying a new Suzuki motorcycle battery is that you need to purchase quality.
+
+Suzuki-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/suzuki-brand-logo-270x12.png
+
+###-------------------- TVS --------------------###
+
+TVS=TVS, India’s 3rd largest two-wheeler manufacturer, currently it has more than 40000 people. An annual sale of TVS is 2.5 million units and an annual capacity of over 3 million vehicles. The company manufactures Motorcycles, Scooters and Auto-rickshaws. TVS Motor Company is the 2nd largest exporter in India with exports to over 60 Countries.In the year 202, TVS Won Deming Prize for keeping the Quality control. 
+Consider dimensions, Capacity, Warranty, Price while choosing the battery for your TVS. TVS Most Popular Models are TVS Apache, 150, Hyper Edge, Apache FI 160, Apache RTR 160, 180, AX100, Centra, Fiero, F2, FX, Flame, Jive, MAX 4R 125, 150, Phoenix, samurai, Shaolin, Shogun, Star City, Star Sports, Std, Victor Edge, GLX 125, GX.BookBattery.com brings TVS Bike bookbattery from popular brand like Amaron. All listed TVS Bike battery are genuine, guarantee effective and long run battery. 
+
+TVS-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/tvs-brand-logo-270x12.png
+
+###-------------------- Yamaha --------------------###
+
+Yamaha=Yamaha is a Japanese manufacturer of motorcycles .Around 1985 Yamaha started entering in to the India market. The company conducts development, production and marketing operations through 109 consolidated subsidiaries as of 2012. The motorcycle division of Yamaha was founded in 1955, and was headed by Genichi Kawakami. <br/> BookBattery  sells all best yamaha bike bookbattery which includes ACE, Alba106, Alba106 (ES),Crux, Enticer, Enticer (New), Fazer, FZ16, FZS, FZ15, Gladiador, Gladiator DX , Gladiator STD, Libero G5, R 15, Rajdoot Std..,Ray, RX 135, RXG, RXZ, RZX 135, SS125, SZR, SZX, Yamaha RZ,YBR 125, YBR 110, YBX 125 and YZF-R15. We only sell genuine products with Original warranty and Guarantee Card and. Buy the best genuine brand new battery for your yamaha bike from BookBattery.com. 
+
+Yamaha-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/yamaha-brand-logo-270x12.png
+

@@ -1,0 +1,1 @@
+alter table laptop_application_chart_mapping modify battery_model varchar(100);

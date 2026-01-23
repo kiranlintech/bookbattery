@@ -1,0 +1,1 @@
+ alter table retailer_invoice add invoice_type varchar(15) NOT NULL;

@@ -1,0 +1,53 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Loader Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Action Construction --------------------###
+
+Action-Construction= Action Construction is an company in the Transport Related Services industry. ACE has been awarded the prestigious  Equipment India Award  for being the  BEST SELLER  MOBILE CRANES ".Ace Ltd Is India's Leading Manufacturer Of Cranes - Pick & Move Cranes , Lorry Loader Cranes , Tower Cranes , Truck Mounted Cranes, Crawler Cranes, Knuckle Boom Cranes; Forklift; Loader - Backhoe Loaders, Skid Steer Loaders; Agri Equipment - Tractors , Rotavators, Combines,Balers, Rice Planters ; Road Equipment - Compactors, Graders & Rollers.ACE has its manufacturing plants in Faridabad (Haryana), Kashipur/Bajpur (Uttrakhand). Buy brand new batteries for your Action Construction. We provide free battery delivery within 4-24 hours of the order and free installation service of our batteries.
+ 
+Action-Construction-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/action-construction-brand-logo-270x12.png
+
+###-------------------- Caterpillar --------------------###
+
+Caterpillar= Caterpillar has been in India since the 1930s. With 2015 sales and revenues of $47.011 billion, Caterpillar is the world s leading manufacturer of construction and mining equipment, diesel and natural gas engines, industrial gas turbines and diesel-electric locomotives.We provide genuine and suitable Loader Batteries. Choose the right battery and get free delivery and installation within 4-24 hours.
+
+Caterpillar-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/caterpillar-india-brand-logo-270x12.png
+
+###-------------------- Creative Marketing --------------------###
+
+Creative-Marketing= BookBattery.com provides genuine Creative Marketing Loader batteries for the model 2021 Loaders Diesel. Free battery delivery and installation within 4-24 hours.
+
+Creative-Marketing-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/creative-marketing-brand-logo-270x12.png
+
+###-------------------- Escorts --------------------###
+
+Escorts= The company was launched in 1944, Headquartered in Faridabad, Haryana, and has marketing operations in more than 40 countries. Escorts Construction Equipment manufactures and markets construction and material handling equipment like pick and carry cranes, backhoe loader, vibratory rollers and forklifts. BookBattery.com provides 100% genuine batteries for all models of Escorts at best prices. You can choose the right battery for your Loader by comparing batteries on the basis of price, warranty and capacity.
+
+Escorts-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/escorts-brand-logo-270x12.png
+
+###-------------------- JCB India --------------------###
+
+JCB-India= JCB India Limited started operations in 1979 and today it is the fastest growing company in the Indian earthmoving and construction equipment industry. JCB is one of the world's top three manufacturers of construction equipment. JCB India sell products in 150 countries through 2,000 dealer depot locations. JCB India has five operational world class manufacturing facilities; one in Ballabgarh, Haryana near New Delhi, two in Pune and two in Jaipur. Batteries provided for all Loader models are genuine and low priced. We provide free home delivery and installation within 4-24 hours.
+
+JCB-India-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/jcb-brand-logo-270x12.png
+
+###-------------------- L and T Motors --------------------###
+
+L-and-T-Motors= Larsen & Toubro Limited, also known as L&T is an Indian multi-national conglomerate. Headquartered in Mumbai, Maharashtra, India. L&T is India's largest engineering and construction company. BookBattery.com provides bookbattery for L and T Motors models like LB580 3 Diesel, Loader Blackhoe LB-581 Diesel. Buy the best genuine brand new battery for your L and T Motors loader from BookBattery.com.  
+
+L-and-T-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/l-and-t-motors-brand-logo-270x12.png
+

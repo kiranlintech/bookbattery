@@ -1,0 +1,1 @@
+alter table battery_order_details add state varchar(50) NOT NULL Default '0';

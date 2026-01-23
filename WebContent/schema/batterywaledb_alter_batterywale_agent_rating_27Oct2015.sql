@@ -1,0 +1,1 @@
+alter table batterywale_agent_rating add column user_mobile_number varchar(20) NOT NULL Default 0;

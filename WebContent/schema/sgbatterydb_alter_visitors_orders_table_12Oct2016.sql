@@ -1,0 +1,1 @@
+alter table visitors_orders modify column operator_flag varchar(5) NOT NULL default 'no';

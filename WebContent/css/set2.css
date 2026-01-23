@@ -1,0 +1,381 @@
+.grid {
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	/*padding: 1em 0 4em;*/
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 165px;
+	max-width: 210px;
+	max-height: 260px;
+	width: 48%;
+	height: auto;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 400;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Individual effects */
+
+/*-----------------*/
+/***** Apollo *****/
+/*-----------------*/
+
+figure.effect-apollo {
+	background: #3498db;
+}
+
+figure.effect-apollo img {
+	opacity: 0.95;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.05,1.05,1);
+	transform: scale3d(1.05,1.05,1);
+}
+
+figure.effect-apollo figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	content: '';
+	-webkit-transition: -webkit-transform 0.6s;
+	transition: transform 0.6s;
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+
+figure.effect-apollo p {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 3em;
+	padding: 0 1em;
+	max-width: 150px;
+	border-right: 4px solid #fff;
+	text-align: right;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-apollo h2 {
+	text-align: left;
+}
+
+figure.effect-apollo:hover img {
+	opacity: 0.6;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+figure.effect-apollo:hover figcaption::before {
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+}
+
+figure.effect-apollo:hover p {
+	opacity: 1;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+/* Media queries */
+@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
+}
+
+
+
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+a {
+	outline: none;
+	color: #3498db;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #528cb3;
+}
+
+section {
+	padding: 0em;
+	text-align: left;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.content > h2 {
+	clear: both;
+	margin: 0;
+	padding: 2em 1% 0;
+	color: #484B54;
+	font-weight: 800;
+	font-size: 1.5em;
+}
+
+.content > h2:first-child {
+	padding-top: 0em;
+}
+
+/* Header */
+.codrops-header {
+	margin: 0 auto;
+	padding: 4em 1em;
+	text-align: center;
+}
+
+.codrops-header h1 {
+	margin: 0;
+	font-weight: 800;
+	font-size: 4em;
+	line-height: 1.3;
+}
+
+.codrops-header h1 span {
+	display: block;
+	padding: 0 0 0.6em 0.1em;
+	color: #74777b;
+	font-weight: 300;
+	font-size: 45%;
+}
+
+/* Demo links */
+.codrops-demos {
+	clear: both;
+	padding: 1em 0 0;
+	text-align: center;
+}
+
+.content + .codrops-demos {
+	padding-top: 5em;
+}
+
+.codrops-demos a {
+	display: inline-block;
+	margin: 0 5px;
+	padding: 1em 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a:focus,
+.codrops-demos a.current-demo {
+	background: #3c414a;
+	color: #fff;
+}
+
+/* To Navigation Style */
+.codrops-top {
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.codrops-top a {
+	display: inline-block;
+	padding: 1em 2em;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	display: block;
+	float: left;
+}
+
+.codrops-icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+/* Related demos */
+.related {
+	clear: both;
+	padding: 6em 1em;
+	font-size: 120%;
+}
+
+.related > a {
+	display: inline-block;
+	margin: 20px 10px;
+	padding: 25px;
+	border: 1px solid #4f7f90;
+	text-align: center;
+}
+
+.related a:hover {
+	border-color: #39545e;
+}
+
+.related a img {
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.related a:hover img,
+.related a:active img {
+	opacity: 1;
+}
+
+.related a h3 {
+	margin: 0;
+	padding: 0.5em 0 0.3em;
+	max-width: 300px;
+	text-align: left;
+}
+
+@media screen and (max-width: 25em) {
+	.codrops-header {
+		font-size: 75%;
+	}
+	.codrops-icon span {
+		display: none;
+	}
+}
+
+
+
+
+/*  =============================================
+Plus Button Effects
+============================================= */
+.ImageWrapper .PStyleH {background: url(../images/plus.png) no-repeat scroll center center / 60px 60px #222222;height: 100%;left: 0;opacity: 0;overflow: hidden;position: absolute;top: 0;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;width: 100%;z-index: 9999;}
+.ImageWrapper:hover .PStyleH {opacity: .6;visibility: visible;}
+.ImageWrapper .PStyleHe {position: absolute;background: url(../images/plus.png) no-repeat scroll center center / 100% 100% #222222;width: 94%;height: 94%;z-index: 2;-webkit-background-origin: padding-box, padding-box;-moz-background-origin: padding-box, padding-box;-ms-background-origin: padding-box, padding-box;-o-background-origin: padding-box, padding-box;background-origin: padding-box, padding-box;background-position: center center;background-repeat: no-repeat;-webkit-background-size: 10px 10px, 100% 100%;-moz-background-size: 10px 10px, 100% 100%;-ms-background-size: 10px 10px, 100% 100%;-o-background-size: 10px 10px, 100% 100%;background-size: 10px 10px, 100% 100%;opacity: 0;top: 0;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
+.ImageWrapper:hover .PStyleHe {opacity: .6;-webkit-background-size: 60px 60px, 100% 100%;-moz-background-size: 60px 60px, 100% 100%;-ms-background-size: 60px 60px, 100% 100%;-o-background-size: 60px 60px, 100% 100%;background-size: 60px 60px, 100% 100%;visibility: visible;}
+.ImageWrapper .PStyleLi {-webkit-transform: scale(0.5) rotateY(180deg);-moz-transform: scale(0.5) rotateY(180deg);-ms-transform: scale(0.5) rotateY(180deg);-o-transform: scale(0.5) rotateY(180deg);transform: scale(0.5) rotateY(180deg);background: url(../assets/images/plus.png) no-repeat scroll center center / 60px 60px #222222;height: 100%;left: 0;opacity: 0;overflow: hidden;position: absolute;top: 0;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;width: 100%;z-index: 9999;}
+.ImageWrapper:hover .PStyleLi {opacity: .6;-webkit-transform: scale(1) rotateY(0deg);-moz-transform: scale(1) rotateY(0deg);-ms-transform: scale(1) rotateY(0deg);-o-transform: scale(1) rotateY(0deg);transform: scale(1) rotateY(0deg);visibility: visible;}
+.ImageWrapper .PStyleBe {-webkit-transform: scale(0.5) rotateX(180deg);-moz-transform: scale(0.5) rotateX(180deg);-ms-transform: scale(0.5) rotateX(180deg);-o-transform: scale(0.5) rotateX(180deg);transform: scale(0.5) rotateX(180deg);background: url(../assets/images/plus.png) no-repeat scroll center center / 60px 60px #222222;height: 100%;left: 0;opacity: 0;overflow: hidden;position: absolute;top: 0;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;width: 100%;z-index: 9999;}
+.ImageWrapper:hover .PStyleBe {opacity: .6;-webkit-transform: scale(1) rotateX(0deg);-moz-transform: scale(1) rotateX(0deg);-ms-transform: scale(1) rotateX(0deg);-o-transform: scale(1) rotateX(0deg);transform: scale(1) rotateX(0deg);visibility: visible;}
+.ImageWrapper .PStyleB {position: absolute;background: url(../assets/images/plus.png) no-repeat scroll top left / 100% 100% #222222;width: 100%;height: 100%;z-index: 199;-webkit-background-origin: padding-box, padding-box;-moz-background-origin: padding-box, padding-box;-ms-background-origin: padding-box, padding-box;-o-background-origin: padding-box, padding-box;background-origin: padding-box, padding-box;background-position: top left;background-repeat: no-repeat;-webkit-background-size: 10px 10px, 100% 100%;-moz-background-size: 10px 10px, 100% 100%;-ms-background-size: 10px 10px, 100% 100%;-o-background-size: 10px 10px, 100% 100%;background-size: 10px 10px, 100% 100%;opacity: 0;top: 0;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
+.ImageWrapper:hover .PStyleB {opacity: .6;-webkit-background-size: 60px 60px, 100% 100%;-moz-background-size: 60px 60px, 100% 100%;-ms-background-size: 60px 60px, 100% 100%;-o-background-size: 60px 60px, 100% 100%;background-size: 60px 60px, 100% 100%;visibility: visible;background-position: center center;}
+.ImageWrapper .PStyleC {position: absolute;background: url(../assets/images/plus.png) no-repeat scroll top left / 100% 100% #222222;width: 100%;height: 100%;z-index: 199;-webkit-background-origin: padding-box, padding-box;-moz-background-origin: padding-box, padding-box;-ms-background-origin: padding-box, padding-box;-o-background-origin: padding-box, padding-box;background-origin: padding-box, padding-box;background-position: top right;background-repeat: no-repeat;-webkit-background-size: 10px 10px, 100% 100%;-moz-background-size: 10px 10px, 100% 100%;-ms-background-size: 10px 10px, 100% 100%;-o-background-size: 10px 10px, 100% 100%;background-size: 10px 10px, 100% 100%;opacity: 0;top: 0;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
+.ImageWrapper:hover .PStyleC {opacity: .6;-webkit-background-size: 60px 60px, 100% 100%;-moz-background-size: 60px 60px, 100% 100%;-ms-background-size: 60px 60px, 100% 100%;-o-background-size: 60px 60px, 100% 100%;background-size: 60px 60px, 100% 100%;visibility: visible;background-position: center center;}
+.ImageWrapper .PStyleN {position: absolute;background: url(../assets/images/plus.png) no-repeat scroll top left / 100% 100% #222222;width: 100%;height: 100%;z-index: 199;-webkit-background-origin: padding-box, padding-box;-moz-background-origin: padding-box, padding-box;-ms-background-origin: padding-box, padding-box;-o-background-origin: padding-box, padding-box;background-origin: padding-box, padding-box;background-position: bottom right;background-repeat: no-repeat;-webkit-background-size: 10px 10px, 100% 100%;-moz-background-size: 10px 10px, 100% 100%;-ms-background-size: 10px 10px, 100% 100%;-o-background-size: 10px 10px, 100% 100%;background-size: 10px 10px, 100% 100%;opacity: 0;top: 0;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
+.ImageWrapper:hover .PStyleN {opacity: .6;-webkit-background-size: 60px 60px, 100% 100%;-moz-background-size: 60px 60px, 100% 100%;-ms-background-size: 60px 60px, 100% 100%;-o-background-size: 60px 60px, 100% 100%;background-size: 60px 60px, 100% 100%;visibility: visible;background-position: center center;}
+.ImageWrapper .PStyleO {position: absolute;background: url(../assets/images/plus.png) no-repeat scroll top left / 100% 100% #222222;width: 100%;height: 100%;z-index: 199;-webkit-background-origin: padding-box, padding-box;-moz-background-origin: padding-box, padding-box;-ms-background-origin: padding-box, padding-box;-o-background-origin: padding-box, padding-box;background-origin: padding-box, padding-box;background-position: bottom left;background-repeat: no-repeat;-webkit-background-size: 10px 10px, 100% 100%;-moz-background-size: 10px 10px, 100% 100%;-ms-background-size: 10px 10px, 100% 100%;-o-background-size: 10px 10px, 100% 100%;background-size: 10px 10px, 100% 100%;opacity: 0;top: 0;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
+.ImageWrapper:hover .PStyleO {opacity: .6;-webkit-background-size: 60px 60px, 100% 100%;-moz-background-size: 60px 60px, 100% 100%;-ms-background-size: 60px 60px, 100% 100%;-o-background-size: 60px 60px, 100% 100%;background-size: 60px 60px, 100% 100%;visibility: visible;background-position: center center;}
+.ImageWrapper .PStyleF {position: absolute;background: url(../assets/images/plus.png) no-repeat scroll top left / 100% 100% #222222;width: 100%;height: 100%;z-index: 199;-webkit-background-origin: padding-box, padding-box;-moz-background-origin: padding-box, padding-box;-ms-background-origin: padding-box, padding-box;-o-background-origin: padding-box, padding-box;background-origin: padding-box, padding-box;background-position: top center;background-repeat: no-repeat;-webkit-background-size: 10px 10px, 100% 100%;-moz-background-size: 10px 10px, 100% 100%;-ms-background-size: 10px 10px, 100% 100%;-o-background-size: 10px 10px, 100% 100%;background-size: 10px 10px, 100% 100%;opacity: 0;top: 0;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
+.ImageWrapper:hover .PStyleF {opacity: .6;-webkit-background-size: 60px 60px, 100% 100%;-moz-background-size: 60px 60px, 100% 100%;-ms-background-size: 60px 60px, 100% 100%;-o-background-size: 60px 60px, 100% 100%;background-size: 60px 60px, 100% 100%;visibility: visible;background-position: center center;}
+.ImageWrapper .PStyleNe {position: absolute;background: url(../assets/images/plus.png) no-repeat scroll top left / 100% 100% #222222;width: 100%;height: 100%;z-index: 199;-webkit-background-origin: padding-box, padding-box;-moz-background-origin: padding-box, padding-box;-ms-background-origin: padding-box, padding-box;-o-background-origin: padding-box, padding-box;background-origin: padding-box, padding-box;background-position: bottom center;background-repeat: no-repeat;-webkit-background-size: 10px 10px, 100% 100%;-moz-background-size: 10px 10px, 100% 100%;-ms-background-size: 10px 10px, 100% 100%;-o-background-size: 10px 10px, 100% 100%;background-size: 10px 10px, 100% 100%;opacity: 0;top: 0;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
+.ImageWrapper:hover .PStyleNe {opacity: .6;-webkit-background-size: 60px 60px, 100% 100%;-moz-background-size: 60px 60px, 100% 100%;-ms-background-size: 60px 60px, 100% 100%;-o-background-size: 60px 60px, 100% 100%;background-size: 60px 60px, 100% 100%;visibility: visible;background-position: center center;}

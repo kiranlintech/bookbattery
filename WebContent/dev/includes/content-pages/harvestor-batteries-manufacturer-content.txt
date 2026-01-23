@@ -1,0 +1,48 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Harvestor Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Hind Agro Industries --------------------###
+
+Hind-Agro-Industries= HIND AGRO Industries is a Govt. recognized manufacturer of world class Combine Harvesters and Agricultural Equipments. HIND AGRO introduced various models of Self Propelled Combine Harvesters, Tractor Mounted Combine Harvesters and Agricultural Equipments like Rotavator, Rotavator with Seed Tiller and Straw Reaper etc. It provides the products in countries like Nepal, Pakistan, Burma, Bhutan, Bangladesh and Sri Lanka.We offer only genuine products with guaranteed free home delivery within 4-24 hours of the order and also free installation service.
+
+Hind-Agro-Industries-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/hind-agro-industries-brand-logo-270x12.png
+
+###-------------------- John Deere --------------------###
+
+John-Deere= John Deere India Private Limited is a subsidiary of Deere & Company, USA in India. Deere & Company (brand name John Deere) is an American corporation that manufactures agricultural, construction, and forestry machinery, diesel engines, drivetrains used in heavy equipment, and lawn care equipment. In 2016, it was listed as 97th in the Fortune 500 America's ranking . John Deere was ranked 364th in the Fortune Global 500 ranking in 2016. Order battery from BookBattery.com and avail John Deere harvestor batteries at best price. Get genuine brand new harvestor battery at BookBattery.com. 
+
+John-Deere-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/john-deere-brand-logo-270x12.png
+
+###-------------------- Preet Tractors  --------------------###
+
+Preet-Tractors= Preet Agro Industries, Pvt. Ltd. builds Preet tractors and combine harvesters in Nabha, Punjab, India. It was founded in 2002 with a tractor design similar to 1970/1980s era Ford tractors. Preet also manufacture combine harvesters, selling around 1,200 per year, controlling 40% of the local market. PREET is India's largest Combine Harvester Manufacturer.
+Buy harvestor battery at lowest price for any of the Preet Tractors models. You will find batteries from leading brand like Amaron and Exide for all the Preet Tractors models. We provide free battery delivery and installation.
+
+Preet-Tractors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/preet-tractors-brand-logo-270x12.png
+
+###-------------------- Same Deutz Fahr India --------------------###
+
+Same-Deutz-Fahr-India= Same Deutz-Fahr is a leading manufacturer of tractors, engines and agricultural machinery. Headquartered in Ranipet, India. Deutz-Fahr India is subsidiary of the Same Deutz-Fahr Group of Italy. The Same Deutz-Fahr Group was founded in 1927. With the brands SAME, Lamborghini, DEUTZ-FAHR and H rlimann, the company is one of the world's leading manufacturers of tractors, diesel engines, combine harvesters and other farm machinery. BookBattery.com provides Amaron harvestor Batteries for each model of Same Deutz Fahr India. We provide free home delivery within 4-24 hours of the order with free installation as well as cash on delivery services and UPI etc.  
+
+Same-Deutz-Fahr-India-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/same-deutz-fahr-india-brand-logo-270x12.png
+
+###-------------------- Standard --------------------###
+
+Standard= Standard motor vehicle manufacturer, founded in Coventry, England. Standard Combine began building tractors in Barnala, Punjab, India. In Standard Tractors, tractors are being manufactured in the range of 35, 45, 50, 60, and 75 HP with respective model names: Standard 335, Standard 345, Standard 450, Standard 460, and Standard 475. Engines for all these tractor models, except the last one, are manufactured within the plant as  Standard Engines , in specific names   SE 335, SE 345, SE 450 and SE 460, respectively. BookBattery.com provides harvestor Batteries for Standard model like TSC-513.Compare the price different model Batteries according to your Harvestor model and select the one that matches you. We also provide free home delivery within 4-24 hours of order and also free installation and cash on delivery servicesand UPI etc.
+
+Standard-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/standard-brand-logo-270x12.png
+

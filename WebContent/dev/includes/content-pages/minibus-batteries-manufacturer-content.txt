@@ -1,0 +1,34 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Minibus Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Force Motors  --------------------###
+
+Force-Motors = The Company was incorporated on 8th September, 1958. The Company manufactured and assembled 3 & 4 wheeler light commercial vehicles and diesel engines. Force Motors has manufacturing facilities at Akurdi and Urse (Maharashtra), Pithampur (Madhya Pradesh) and Chennai (Tamil Nadu). Force Motors manufactures a range of vehicles including Small Commercial Vehicles, Light Commercial Vehicles, Multi Utility Vehicles, Sports Utility Vehicles, Heavy Commercial Vehicles and Agricultural Tractors. One place for availing Batteries for all models of Force Motors vehicles. From our BookBattery.com purchase Amaron batteries for your Force Motors vehicles. All Minibus batteries offered by us are low priced.
+
+Force-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/force-brand-logo-270x12.png
+
+###-------------------- Mahindra and Mahindra --------------------###
+
+Mahindra-and-Mahindra = Mahindra and Mahindra is an Indian multinational automobile manufacturing corporation headquartered in Mumbai, Maharashtra, India and founded in the year 1945..  It is a part of Mahindra Group, an Indian conglomerate. Mahindra and Mahindra is one of the largest vehicle manufacturers by production in India and the largest manufacturer of tractors across the world. Mahindra produces SUVs, saloon cars, pickups, commercial vehicles, and two wheeled motorcycles and tractors. We provide 100% genuine batteries for Mahindra models along with free Minibus battery delivery and installation.  
+
+Mahindra-and-Mahindra-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/mahindra-brand-logo-270x12.png
+
+###-------------------- Tata --------------------###
+
+Tata= Tata is an Indian multinational conglomerate holding company headquartered in Mumbai, Maharashtra, India. It was founded in 1868. Tata is ranked eighteenth, among the largest motor vehicle production companies in the world by quantity. It gained international recognition after purchasing several global companies. The company produces several types of vehicles, which includes coaches, passenger cars, trucks and vans. Tata Motors has manufactured and sold over 6.5 million vehicles in India. BookBattery.com provides genuine Amaron Minibus batteries for all Tata models. Free home delivery and installation within 4-24 hours. 
+
+Tata-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/tata-brand-logo-270x12.png

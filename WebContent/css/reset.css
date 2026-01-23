@@ -1,0 +1,357 @@
+/*!source http://www.ifORNOTif.com
+ * Copyright 2015
+ */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+.cart {
+		margin: 12px 0 10px;
+		background: #fff;
+		box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 1px 1px #D8DADB, 2px 2px #D8DADB, 3px 3px #D9DBDC, 4px 4px #D9DBDC, 5px 5px #DADCDD, 6px 6px #DADCDD, 7px 7px #DADCDD, 8px 8px #DBDDDE, 9px 9px #DBDDDE, 10px 10px #DCDEDF, 11px 11px #DCDEDF, 12px 12px #DCDEDF, 13px 13px #DDDFE0, 14px 14px #DDDFE0, 15px 15px #DEE0E1, 16px 16px #DEE0E1, 17px 17px #DEE0E1, 18px 18px #DFE1E2, 19px 19px #DFE1E2, 20px 20px #E0E2E3, 21px 21px #E0E2E3, 22px 22px #E0E2E3, 23px 23px #E1E3E4, 24px 24px #E1E3E4, 25px 25px #E2E4E5, 26px 26px #E2E4E5, 27px 27px #E2E4E5, 28px 28px #E3E5E6, 29px 29px #E3E5E6, 30px 30px #E4E6E7, 31px 31px #E4E6E7, 32px 32px #E4E6E7, 33px 33px #E5E7E8, 34px 34px #E5E7E8, 35px 35px #E6E8E9, 36px 36px #E6E8E9, 37px 37px #E6E8E9, 38px 38px #E7E9EA, 39px 39px #E7E9EA, 40px 40px #E8EAEB, 41px 41px #E8EAEB, 42px 42px #E8EAEB, 43px 43px #E9EBEC, 44px 44px #E9EBEC, 45px 45px #EAECED, 46px 46px #EAECED, 47px 47px #EAECED, 48px 48px #EBEDEE, 49px 49px #EBEDEE, 50px 50px #ECEEEF, 51px 51px #ECEEEF, 52px 52px #ECEEEF, 53px 53px #EDEFF0, 54px 54px #EDEFF0, 55px 55px #EEF0F1, 56px 56px #EEF0F1, 57px 57px #EEF0F1, 58px 58px #EFF1F2, 59px 59px #EFF1F2, 60px 60px #F0F2F3;
+		padding: 9px 20px;
+	}
+	
+	.static-contain {
+    box-shadow: rgba(0, 0, 0, 0.0588235) 0px 0px 0px 1px, rgb(216, 218, 219) 1px 1px, rgb(216, 218, 219) 2px 2px, rgb(217, 219, 220) 3px 3px, rgb(217, 219, 220) 4px 4px, rgb(218, 220, 221) 5px 5px, rgb(218, 220, 221) 6px 6px, rgb(218, 220, 221) 7px 7px, rgb(219, 221, 222) 8px 8px, rgb(219, 221, 222) 9px 9px, rgb(220, 222, 223) 10px 10px, rgb(220, 222, 223) 11px 11px, rgb(220, 222, 223) 12px 12px, rgb(221, 223, 224) 13px 13px, rgb(221, 223, 224) 14px 14px, rgb(222, 224, 225) 15px 15px, rgb(222, 224, 225) 16px 16px, rgb(222, 224, 225) 17px 17px, rgb(223, 225, 226) 18px 18px, rgb(223, 225, 226) 19px 19px, rgb(224, 226, 227) 20px 20px, rgb(224, 226, 227) 21px 21px, rgb(224, 226, 227) 22px 22px, rgb(225, 227, 228) 23px 23px, rgb(225, 227, 228) 24px 24px, rgb(226, 228, 229) 25px 25px, rgb(226, 228, 229) 26px 26px, rgb(226, 228, 229) 27px 27px, rgb(227, 229, 230) 28px 28px, rgb(227, 229, 230) 29px 29px, rgb(228, 230, 231) 30px 30px, rgb(228, 230, 231) 31px 31px, rgb(228, 230, 231) 32px 32px, rgb(229, 231, 232) 33px 33px, rgb(229, 231, 232) 34px 34px, rgb(230, 232, 233) 35px 35px, rgb(230, 232, 233) 36px 36px, rgb(230, 232, 233) 37px 37px, rgb(231, 233, 234) 38px 38px, rgb(231, 233, 234) 39px 39px, rgb(232, 234, 235) 40px 40px, rgb(232, 234, 235) 41px 41px, rgb(232, 234, 235) 42px 42px, rgb(233, 235, 236) 43px 43px, rgb(233, 235, 236) 44px 44px, rgb(234, 236, 237) 45px 45px, rgb(234, 236, 237) 46px 46px, rgb(234, 236, 237) 47px 47px, rgb(235, 237, 238) 48px 48px, rgb(235, 237, 238) 49px 49px, rgb(236, 238, 239) 50px 50px, rgb(236, 238, 239) 51px 51px, rgb(236, 238, 239) 52px 52px, rgb(237, 239, 240) 53px 53px, rgb(237, 239, 240) 54px 54px, rgb(238, 240, 241) 55px 55px, rgb(238, 240, 241) 56px 56px, rgb(238, 240, 241) 57px 57px, rgb(239, 241, 242) 58px 58px, rgb(239, 241, 242) 59px 59px, rgb(240, 242, 243) 60px 60px;
+    margin: 0px auto 36px;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+<style>…</style>
+body {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 4px solid rgb(0, 0, 0);
+    background: rgb(240, 242, 243);
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 7px;
+}
+
+.bold-list>li>a {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.page-title.new_page_title {
+    margin: -36px 0 15px 0px !important;
+    padding-bottom: 0px !important;
+    border-bottom: 1px solid #ddd;
+}
+.page-title {
+    padding: 0px 0px 10px 0px;
+    margin: 0 0 0px 0px;
+    overflow: hidden;
+}
+.arrow-list li:before {
+    content: "\f105";
+    display: inline;
+    font-size: 1.1em;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    font-family: FontAwesome;
+}
+.arrow-list li {
+    padding-left: 12px;
+    position: relative;
+}
+body {
+    font-size: 14px;
+    border-top: 4px solid #000;
+    background: #f0f2f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.block-slider .bx-pager-item a.active{
+	background: #FF8B02;
+}
+.block-slider .caption-group{
+	position: absolute;
+    top: 26%;
+    right: 10%;
+}
+.block-slider .caption-group .title{
+	margin: 0;
+}
+.block-slider .caption-group .subtitle{
+	margin: 0;
+	margin-top: 5px;
+}
+.block-slider .caption-group .button-radius{
+	margin-top: 27px;
+}
+.block-slider .caption-group .primary{
+	color: #1bd172;
+}
+.block-slider .caption-group .caption{
+
+}
+ul li {
+    list-style: none;
+}
+
+.sidebar {
+    font-size: 14px;
+}
+.col-right {
+    margin-bottom: 0px;
+}
+@media (min-width: 768px)
+.col-sm-3 {
+    width: 25%;
+}
+@media (min-width: 768px)
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+Inherited from body
+body {
+    font-size: 12px;
+    border-top: 4px solid #000;
+    background: #f0f2f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.main-container {
+    min-height: 400px;
+    padding: 27px 0 0px;
+    margin-bottom: 35px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body {
+    font-size: 12px;
+    border-top: 4px solid #000;
+    background: #f0f2f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body {
+    font-size: 12px;
+    border-top: 4px solid #000;
+    background: #f0f2f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical>.btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-footer:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+element.style {
+}
+
+.block-company {
+}
+.block {
+    margin: 0 0 30px;
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 1px 1px #D8DADB, 2px 2px #D8DADB, 3px 3px #D9DBDC, 4px 4px #D9DBDC, 5px 5px #DADCDD, 6px 6px #DADCDD, 7px 7px #DADCDD, 8px 8px #DBDDDE, 9px 9px #DBDDDE, 10px 10px #DCDEDF, 11px 11px #DCDEDF, 12px 12px #DCDEDF, 13px 13px #DDDFE0, 14px 14px #DDDFE0, 15px 15px #DEE0E1, 16px 16px #DEE0E1, 17px 17px #DEE0E1, 18px 18px #DFE1E2, 19px 19px #DFE1E2, 20px 20px #E0E2E3, 21px 21px #E0E2E3, 22px 22px #E0E2E3, 23px 23px #E1E3E4, 24px 24px #E1E3E4, 25px 25px #E2E4E5, 26px 26px #E2E4E5, 27px 27px #E2E4E5, 28px 28px #E3E5E6, 29px 29px #E3E5E6, 30px 30px #E4E6E7, 31px 31px #E4E6E7, 32px 32px #E4E6E7, 33px 33px #E5E7E8, 34px 34px #E5E7E8, 35px 35px #E6E8E9, 36px 36px #E6E8E9, 37px 37px #E6E8E9, 38px 38px #E7E9EA, 39px 39px #E7E9EA, 40px 40px #E8EAEB, 41px 41px #E8EAEB, 42px 42px #E8EAEB, 43px 43px #E9EBEC, 44px 44px #E9EBEC, 45px 45px #EAECED, 46px 46px #EAECED, 47px 47px #EAECED, 48px 48px #EBEDEE, 49px 49px #EBEDEE, 50px 50px #ECEEEF, 51px 51px #ECEEEF, 52px 52px #ECEEEF, 53px 53px #EDEFF0, 54px 54px #EDEFF0, 55px 55px #EEF0F1, 56px 56px #EEF0F1, 57px 57px #EEF0F1, 58px 58px #EFF1F2, 59px 59px #EFF1F2, 60px 60px #F0F2F3;
+}
+.block-company {
+    background: none;
+    box-shadow: none;
+    border: none;
+    color: #000;
+    margin-left: 10px;
+    font-size: 13px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from aside.col-right.sidebar.col-sm-3.wow.bounceInUp.animated
+.sidebar {
+    font-size: 14px;
+}
+Inherited from body
+body {
+    font-size: 12px;
+    border-top: 4px solid #000;
+    background: #f0f2f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+﻿
+

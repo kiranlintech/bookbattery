@@ -1,0 +1,23 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Wheeled Harvester Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Komatsu India Pvt Ltd --------------------###
+
+Komatsu-India-Pvt-Ltd= Komatsu India Private Limited is a fully owned subsidiary of Komatsu Ltd. It is one of the world s leading manufacturer of construction, mining and industrial machinery. From our website, you can purchase Amaron Wheeled Harvestor batteries for each model of Komatsu India Private Limited. We provide free home delivery and free installation as well as cash on delivery and UPI services.  
+
+Komatsu-India-Pvt-Ltd-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/komatsu-brand-logo-270x12.png
+

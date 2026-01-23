@@ -1,0 +1,10 @@
+alter table battery_order_details add column cancelled_regenerated_message varchar(500) NOT NULL Default 0;
+alter table inverter_order_details add column cancelled_regenerated_message varchar(500) NOT NULL Default 0;
+alter table battery_order_details add column outofstock_message varchar(500) NOT NULL Default 0;
+alter table inverter_order_details add column outofstock_message varchar(500) NOT NULL Default 0;
+alter table battery_order_details add column notresponded_message varchar(500) NOT NULL Default 0;
+alter table inverter_order_details add column notresponded_message varchar(500) NOT NULL Default 0;
+alter table battery_order_details add column offbusiness_message varchar(250) NOT NULL Default 0;
+alter table inverter_order_details add column offbusiness_message varchar(250) NOT NULL Default 0;
+alter table battery_order_details add column franchiseedenied_message varchar(250) NOT NULL Default 0;
+alter table inverter_order_details add column franchiseedenied_message varchar(250) NOT NULL Default 0;

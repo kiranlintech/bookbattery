@@ -1,0 +1,40 @@
+#Author: Sai Krishna Daddala
+#Content Author : Priyanka Bejawada.
+#Description: This files is to get details of Manufacture, I am using this functionality in file formats in for easy fetching and not to change existing database. 
+
+#########################################################################
+#                            NGIT                                       #
+#########################################################################
+
+###-------------------- Compactor Batteries Content File --------------------###
+
+#RULES ###
+#All content of Particular manufacture should be in one line format. Use html Structure for and design changes.
+#Manufacture name should not contain spaces use '-' instead of that.
+#The Manufacture Name in database should exactly match the name in document.
+#File name should be small letters and should fallow this structure '{bookbattery type}-manufacturer-content.txt'  
+#RULES ###
+
+###-------------------- Escorts Construction Equipments  --------------------###
+
+Escorts-Construction-Equipments= Escorts Construction Equipment (ECE) is one of India's leading material handling and construction equipment companies. Escorts was the first to bring the concept of Vibratory Soil Compactors in India in 1985 with technology transferred from Dynapac, Sweden. Today, ECE is not only catering to the Indian market, but is also exporting our products to over 50 countries across the globe. BookBattery.com provides genuine batteries for all models of Escorts models at best prices. Choose right battery for your Compactor by comparing batteries on the basis of price, warranty and capacity. 
+
+Escorts-Construction-Equipments-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/escorts-brand-logo-270x12.png
+
+###-------------------- Greaves Cotton --------------------###
+
+Greaves-Cotton= Greaves cotton Limited is one of India's leading, diversified engineering companies with more than 50 years of experience in manufacturing a wide range of industrial products to meet the requirements of the core sectors in India and abroad. Greaves Power manufactures diesel generating sets in a wide range. Greaves products are manufactured at its Chakan plant.From BookBattery.com, you can purchase Top Brands like Amaron and Exide batteries for your Greaves Cotton Vibratory Compactor Diesel. Greaves Cotton compactor batteries offered by us are low priced and free battery delivery, installation at customers place within 4-24 hours of the order.
+
+Greaves-Cotton-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/greaves-cotton-brand-logo-270x12.png
+
+###-------------------- JCB India --------------------###
+
+JCB-India= JCB India Limited started operations in 1979 and today it is the fastest growing company in the Indian earthmoving and construction equipment industry. JCB is one of the world's top three manufacturers of construction equipment. JCB India sell products in 150 countries through 2,000 dealer depot locations. JCB India has five operational world class manufacturing facilities; one in Ballabgarh, Haryana near New Delhi, two in Pune and two in Jaipur. BookBattery.com is one-stop destination for availing batteries for all models of JCB India. We also provide free home delivery and installation within 4-24 hours. 
+
+JCB-India-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/jcb-brand-logo-270x12.png
+
+###-------------------- L and T Motors --------------------###
+
+L-and-T-Motors= Larsen & Toubro Limited, also known as L&T is an Indian multi-national conglomerate. Headquartered in Mumbai, Maharashtra, India. L&T is India's largest engineering and construction company. BookBattery.com provides batteries for L and T Motors models like Compactor VC752 Diesel and VC1107 Diesel. Buy genuine Batteries for your L and T Motors models from BookBattery.com.  
+
+L-and-T-Motors-logo-path=/bookbattery/dev/includes/images-design/Brand-logo/l-and-t-motors-brand-logo-270x12.png

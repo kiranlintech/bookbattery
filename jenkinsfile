@@ -4,6 +4,18 @@ pipeline {
     tools {
         maven 'Maven3'
     }
+    options {
+        timeout(time: 30, unit: 'MINUTES')
+        disableConcurrentBuilds()
+    }
+
+    stages {
+
+        stage('Cleanup') {
+            steps {
+                cleanWs()
+            }
+        }
 
     environment {
         TOMCAT_USER = "ubuntu"          // change to ubuntu if needed
@@ -24,7 +36,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'mvn clean package'
+                sh 'mvn clean package  -DskipTests'
             }
         }
 

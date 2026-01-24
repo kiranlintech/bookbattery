@@ -5,6 +5,14 @@ pipeline {
         maven 'Maven3'
     }
 
+    environment {
+        TOMCAT_USER = "ec2-user"          // change to ubuntu if needed
+        TOMCAT_HOST = "<TOMCAT_HOST>"     // private IP or DNS
+        TOMCAT_DIR  = "/opt/tomcat"
+        WAR_NAME    = "bookbattery.war"
+        SSH_CRED    = "tomcat-ssh-key"    // Jenkins SSH credential ID
+    }
+
     stages {
 
         stage('Checkout') {
@@ -26,14 +34,50 @@ pipeline {
             }
         }
 
-        stage('Deploy to Tomcat') {
+        stage('Stop Tomcat') {
             steps {
-                deploy adapters: [tomcat9(
-                    credentialsId: 'tomcat-creds',
-                    url: 'http://<TOMCAT_HOST>:8080/manager/text'
-                )],
-                war: 'target/bookbattery.war'
+                sshagent([env.SSH_CRED]) {
+                    sh """
+                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} \
+                    '${TOMCAT_DIR}/bin/shutdown.sh || true'
+                    """
+                }
             }
+        }
+
+        stage('Deploy WAR to Tomcat') {
+            steps {
+                sshagent([env.SSH_CRED]) {
+                    sh """
+                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} \
+                    'rm -rf ${TOMCAT_DIR}/webapps/bookbattery*'
+
+                    scp -o StrictHostKeyChecking=no \
+                    target/${WAR_NAME} \
+                    ${TOMCAT_USER}@${TOMCAT_HOST}:${TOMCAT_DIR}/webapps/
+                    """
+                }
+            }
+        }
+
+        stage('Start Tomcat') {
+            steps {
+                sshagent([env.SSH_CRED]) {
+                    sh """
+                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} \
+                    '${TOMCAT_DIR}/bin/startup.sh'
+                    """
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            echo "WAR deployed and Tomcat started successfully"
+        }
+        failure {
+            echo "Deployment failed"
         }
     }
 }

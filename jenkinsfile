@@ -4,9 +4,18 @@ pipeline {
     tools {
         maven 'Maven3'
     }
+
     options {
         timeout(time: 30, unit: 'MINUTES')
         disableConcurrentBuilds()
+    }
+
+    environment {
+        TOMCAT_USER = "ubuntu"
+        TOMCAT_HOST = "65.0.94.76"
+        TOMCAT_DIR  = "/opt/tomcat"
+        WAR_NAME    = "bookbattery.war"
+        SSH_CRED    = "jenkins_github_id"
     }
 
     stages {
@@ -17,16 +26,6 @@ pipeline {
             }
         }
 
-    environment {
-        TOMCAT_USER = "ubuntu"          // change to ubuntu if needed
-        TOMCAT_HOST = "65.0.94.76"     // private IP or DNS
-        TOMCAT_DIR  = "/opt/tomcat"
-        WAR_NAME    = "bookbattery.war"
-        SSH_CRED    = "jenkins_github_id"    // Jenkins SSH credential ID
-    }
-
-    stages {
-
         stage('Checkout') {
             steps {
                 git branch: 'deployment',
@@ -36,7 +35,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'mvn clean package  -DskipTests'
+                sh 'mvn clean package -DskipTests'
             }
         }
 

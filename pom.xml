@@ -121,7 +121,12 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.14</version>
         </dependency>
-
+         <!-- ===== Excel (JXL / JExcelAPI) ===== -->
+         <dependency>
+             <groupId>net.sourceforge.jexcelapi</groupId>
+             <artifactId>jxl</artifactId>
+             <version>2.6.12</version>
+         </dependency>
         <!-- ===== File Upload ===== -->
         <dependency>
             <groupId>commons-fileupload</groupId>

@@ -12,17 +12,17 @@
 
     <name>BookBattery Web Application</name>
 
+    <!-- ================= Properties ================= -->
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <!-- ================= Dependencies ================= -->
     <dependencies>
 
-        <!-- ================= Servlet / JSP ================= -->
-
-        <!-- Servlet API (Tomcat provides this at runtime) -->
+        <!-- ===== Servlet / JSP (Provided by Tomcat) ===== -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -30,7 +30,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- JSP API -->
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>
@@ -38,78 +37,105 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- JSTL -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
 
-        <!-- ================= Database ================= -->
-
-        <!-- MySQL Connector -->
+        <!-- ===== Database ===== -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
 
-        <!-- ================= Mail ================= -->
-
-        <!-- Java Mail -->
+        <!-- ===== Mail ===== -->
         <dependency>
             <groupId>com.sun.mail</groupId>
             <artifactId>javax.mail</artifactId>
             <version>1.6.2</version>
         </dependency>
 
-        <!-- Java Activation -->
         <dependency>
             <groupId>javax.activation</groupId>
             <artifactId>activation</artifactId>
             <version>1.1.1</version>
         </dependency>
 
-        <!-- ================= JSON / HTTP ================= -->
+        <!-- ===== JSON-LIB (FIXES YOUR ERROR) ===== -->
+        <dependency>
+            <groupId>net.sf.json-lib</groupId>
+            <artifactId>json-lib</artifactId>
+            <version>2.4</version>
+            <classifier>jdk15</classifier>
+        </dependency>
 
-        <!-- org.json -->
+        <dependency>
+            <groupId>net.sf.ezmorph</groupId>
+            <artifactId>ezmorph</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+
+        <!-- Required by json-lib -->
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.9.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+        <!-- ===== Optional JSON libs (already used in project) ===== -->
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20240303</version>
         </dependency>
 
-        <!-- Google Gson -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.10.1</version>
         </dependency>
 
-        <!-- Apache HttpClient -->
+        <!-- ===== HTTP Client ===== -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.14</version>
         </dependency>
 
-        <!-- ================= File Upload ================= -->
-
-        <!-- Apache Commons FileUpload -->
+        <!-- ===== File Upload ===== -->
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
             <version>1.5</version>
         </dependency>
 
-        <!-- Apache Commons IO -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.15.1</version>
         </dependency>
 
-        <!-- O'Reilly COS Multipart (legacy projects) -->
+        <!-- Legacy COS multipart -->
         <dependency>
             <groupId>com.servlets</groupId>
             <artifactId>cos</artifactId>
@@ -118,6 +144,7 @@
 
     </dependencies>
 
+    <!-- ================= Build ================= -->
     <build>
         <finalName>bookbattery</finalName>
 
@@ -134,7 +161,7 @@
                 </configuration>
             </plugin>
 
-            <!-- WAR -->
+            <!-- WAR Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>

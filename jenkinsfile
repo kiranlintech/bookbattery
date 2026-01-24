@@ -49,8 +49,14 @@ pipeline {
             steps {
                 sshagent([env.SSH_CRED]) {
                     sh """
-                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} \
-                    '${TOMCAT_DIR}/bin/shutdown.sh || true'
+                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} '
+                        if [ -x "${TOMCAT_DIR}/bin/shutdown.sh" ]; then
+                            ${TOMCAT_DIR}/bin/shutdown.sh || true
+                            sleep 10
+                        else
+                            echo "Tomcat shutdown script not found, skipping stop"
+                        fi
+                    '
                     """
                 }
             }
@@ -60,12 +66,18 @@ pipeline {
             steps {
                 sshagent([env.SSH_CRED]) {
                     sh """
-                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} \
-                    'rm -rf ${TOMCAT_DIR}/webapps/bookbattery*'
+                    if [ ! -f target/${WAR_NAME} ]; then
+                        echo "WAR file not found!"
+                        exit 1
+                    fi
+
+                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} '
+                        rm -rf ${TOMCAT_DIR}/webapps/bookbattery*
+                    '
 
                     scp -o StrictHostKeyChecking=no \
-                    target/${WAR_NAME} \
-                    ${TOMCAT_USER}@${TOMCAT_HOST}:${TOMCAT_DIR}/webapps/
+                        target/${WAR_NAME} \
+                        ${TOMCAT_USER}@${TOMCAT_HOST}:${TOMCAT_DIR}/webapps/
                     """
                 }
             }
@@ -75,8 +87,9 @@ pipeline {
             steps {
                 sshagent([env.SSH_CRED]) {
                     sh """
-                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} \
-                    '${TOMCAT_DIR}/bin/startup.sh'
+                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} '
+                        ${TOMCAT_DIR}/bin/startup.sh
+                    '
                     """
                 }
             }

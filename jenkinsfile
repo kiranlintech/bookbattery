@@ -50,13 +50,12 @@ pipeline {
                 withCredentials([
                     sshUserPrivateKey(
                         credentialsId: env.SSH_CRED,
-                        keyFileVariable: 'SSH_KEY',
-                        usernameVariable: 'SSH_USER'
+                        keyFileVariable: 'SSH_KEY'
                     )
                 ]) {
                     sh '''
                     ssh -i $SSH_KEY -o StrictHostKeyChecking=no \
-                        $SSH_USER@${TOMCAT_HOST} "
+                        ${TOMCAT_USER}@${TOMCAT_HOST} "
                         if [ -x ${TOMCAT_DIR}/bin/shutdown.sh ]; then
                             ${TOMCAT_DIR}/bin/shutdown.sh || true
                             sleep 10
@@ -74,8 +73,7 @@ pipeline {
                 withCredentials([
                     sshUserPrivateKey(
                         credentialsId: env.SSH_CRED,
-                        keyFileVariable: 'SSH_KEY',
-                        usernameVariable: 'SSH_USER'
+                        keyFileVariable: 'SSH_KEY'
                     )
                 ]) {
                     sh '''
@@ -85,13 +83,13 @@ pipeline {
                     fi
 
                     ssh -i $SSH_KEY -o StrictHostKeyChecking=no \
-                        $SSH_USER@${TOMCAT_HOST} "
+                        ${TOMCAT_USER}@${TOMCAT_HOST} "
                         rm -rf ${TOMCAT_DIR}/webapps/bookbattery*
                         "
 
                     scp -i $SSH_KEY -o StrictHostKeyChecking=no \
                         target/${WAR_NAME} \
-                        $SSH_USER@${TOMCAT_HOST}:${TOMCAT_DIR}/webapps/
+                        ${TOMCAT_USER}@${TOMCAT_HOST}:${TOMCAT_DIR}/webapps/
                     '''
                 }
             }
@@ -102,13 +100,12 @@ pipeline {
                 withCredentials([
                     sshUserPrivateKey(
                         credentialsId: env.SSH_CRED,
-                        keyFileVariable: 'SSH_KEY',
-                        usernameVariable: 'SSH_USER'
+                        keyFileVariable: 'SSH_KEY'
                     )
                 ]) {
                     sh '''
                     ssh -i $SSH_KEY -o StrictHostKeyChecking=no \
-                        $SSH_USER@${TOMCAT_HOST} "
+                        ${TOMCAT_USER}@${TOMCAT_HOST} "
                         ${TOMCAT_DIR}/bin/startup.sh
                         "
                     '''

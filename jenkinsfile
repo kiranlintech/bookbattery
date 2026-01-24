@@ -17,8 +17,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/kiranlintech/bookbattery.git'
+                git branch: 'deployment',
+                    url: 'git@github.com:kiranlintech/bookbattery.git'
             }
         }
 

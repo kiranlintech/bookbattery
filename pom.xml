@@ -133,7 +133,12 @@
             <artifactId>commons-fileupload</artifactId>
             <version>1.5</version>
         </dependency>
-
+         <!-- ===== PDF generation (legacy iText - com.lowagie.*) ===== -->
+         <dependency>
+             <groupId>com.lowagie</groupId>
+             <artifactId>itext</artifactId>
+             <version>2.1.7</version>
+         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>

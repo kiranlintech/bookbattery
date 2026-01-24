@@ -29,6 +29,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'deployment',
+                credentialsId: env.SSH_CRED,
                     url: 'git@github.com:kiranlintech/bookbattery.git'
             }
         }

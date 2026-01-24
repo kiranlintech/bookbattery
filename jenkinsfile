@@ -47,50 +47,71 @@ pipeline {
 
         stage('Stop Tomcat') {
             steps {
-                sshagent([env.SSH_CRED]) {
-                    sh """
-                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} '
-                        if [ -x "${TOMCAT_DIR}/bin/shutdown.sh" ]; then
+                withCredentials([
+                    sshUserPrivateKey(
+                        credentialsId: env.SSH_CRED,
+                        keyFileVariable: 'SSH_KEY',
+                        usernameVariable: 'SSH_USER'
+                    )
+                ]) {
+                    sh '''
+                    ssh -i $SSH_KEY -o StrictHostKeyChecking=no \
+                        $SSH_USER@${TOMCAT_HOST} "
+                        if [ -x ${TOMCAT_DIR}/bin/shutdown.sh ]; then
                             ${TOMCAT_DIR}/bin/shutdown.sh || true
                             sleep 10
                         else
-                            echo "Tomcat shutdown script not found, skipping stop"
+                            echo 'Tomcat not found, skipping stop'
                         fi
-                    '
-                    """
+                        "
+                    '''
                 }
             }
         }
 
         stage('Deploy WAR to Tomcat') {
             steps {
-                sshagent([env.SSH_CRED]) {
-                    sh """
+                withCredentials([
+                    sshUserPrivateKey(
+                        credentialsId: env.SSH_CRED,
+                        keyFileVariable: 'SSH_KEY',
+                        usernameVariable: 'SSH_USER'
+                    )
+                ]) {
+                    sh '''
                     if [ ! -f target/${WAR_NAME} ]; then
-                        echo "WAR file not found!"
+                        echo "WAR not found"
                         exit 1
                     fi
 
-                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} '
+                    ssh -i $SSH_KEY -o StrictHostKeyChecking=no \
+                        $SSH_USER@${TOMCAT_HOST} "
                         rm -rf ${TOMCAT_DIR}/webapps/bookbattery*
-                    '
+                        "
 
-                    scp -o StrictHostKeyChecking=no \
+                    scp -i $SSH_KEY -o StrictHostKeyChecking=no \
                         target/${WAR_NAME} \
-                        ${TOMCAT_USER}@${TOMCAT_HOST}:${TOMCAT_DIR}/webapps/
-                    """
+                        $SSH_USER@${TOMCAT_HOST}:${TOMCAT_DIR}/webapps/
+                    '''
                 }
             }
         }
 
         stage('Start Tomcat') {
             steps {
-                sshagent([env.SSH_CRED]) {
-                    sh """
-                    ssh -o StrictHostKeyChecking=no ${TOMCAT_USER}@${TOMCAT_HOST} '
+                withCredentials([
+                    sshUserPrivateKey(
+                        credentialsId: env.SSH_CRED,
+                        keyFileVariable: 'SSH_KEY',
+                        usernameVariable: 'SSH_USER'
+                    )
+                ]) {
+                    sh '''
+                    ssh -i $SSH_KEY -o StrictHostKeyChecking=no \
+                        $SSH_USER@${TOMCAT_HOST} "
                         ${TOMCAT_DIR}/bin/startup.sh
-                    '
-                    """
+                        "
+                    '''
                 }
             }
         }

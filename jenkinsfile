@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         TOMCAT_USER = "ubuntu"          // change to ubuntu if needed
-        TOMCAT_HOST = "65.0.94.76"     // private IP or DNS
+        TOMCAT_HOST = "3.110.106.254"     // private IP or DNS
         TOMCAT_DIR  = "/opt/tomcat"
         WAR_NAME    = "bookbattery.war"
         SSH_CRED    = "jenkins_github_id"    // Jenkins SSH credential ID

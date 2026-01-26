@@ -1,0 +1,98 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven3'
+    }
+
+    environment {
+        APP_NAME      = "bookbattery"
+        IMAGE_NAME    = "bookbattery-tomcat"
+        AWS_REGION   = "ap-south-1"
+        ECR_REPO     = "123456789012.dkr.ecr.ap-south-1.amazonaws.com/bookbattery-tomcat"
+    }
+
+    options {
+        timestamps()
+        disableConcurrentBuilds()
+        timeout(time: 30, unit: 'MINUTES')
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                git branch: 'jenkins-docker',
+                    credentialsId: 'jenkins_id',
+                    url: 'git@github.com:kiranlintech/bookbattery.git'
+            }
+        }
+
+        stage('Build & Test') {
+            steps {
+                sh 'mvn clean test'
+            }
+        }
+
+        stage('Package WAR') {
+            steps {
+                sh 'mvn package -DskipTests'
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    COMMIT_ID = sh(
+                        script: "git rev-parse --short HEAD",
+                        returnStdout: true
+                    ).trim()
+
+                    sh """
+                    docker build -t ${IMAGE_NAME}:${COMMIT_ID} .
+                    docker tag ${IMAGE_NAME}:${COMMIT_ID} ${ECR_REPO}:${COMMIT_ID}
+                    docker tag ${IMAGE_NAME}:${COMMIT_ID} ${ECR_REPO}:latest
+                    """
+                }
+            }
+        }
+
+        stage('Login to AWS ECR') {
+            steps {
+                withCredentials([
+                    [$class: 'AmazonWebServicesCredentialsBinding',
+                     credentialsId: 'aws-ecr-creds']
+                ]) {
+                    sh """
+                    aws ecr get-login-password --region ${AWS_REGION} \
+                    | docker login --username AWS --password-stdin ${ECR_REPO}
+                    """
+                }
+            }
+        }
+
+        stage('Push Image to ECR') {
+            steps {
+                sh """
+                docker push ${ECR_REPO}:${COMMIT_ID}
+                docker push ${ECR_REPO}:latest
+                """
+            }
+        }
+
+        stage('Cleanup Local Images') {
+            steps {
+                sh 'docker image prune -f'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo "Docker image pushed to ECR successfully"
+        }
+        failure {
+            echo "Pipeline failed"
+        }
+    }
+}

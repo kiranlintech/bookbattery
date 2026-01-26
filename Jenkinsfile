@@ -12,10 +12,10 @@ pipeline {
 
     environment {
         TOMCAT_USER = "ubuntu"
-        TOMCAT_HOST = "3.110.106.254"
+        TOMCAT_HOST = "40.192.15.143"
         TOMCAT_DIR  = "/opt/tomcat"
         WAR_NAME    = "bookbattery.war"
-        SSH_CRED    = "jenkins_github_id"
+        SSH_CRED    = "jenkins_id"
     }
 
     stages {

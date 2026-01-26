@@ -105,10 +105,7 @@ pipeline {
                     )
                 ]) {
                     sh '''
-                    ssh -i $SSH_KEY -o StrictHostKeyChecking=no \
-                        ${TOMCAT_USER}@${TOMCAT_HOST} "
-                        ${TOMCAT_DIR}/bin/startup.sh
-                        "
+                    ssh -i $SSH_KEY ${TOMCAT_USER}@${TOMCAT_HOST} "${TOMCAT_DIR}/bin/startup.sh"
                     '''
                 }
             }

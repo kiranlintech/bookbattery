@@ -15,6 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'jenkins-docker',
+                    credentialsId: 'jenkins_id',
                     url: 'git@github.com:kiranlintech/bookbattery.git'
             }
         }

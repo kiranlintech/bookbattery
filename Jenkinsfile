@@ -14,7 +14,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'jenkins-docker',
                     url: 'git@github.com:kiranlintech/bookbattery.git'
             }
         }

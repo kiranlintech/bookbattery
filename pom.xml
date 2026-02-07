@@ -12,28 +12,27 @@
 
     <name>BookBattery Web Application</name>
 
-    <!-- ================= Properties ================= -->
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <!-- ================= Dependencies ================= -->
     <dependencies>
 
-        <!-- ===== Servlet / JSP (Provided by Tomcat) ===== -->
+        <!-- ===================== SERVLET & JSP ===================== -->
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>4.0.1</version>
+            <version>3.1.0</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>
-            <version>2.3.3</version>
+            <version>2.3.1</version>
             <scope>provided</scope>
         </dependency>
 
@@ -43,27 +42,36 @@
             <version>1.2</version>
         </dependency>
 
-        <!-- ===== Database ===== -->
+        <!-- ===================== DATABASE ===================== -->
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
 
-        <!-- ===== Mail ===== -->
+        <!-- ===================== MAIL ===================== -->
+
         <dependency>
             <groupId>com.sun.mail</groupId>
             <artifactId>javax.mail</artifactId>
             <version>1.6.2</version>
         </dependency>
 
+        <!-- ===================== JSON ===================== -->
+
         <dependency>
-            <groupId>javax.activation</groupId>
-            <artifactId>activation</artifactId>
-            <version>1.1.1</version>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
         </dependency>
 
-        <!-- ===== JSON-LIB (FIXES YOUR ERROR) ===== -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20240303</version>
+        </dependency>
+
         <dependency>
             <groupId>net.sf.json-lib</groupId>
             <artifactId>json-lib</artifactId>
@@ -77,84 +85,52 @@
             <version>1.0.6</version>
         </dependency>
 
-        <!-- Required by json-lib -->
-        <dependency>
-            <groupId>commons-beanutils</groupId>
-            <artifactId>commons-beanutils</artifactId>
-            <version>1.9.4</version>
-        </dependency>
+        <!-- ===================== HTTP CLIENT ===================== -->
 
-        <dependency>
-            <groupId>commons-collections</groupId>
-            <artifactId>commons-collections</artifactId>
-            <version>3.2.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
-            <version>2.6</version>
-        </dependency>
-
-        <dependency>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-            <version>1.2</version>
-        </dependency>
-
-        <!-- ===== Optional JSON libs (already used in project) ===== -->
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20240303</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.10.1</version>
-        </dependency>
-
-        <!-- ===== HTTP Client ===== -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.14</version>
         </dependency>
-         <!-- ===== Excel (JXL / JExcelAPI) ===== -->
-         <dependency>
-             <groupId>net.sourceforge.jexcelapi</groupId>
-             <artifactId>jxl</artifactId>
-             <version>2.6.12</version>
-         </dependency>
-        <!-- ===== File Upload ===== -->
+
+        <!-- ===================== FILE UPLOAD ===================== -->
+
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
             <version>1.5</version>
         </dependency>
-         <!-- ===== PDF generation (legacy iText - com.lowagie.*) ===== -->
-         <dependency>
-             <groupId>com.lowagie</groupId>
-             <artifactId>itext</artifactId>
-             <version>2.1.7</version>
-         </dependency>
+
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.15.1</version>
         </dependency>
 
-        <!-- Legacy COS multipart -->
+        <!-- ===================== OREILLY SERVLET ===================== -->
+
         <dependency>
-            <groupId>com.servlets</groupId>
+            <groupId>com.oreilly.servlet</groupId>
             <artifactId>cos</artifactId>
             <version>05Nov2002</version>
         </dependency>
 
-    </dependencies>
+        <!-- ===================== EXCEL ===================== -->
 
-    <!-- ================= Build ================= -->
+        <dependency>
+            <groupId>net.sourceforge.jexcelapi</groupId>
+            <artifactId>jxl</artifactId>
+            <version>2.6.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lowagie</groupId>
+            <artifactId>itext</artifactId>
+            <version>2.1.7</version>
+        </dependency>
+
+        </dependencies>
+
     <build>
         <finalName>bookbattery</finalName>
 
@@ -171,7 +147,7 @@
                 </configuration>
             </plugin>
 
-            <!-- WAR Plugin -->
+            <!-- WAR -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>

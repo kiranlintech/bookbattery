@@ -1,2 +1,2 @@
-# Command to build package, war file stores in target directory
-mvn clean install
+# Description
+This branch git-actions works with github actions

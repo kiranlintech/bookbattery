@@ -11,26 +11,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Setup Java 8
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
+          distribution: temurin
           java-version: '8'
 
-      - name: Verify Java & Maven
+      - name: Verify tools
         run: |
           java -version
           mvn -version
 
-      - name: Clean & Build WAR
+      - name: Install COS legacy JAR
         run: |
-          mvn clean package -DskipTests
+          mvn install:install-file \
+            -Dfile=lib/cos-05Nov2002.jar \
+            -DgroupId=com.oreilly.servlet \
+            -DartifactId=cos \
+            -Dversion=05Nov2002 \
+            -Dpackaging=jar
 
-      - name: List target directory
-        run: ls -l target
+      - name: Build WAR
+        run: mvn clean package -DskipTests
 
       - name: Upload WAR artifact
         uses: actions/upload-artifact@v4

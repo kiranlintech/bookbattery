@@ -46,7 +46,7 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 sh '''
-                kubectl apply -f /home/ubuntu/k8s/
+                kubectl apply -f k8s/
                 '''
             }
         }

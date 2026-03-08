@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: bookbattery-ingress
+spec:
+  rules:
+  - host: bookbattery.local
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: bookbattery-service
+            port:
+              number: 8080

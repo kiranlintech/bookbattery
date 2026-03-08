@@ -3,19 +3,19 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "kiranlintech/bookbattery"
+        IMAGE = "kiranlintech/bookbattery"
         TAG = "latest"
     }
 
     stages {
 
-        stage('Clone Repository') {
+        stage('Clone Repo') {
             steps {
                 git branch: 'trydevops', url: 'https://github.com/kiranlintech/bookbattery.git'
             }
         }
 
-        stage('Build Maven') {
+        stage('Build Application') {
             steps {
                 sh 'mvn clean package'
             }
@@ -23,32 +23,31 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t $DOCKER_IMAGE:$TAG .'
+                sh 'docker build -t $IMAGE:$TAG .'
             }
         }
 
-        stage('Trivy Scan') {
-            steps {
-                sh 'trivy image $DOCKER_IMAGE:$TAG'
-            }
-        }
-
-        stage('Push Docker Image') {
+        stage('Push Image to DockerHub') {
             steps {
                 withCredentials([usernamePassword(
-                credentialsId: 'dockerhub-creds',
-                usernameVariable: 'USER',
-                passwordVariable: 'PASS'
+                    credentialsId: 'dockerhub-creds',
+                    usernameVariable: 'USER',
+                    passwordVariable: 'PASS'
                 )]) {
 
                 sh '''
                 echo $PASS | docker login -u $USER --password-stdin
-                docker push $DOCKER_IMAGE:$TAG
+                docker push $IMAGE:$TAG
                 '''
                 }
             }
         }
 
-    }
+        stage('Deploy to Kubernetes') {
+            steps {
+                sh 'kubectl apply -f k8s/'
+            }
+        }
 
+    }
 }

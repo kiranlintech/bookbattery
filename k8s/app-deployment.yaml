@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bookbattery-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: bookbattery
+  template:
+    metadata:
+      labels:
+        app: bookbattery
+    spec:
+      containers:
+      - name: bookbattery
+        image: kiranlintech/bookbattery:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: DB_HOST
+          value: mysql-service

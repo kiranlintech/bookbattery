@@ -17,13 +17,15 @@ pipeline {
 
         stage('Build Application') {
             steps {
-                sh 'mvn -B -ntp clean package'
+                echo "🚀 Building Application..."
+                sh 'mvn -B -ntp -q clean package'
+                echo "✅ Build Completed"
             }
         }
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t $IMAGE:$TAG .'
+                sh 'docker build -t image . > /dev/null'
             }
         }
 
@@ -37,7 +39,7 @@ pipeline {
 
                 sh '''
                 echo $PASS | docker login -u $USER --password-stdin
-                docker push $IMAGE:$TAG
+                docker push $IMAGE:$TAG > /dev/null
                 '''
                 }
             }
